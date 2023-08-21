@@ -1696,9 +1696,10 @@ select {
 }
 
 .tp-section-subtitle-three {
-  font-size: 18px;
-  color: #06ae5a;
-  font-weight: 500ss;
+  font-size: 16px;
+  color: #fff;
+  font-weight: normal;
+  text-transform: uppercase;
 }
 
 .yellow-btn {
@@ -3960,25 +3961,6 @@ only screen and (min-width: 768px) and (max-width: 991px),
   animation-iteration-count: 3;
 }
 
-.yellow-circle-shape {
-  position: relative;
-  padding-left: 30px;
-  display: inline-block;
-  z-index: 1;
-}
-
-.yellow-circle-shape::before {
-  position: absolute;
-  content: "";
-  height: 65px;
-  width: 65px;
-  border-radius: 50%;
-  background: #fed10c;
-  top: -6px;
-  left: 0px;
-  z-index: -1;
-}
-
 .tp-about-service-text-title {
   font-size: 24px;
   line-height: 1.41;
@@ -5245,26 +5227,20 @@ only screen and (min-width: 768px) and (max-width: 991px),
 }
 
 .tp-choose-three .tp-about-service-text-title {
-  color: #102579;
+  color: #1B302A;
 }
 
 .tp-choose-three .tp-about-service-text-title:hover {
   color: #06ae5a;
 }
 
-.tp-choose-three .tp-about-service-icon i {
-  color: #102579;
-}
-
 .tp-choose-three .yellow-circle-shape::before {
-  background: #e3e6f3;
+  background: #fff;
 }
 
-/* .tp-choose-area-three-img {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-} */
+.tp-choose-area-three {
+background-color: #A5C766;
+}
 
 /* @media only screen and (min-width: 1600px) and (max-width: 1750px) {
   .tp-choose-area-three-img img {
@@ -5297,7 +5273,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
   }
 } */
 
-.tp-choose-three-year-inner {
+/* .tp-choose-three-year-inner {
   display: inline-block;
   text-align: left;
   padding-left: 60px;
@@ -5383,7 +5359,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
   .tp-choose-area-three {
     padding-bottom: 45px;
   }
-}
+} */
 
 /*----------------------------------------*/
 /*  08. Fact
@@ -9486,4 +9462,58 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   border-color: #000;
   outline: 0;
   box-shadow: 0 0 0 0 #fff;
+}
+
+@media (min-width: 280px) and (max-width: 419.98px) {
+  .banner_img_dots {
+    display: none;
+  }
+
+  .bubble_img_top {
+    display: none;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .btn-banner_light {
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    height: 55px;
+    line-height: 55px;
+    color: #1B302A;
+    background: #fff;
+    text-align: center;
+    padding: 0px 38px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 40px;
+    text-transform: uppercase;
+  }
+
+  .btn-banner_quote {
+    font-size: 14px;
+    display: inline-block;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    height: auto;
+    line-height: normal;
+    padding: 0px 28px;
+    position: relative;
+    overflow: auto;
+  }
+
+
+}
+
+.choose-us-b {
+  background-color: #1B302A;
 }
