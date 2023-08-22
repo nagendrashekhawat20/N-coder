@@ -8953,6 +8953,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   border-radius: 0 0 40px 40px;
 }
 
+.banner-heading h6,
 .banner-heading h1,
 .banner-heading p {
   color: #1B302A;
@@ -9061,8 +9062,8 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 .banner_img_dots {
   position: absolute;
   right: 0;
-  top: 120px;
-  height: 100vh;
+  top: 125px;
+  height: 85vh;
   z-index: 0;
 }
 
@@ -9300,6 +9301,10 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   .color-line {
     display: none;
   }
+
+  .tp-testimonial-two .swiper-slide .swiper-slide-duplicate .swiper-slide-active {
+    
+  }
   
 }
 
@@ -9395,4 +9400,8 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   position: relative;
   z-index: 1;
   border-radius: 0 0 40px 40px;
+}
+
+.bubble_img-about {
+  position: absolute;
 }
