@@ -9166,140 +9166,17 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 
 .bubble-service {
   position: absolute;
-  right: 0;
+  right: 40px;
+}
+
+.bubble-testi {
+  position: absolute;
+  left: 0;
 }
 
 
 
 /* carousel*/
-
-
- @media (min-width: 768px) {
-
-  /* show 3 items */
-  .carousel-inner .active,
-  .carousel-inner .active+.carousel-item,
-  .carousel-inner .active+.carousel-item+.carousel-item,
-  .carousel-inner .active+.carousel-item+.carousel-item+.carousel-item {
-    display: block;
-  }
-
-  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
-  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item,
-  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item+.carousel-item,
-  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item+.carousel-item+.carousel-item {
-    transition: none;
-  }
-
-  .carousel-inner .carousel-item-next,
-  .carousel-inner .carousel-item-prev {
-    position: relative;
-    transform: translate3d(0, 0, 0);
-  }
-
-  .carousel-inner .active.carousel-item+.carousel-item+.carousel-item+.carousel-item+.carousel-item {
-    position: absolute;
-    top: 0;
-    right: -25%;
-    z-index: -1;
-    display: block;
-    visibility: visible;
-  }
-
-  /* left or forward direction */
-  .active.carousel-item-left+.carousel-item-next.carousel-item-left,
-  .carousel-item-next.carousel-item-left+.carousel-item,
-  .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item,
-  .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item+.carousel-item,
-  .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item+.carousel-item+.carousel-item {
-    position: relative;
-    transform: translate3d(-100%, 0, 0);
-    visibility: visible;
-  }
-
-  /* farthest right hidden item must be abso position for animations */
-  .carousel-inner .carousel-item-prev.carousel-item-right {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    display: block;
-    visibility: visible;
-  }
-
-  /* right or prev direction */
-  .active.carousel-item-right+.carousel-item-prev.carousel-item-right,
-  .carousel-item-prev.carousel-item-right+.carousel-item,
-  .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item,
-  .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item+.carousel-item,
-  .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item+.carousel-item+.carousel-item {
-    position: relative;
-    transform: translate3d(100%, 0, 0);
-    visibility: visible;
-    display: block;
-    visibility: visible;
-  }
-
-}
-
-/* .carousel {
-  margin: 100px auto;
-}
-
-.carousel .carousel-item {
-
-  overflow: hidden;
-}
-
-.carousel .carousel-item img {
-  max-width: 100%;
-  display: inline-block;
-}
-
-.carousel .carousel-item .btn {
-  border-radius: 0;
-  font-size: 12px;
-  text-transform: uppercase;
-  font-weight: bold;
-  border: none;
-  background: #a177ff;
-  padding: 6px 15px;
-  margin-top: 5px;
-}
-
-.carousel .carousel-item .btn:hover {
-  background: #8c5bff;
-} */
-
-/* .carousel .carousel-item .btn i {
-  font-size: 14px;
-  font-weight: bold;
-  margin-left: 5px;
-} */
-/* 
-.carousel .thumb-wrapper {
-  margin: 5px;
-  text-align: left;
-  background: #fff;
-  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
-} */
-
-.thumb-content {
-  border-radius: 10px;
-  background-color: #FBFFF3;
-  margin-top: -20px;
-  z-index: 1;
-  position: relative;
-}
-
-.thumb-center {
-  background-color: transparent;
-}
-
-.thumb-content h4 {
-  color: #1B302A;
-  font-size: 20px;
-}
 
 .carousel-indicators {
   bottom: -50px;
@@ -9402,7 +9279,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   text-transform: uppercase;
 }
 
-@media (min-width: 280px) and (max-width: 419.98px) {
+@media (min-width: 280px) and (max-width: 750px) {
   .banner_img_dots {
     display: none;
   }
@@ -9415,6 +9292,19 @@ only screen and (min-width: 768px) and (max-width: 991px) {
     font-size: 14px;
   }
 
+  .banner-heading {
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .color-line {
+    display: none;
+  }
+  
+}
+
+.banner-heading h1 {
+  font-size: 40px;
 }
 
 .about-detail h2,
@@ -9496,4 +9386,13 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 
 .bg-color-i {
   background-color: #A5C766;
+}
+
+
+
+.banner-car-top {
+  background: linear-gradient(100deg, #A5C766 0%, rgba(165, 199, 102, 0.00) 100%);
+  position: relative;
+  z-index: 1;
+  border-radius: 0 0 40px 40px;
 }
