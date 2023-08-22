@@ -177,7 +177,7 @@ p {
   font-size: 16px;
   font-weight: 400;
   line-height: 27px;
-  color: #A5C766;
+  color: #1B302A;
   margin-bottom: 10px;
 }
 
@@ -9087,6 +9087,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 .bubble-work {
   position: absolute;
   left: 10px;
+  z-index: 0;
 }
 
 .men-cleaning {
@@ -9404,4 +9405,24 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 
 .bubble_img-about {
   position: absolute;
+}
+
+.rs-about-detail h6 {
+  text-transform: uppercase;
+}
+
+.rs-about-detail h2,
+.rs-about-detail h4,
+.detail-list-res h4 {
+  color: #1B302A;
+
+}
+
+.detail-list-res {
+  background-color: #FBFFF3;
+
+}
+
+.detail-list-res i {
+  color: #A5C766;
 }
