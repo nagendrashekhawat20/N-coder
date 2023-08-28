@@ -174,12 +174,12 @@ a.meanmenu-reveal {
 	padding: 0;
 }
 .side-menu-icon i {
-	color: #102579;
+	color: #1B302A;
 	font-size: 32px;
 	cursor: pointer;
 }
 .side-info {
-	background: #152136;
+	background:	#1B302A;
 	width: 300px;
 	height: 100%;
 	position: fixed;
@@ -211,7 +211,7 @@ a.meanmenu-reveal {
 	top: 0;
 	right: 0;
 	bottom: 0;
-	background: #000;
+	background: #1B302A;
 	height: 100%;
 	width: 100%;
 	z-index: 999;

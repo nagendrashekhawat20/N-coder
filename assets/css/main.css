@@ -9259,7 +9259,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .form-control {
-  padding: 1rem;
+  padding: 0.8rem;
   border-radius: 30px;
 }
 
@@ -9511,6 +9511,24 @@ only screen and (min-width: 768px) and (max-width: 991px) {
     height: 80px;
   }
 
+  .faqs-block h2,
+  .guide-heading h2,
+  .tp-section-title-two {
+    font-size: 28px; 
+  }
+
+  .section-title-wrapper {
+    text-align: center;
+  }
+
+  .about-detail {
+    margin-top: 20px;
+  }
+  
+  .about-detail h2,
+  .about-detail h6 {
+    text-align: center;
+  }
 }
 
 
@@ -9681,9 +9699,27 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   .bubble_img-about img {
     height: 80px;
   }
+
+  .pop-up-img {
+    order: 1;
+  }
+  .pop-up-detail {
+    order: 0;
+  }
+
 }
 
-@media (min-width: 767.98px) and (max-width: 991.98px) {}
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+
+  .tab-choose {
+    display: flex;
+    justify-content: center;
+  }
+
+  .guide-detail {
+    height: auto !important;
+  }
+}
 
 @media (min-width: 991.98px) and (max-width: 1200px) {}
 
@@ -9704,11 +9740,6 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   overflow: hidden;
 }
 
-#modalContactForm .modal-header {
-  background-color: #A5C766;
-  color: #fff;
-  overflow: hidden;
-}
 
 #modalContactForm .modal-header .close {
   background-color: transparent;
@@ -9724,49 +9755,33 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   border-radius: 3px;
 }
 
-#modalContactForm .md-form {
-  display: flex;
-  align-items: center;
-  margin-bottom: 30px;
-}
-
-#modalContactForm .md-form .prefix {
-  font-size: 26px;
-  color: #ccc;
-}
-
-
-#modalContactForm .modal-footer .btn_unique {
-  position: relative;
-  display: inline-block;
-  border: none;
-  background-color: transparent;
-  color: #A5C766;
-  padding: 10px 20px;
-  cursor: pointer;
-  box-shadow: none;
-  outline: none;
-  text-transform: uppercase;
-  overflow: hidden;
-  transition: 0.5s;
-  letter-spacing: 4px;
-}
-
-#modalContactForm .modal-footer .btn_unique:hover {
-  background: #A5C766;
-  color: #fff;
-  border-radius: 5px;
-}
-
 .modal-dialog {
   max-width: 850px !important;
 }
 
 .btn-check:focus+.btn,
 .btn:focus {
-
   box-shadow: none;
 }
 
-a:focus,
-a:hover {}
+.form-select {
+  border-radius: 30px;
+  margin-top: 20px;
+  padding: 0.8rem;
+  color: #6e777f; 
+}
+
+.form-select:focus {
+  border-color:#ced4da;
+  outline: 0;
+  box-shadow: none;
+}
+
+.accord-list {
+  color: #1B302A;
+}
+
+.accordion-collapse-about {
+  border: solid rgba(0, 0, 0, .125);
+  border-width: 0px 0px 1px 0 !important;
+}
