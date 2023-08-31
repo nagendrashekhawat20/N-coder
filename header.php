@@ -1,45 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Top Master Services</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="manifest" href="site.webmanifest">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/fav.png">
-    <!-- Place favicon.ico in the root directory -->
-
-    <!-- CSS here -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/custom-animation.css">
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
-    <link rel="stylesheet" href="assets/css/meanmenu.css">
-    <link rel="stylesheet" href="assets/css/flaticon.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/venobox.min.css">
-    <link rel="stylesheet" href="assets/css/backToTop.css">
-    <link rel="stylesheet" href="assets/css/swiper-bundle.css">
-    <link rel="stylesheet" href="assets/css/default.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-
-</head>
-
 <body>
 
 
@@ -70,7 +31,7 @@
                         <div class="tp-main-menu tp-main-menu-three">
                             <nav id="tp-mobile-menu">
                                 <ul>
-                                    <li class="menu-item-has-children"><a href="index.html" class="active">HOME</a>
+                                    <li class="menu-item-has-children"><a href="index.php" class="active">HOME</a>
 
                                     </li>
                                     <li class="menu-item-has-children"><a href="about.html">ABOUT</a>
@@ -134,9 +95,9 @@
                     <div class="contact-list mb-30">
                         <h4>Contact Info</h4>
                         <ul>
-                            <li><i class="flaticon-pin"></i>54B, Tailstoi Town 5238 ST,La city, IA 522364</li>
+                            <li><i class="flaticon-pin"></i>Perth, Western Australia</li>
                             <li><i class="flaticon-email"></i><a
-                                    href="mailto:info@klenar.com">admin@topmasterservice.com.au</a></li>
+                                    href="mailto:admin@topmasterservice.com.au">admin@topmasterservice.com.au</a></li>
                             <li><i class="flaticon-phone-call"></i><a href="tel:0481 826 682">0481 826 682</a></li>
                         </ul>
                         <div class="sidebar__menu--social">
