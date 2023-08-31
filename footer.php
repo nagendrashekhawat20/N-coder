@@ -189,7 +189,7 @@
                                 </div>
                             </div>
                             <div class="wrapper">
-                                <select  class="form-select" size="4" aria-label="Default select" size="1" id="custom-select">
+                                <select class="selectpicker" aria-label="Default select" size="1" id="custom-select">
                                     <option selected>Select Services</option>
                                     <option value="1">Office Cleaning</option>
                                     <option value="2">Residential Cleaning</option>
