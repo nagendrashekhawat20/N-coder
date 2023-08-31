@@ -9627,7 +9627,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   }
 
   .pop-up-img img {
-    display: none;
+    display: none !important;
   }
 
   .pop-up-detail {
