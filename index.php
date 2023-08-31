@@ -203,8 +203,7 @@ include('header.php');
                                                         <div class="tp-project-text-content">
 
                                                             <h4 class="tp-project-title"><a
-                                                                    href="./Emergency-Cleaning.html">Gardening &
-                                                                    Landscaping</a>
+                                                                    href="./Emergency-Cleaning.html">Gardening</a>
                                                             </h4>
                                                         </div>
                                                     </div>
