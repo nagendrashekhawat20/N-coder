@@ -70,7 +70,7 @@
     <?php
     include('header.php');
     ?>
-    
+
     <main>
         <!-- hero area start here -->
         <section class="tp-slider-area-three fix">
@@ -180,7 +180,7 @@
                                             <div class="col-lg-3 col-md-6">
                                                 <div class="tp-project z-index mb-30">
                                                     <div class="tp-project-img">
-                                                        <a href="./Gardening & Landscaping.html"><img src="assets/img/service/gardening.png" class="img-fluid" alt="img not found"></a>
+                                                        <a href="./Gardening & Landscaping.html"><img src="assets/img/service/gardening.png" class="img-fluid garden-img" alt="img not found"></a>
                                                     </div>
                                                     <div class="tp-project-text pt-2">
                                                         <div class="tp-project-text-content">
