@@ -139,7 +139,7 @@ textarea:focus {
 input,
 select,
 textarea {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 400;
   opacity: 1;
 }
@@ -150,7 +150,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #A5C766;
   margin: 0px;
   font-style: normal;
@@ -177,7 +177,7 @@ p {
   font-size: 16px;
   font-weight: 400;
   line-height: 27px;
-  color: #1B302A;
+  color: #000;
   margin-bottom: 10px;
 }
 
@@ -204,7 +204,7 @@ select {
 
 input,
 select {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 400;
 }
 
@@ -228,14 +228,14 @@ select {
 * input::-moz-placeholder {
   font-size: 16px;
   opacity: 1;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 400;
 }
 
 * input::placeholder {
   font-size: 16px;
   opacity: 1;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 400;
 }
 
@@ -1733,7 +1733,7 @@ select {
   box-shadow: none;
   height: 50px;
   line-height: 50px;
-  color: #000;
+  color: #1B302A;
   background: #A5C766;
   text-align: center;
   padding: 0px 38px;
@@ -2649,7 +2649,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
 }
 
 .tp-header-right-three .tp-header-btn-three a {
-  color: #102579;
+  color: #1B302A;
 }
 
 .tp-header-right-three .tp-header-btn-three a:hover {
@@ -2657,7 +2657,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
 }
 
 .tp-main-menu-inner ul li a {
-  color: #09150f;
+  color: #1b1b1b;
 }
 
 .tp-main-menu-inner ul li:hover a {
@@ -2760,7 +2760,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
   position: relative;
   padding-left: 13px;
   z-index: 1;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Raleway', sans-serif;
   display: inline-block;
   margin-top: 3px;
 }
@@ -4274,7 +4274,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
   font-size: 36px;
   color: #09150f;
   line-height: 1;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Raleway', sans-serif;
   margin-bottom: 30px;
   overflow: hidden;
   display: inline-block;
@@ -4287,7 +4287,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
   transform: rotate(90deg);
   margin-bottom: 0px;
   text-align: left;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 500;
 }
 
@@ -5206,10 +5206,6 @@ only screen and (min-width: 768px) and (max-width: 991px),
   color: #1B302A;
 }
 
-.tp-choose-three .tp-about-service-text-title:hover {
-  color: #06ae5a;
-}
-
 .tp-choose-three .yellow-circle-shape::before {
   background: #fff;
 }
@@ -5356,7 +5352,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
 .tp-fact-text-subtitle {
   font-size: 20px;
   font-weight: 500;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Raleway', sans-serif;
   margin-bottom: 0px;
 }
 
@@ -5371,13 +5367,13 @@ only screen and (min-width: 768px) and (max-width: 991px),
   display: inline-block;
 }
 
-.tp-fact-icon i {
+/* .tp-fact-icon i {
   font-size: 55px;
   color: #064e2a;
   position: absolute;
   top: 31%;
   left: 30%;
-}
+} */
 
 .tp-fact:hover i {
   animation: scale-up-one infinite 1.5s linear;
@@ -5516,7 +5512,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 
 .tp-pricing-rate-title {
   font-weight: 700;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 60px;
   line-height: 0.5;
 }
@@ -5616,7 +5612,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .tp-pricing-two-rate h3 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   color: #09150f;
   line-height: 1;
@@ -6044,7 +6040,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
 .tp-testimonial-two-form-wrapper .input-field textarea {
   color: #6a6b71;
   font-size: 15px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Raleway', sans-serif;
   display: block;
   font-weight: 500;
   height: 60px;
@@ -6527,7 +6523,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   cursor: pointer;
   display: inline-block;
   font-weight: 500;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -6656,7 +6652,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
   display: inline-block;
   margin-bottom: 0px;
   font-weight: 500;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -9235,8 +9231,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .about-detail h2,
-.about-detail h4,
-.about-detail p {
+.about-detail h4 {
   color: #1B302A;
 }
 
@@ -9529,6 +9524,11 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   .about-detail h6 {
     text-align: center;
   }
+  .faqs-block  {
+    text-align: start !important;
+    margin-left: 20px;
+}
+
 }
 
 
@@ -9611,6 +9611,12 @@ only screen and (min-width: 768px) and (max-width: 991px) {
     margin-top: 20px;
     order: 1;
   }
+
+  .faqs-block  {
+    text-align: start !important;
+    margin-left: 20px;
+}
+
 }
 
 @media (min-width: 574.98px) and (max-width: 767.98px) {
@@ -9707,6 +9713,11 @@ only screen and (min-width: 768px) and (max-width: 991px) {
     order: 0;
   }
 
+  .faqs-block  {
+    text-align: start !important;
+}
+
+
 }
 
 @media (min-width: 767.98px) and (max-width: 991.98px) {
@@ -9784,4 +9795,43 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 .accordion-collapse-about {
   border: solid rgba(0, 0, 0, .125);
   border-width: 0px 0px 1px 0 !important;
+}
+
+.custom-dropdown {
+  max-height: 150px; /* Control the maximum visible height */
+  overflow-y: auto; /* Enable scrolling */
+}
+
+.client {
+  width: 100%;
+  height: 100%;
+  background: #7F00FF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.carousel-icon i {
+font-size: 5rem;
+color: rgba(255, 255, 255, 0.3);
+}
+
+.carousel-item i {
+font-size: 1.6rem;
+color: rgba(255, 255, 255, 0.3);
+}
+
+.t-card {
+padding: 1.8125rem 1.125rem;
+background-color: rgba(0, 0, 0, 0.5);
+border-radius: 1.25rem;
+color: #fff;
+height: auto;
+}
+
+.arrow-down {
+width: 0;
+height: 0;
+border-left: 1.5625rem solid transparent;
+border-right: 1.5625rem solid transparent;
+border-top: 1.25rem solid rgba(0, 0, 0, 0.5);
 }

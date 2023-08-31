@@ -1,32 +1,99 @@
 /* Normal desktop :1200px. */
-@media (min-width: 1200px) and (max-width: 1500px) {
-
-
-}
+@media (min-width: 1200px) and (max-width: 1500px) {}
 
 
 /* Normal desktop :992px. */
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1200px) {}
 
 
-}
-
- 
 /* Tablet desktop :768px. */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {}
 
 
-}
-
- 
 /* small mobile :320px. */
-@media (max-width: 767px) {
+@media (max-width: 767px) {}
 
- 
-}
- 
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-.container {width:450px}
- 
+    .container {
+        width: 450px
+    }
+
+    .banner_img_dots {
+        display: none;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .banner-heading {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .bubble_img img {
+        width: 100px;
+    }
+
+    .bubble_img_top {
+        top: auto;
+        right: 10px;
+        bottom: 200px;
+    }
+
+    .service-heading h2 {
+        font-size: 28px;
+    }
+
+    .banner-img,
+    .kitch-img,
+    .btn-about,
+    .bath-img {
+        display: none;
+    }
+
+    .banner-img-mobile,
+    .kitch-img-mobile,
+    .btn-quote-mobile,
+    .bath-img-mobile {
+        display: block;
+    }
+
+    .top-heading {
+        padding-left: 0 !important;
+    }
+
+
+    .title-work h2 {
+        font-size: 28px;
+    }
+
+    .title-work {
+        margin-bottom: 50px;
+    }
+
+    .bubble-work img {
+        width: 100px;
+    }
+
+    .bubble-work {
+        left: auto;
+        right: 0;
+    }
+
+    .bubble-work2 {
+        right: auto;
+        left: 0;
+
+    }
+
+    .bubble-testi {
+        display: none;
+    }
+
+    .address-block {
+        margin-top: 20px;
+        order: 1;
+    }
 }
