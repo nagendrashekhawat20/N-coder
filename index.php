@@ -70,8 +70,8 @@
 
 
     <?php
-    include('header.php');
-    ?>
+include('header.php');
+?>
     <main>
         <!-- hero area start here -->
         <section class="tp-slider-area-three fix">
@@ -197,13 +197,14 @@
                                                     <div class="tp-project-img">
                                                         <a href="./Gardening & Landscaping.html"><img
                                                                 src="assets/img/service/gardening.png" class="img-fluid"
-                                                                alt="img not found"></a>
+                                                                alt="img not found" ></a>
                                                     </div>
                                                     <div class="tp-project-text pt-2">
                                                         <div class="tp-project-text-content">
 
                                                             <h4 class="tp-project-title"><a
-                                                                    href="./Emergency-Cleaning.html">Gardening</a>
+                                                                    href="./Emergency-Cleaning.html">Gardening &
+                                                                    Landscaping</a>
                                                             </h4>
                                                         </div>
                                                     </div>
@@ -801,9 +802,7 @@
                             <h4>
                                 Have a Questions ?
                             </h4>
-                            <a href="tel: 04123 81 557">
-                                <p class="text-white"><b>04123 81 557</b></p>
-                            </a>
+                            <a href="tel: 04123 81 557"><p class="text-white"><b>04123 81 557</b></p></a>
                         </div>
 
                     </div>
@@ -857,11 +856,8 @@
     </main>
 
     <?php
-    include('footer.php');
-    ?>
-
-
-
+include('footer.php');
+?>
 
     <!-- JS here -->
     <script src="assets/js/vendor/jquery.min.js"></script>

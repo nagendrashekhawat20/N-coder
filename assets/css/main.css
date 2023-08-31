@@ -9531,11 +9531,11 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   }
 
   .pop-up-img {
-    order: 1;
+    order: 1 !important;
   }
 
   .pop-up-detail {
-    order: 0;
+    order: 0 !important;
   }
 
 }
@@ -9627,11 +9627,11 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   }
 
   .pop-up-img {
-    order: 1;
+    order: 1 !important;
   }
 
   .pop-up-detail {
-    order: 0;
+    order: 0 !important;
   }
 
 }
