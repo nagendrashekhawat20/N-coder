@@ -143,7 +143,7 @@
                 <div class="modal-body">
                     <div class="row align-items-center">
                         <div class="col-12 col-md-4 pop-up-img mt-20">
-                            <img src="./assets/img/about/pop-up.png" alt="Image not found" class="img-fluid">
+                            <img src="./assets/img/about/pop-up.png" id="pop-img-first" alt="Image not found" class="img-fluid">
                         </div>
                         <div class="col-12 col-md-8 pop-up-detail pb-20">
                             <div class="modal-header text-center">
