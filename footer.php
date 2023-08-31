@@ -50,7 +50,7 @@
                     </div>
                     <div class="col-12 col-md-2">
                         <h4>
-                            Subscribe to Newsletter
+                            Subscribe to Newslette
                         </h4>
                     </div>
                     <div class="col-12 col-md-5 mb-4">
@@ -117,7 +117,7 @@
                             <h4 class="tp-footer-widget-title mb-40">Contact</h4>
                             <ul>
                                 <li class="text-white"><b>Email Us:</b></li>
-                                <li><a href="mail: ">admin@topmasterservice.com.au</a></li>
+                                <li><a href="mailto: admin@topmasterservice.com.au    ">admin@topmasterservice.com.au</a></li>
                                 <li><a href="tel: 0481 826 682">0481 826 682</a></li>
                             </ul>
                         </div>
