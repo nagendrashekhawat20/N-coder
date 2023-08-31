@@ -30,7 +30,7 @@ $('.side-info-close,.offcanvas-overlay').on('click', function () {
 //sticky menu activation
 win.on('scroll', function () {
 	var scroll = win.scrollTop();
-	if (scroll < 105) {
+	if (scroll < 90) {
 		$(".header-sticky").removeClass("sticky-menu");
 	} else {
 		$(".header-sticky").addClass("sticky-menu");
@@ -172,7 +172,7 @@ $(".popup-video").magnificPopup({
 	if (jQuery(".tp-testimonial-active").length > 0) {
 	let atestimonial1 = new Swiper('.tp-testimonial-active', {
 		slidesPerView: 1,
-		spaceBetween: 30,
+		spaceBetween: 25,
 		// direction: 'vertical',
 		loop: false,
 	  
@@ -200,7 +200,7 @@ $(".popup-video").magnificPopup({
 	if (jQuery(".tp-testimonial-two-active").length > 0) {
 		let testimonialTwo = new Swiper('.tp-testimonial-two-active', {
 			slidesPerView: 1,
-			spaceBetween: 30,
+			spaceBetween: 25,
 			// direction: 'vertical',
 			loop: true,
 			autoplay: {
@@ -244,7 +244,7 @@ $(".popup-video").magnificPopup({
 	if (jQuery(".tp-testimonial-three-active").length > 0) {
 		let testimoniaTwo = new Swiper('.tp-testimonial-three-active', {
 			slidesPerView: 1,
-			spaceBetween: 30,
+			spaceBetween: 25,
 			// direction: 'vertical',
 			loop: true,
 			autoplay: {
