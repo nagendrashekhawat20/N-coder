@@ -894,7 +894,7 @@ include('footer.php');
                                 <div class="form-group col-12 col-sm-6 col-md-6">
                                     <label for="email"></label>
                                     <input type="text" class="form-control" id="email" name="email"
-                                        placeholder="Email address" />
+                                        placeholder="Email" />
                                 </div>
 
                                 <div class="form-group col-12 col-sm-6 col-md-6">
