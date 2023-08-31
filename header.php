@@ -15,33 +15,33 @@
                                     <li class="menu-item-has-children"><a href="index.php" class="active">HOME</a>
 
                                     </li>
-                                    <li class="menu-item-has-children"><a href="about.html">ABOUT</a>
+                                    <li class="menu-item-has-children"><a href="about.php">ABOUT</a>
 
                                     </li>
-                                    <li class="menu-item-has-children"><a href="service.html">SERVICES</a>
+                                    <li class="menu-item-has-children"><a href="service.php">SERVICES</a>
                                         <ul class="sub-menu">
-                                            <li><a href="./Office-cleaning.html">Office Cleaning</a></li>
-                                            <li><a href="./Residential _Cleaning.html">Residential Cleaning</a></li>
-                                            <li><a href="./Gardening & Landscaping.html">Gardening & Landscaping</a>
+                                            <li><a href="./Office-cleaning.php">Office Cleaning</a></li>
+                                            <li><a href="./Residential _Cleaning.php">Residential Cleaning</a></li>
+                                            <li><a href="./Gardening & Landscaping.php">Gardening & Landscaping</a>
                                             </li>
                                             <li><a href="./Emergemcy-Cleaning">Emergency Cleaning</a></li>
-                                            <li><a href="./Carpet-Steam-Clean.html">Carpet Steam Clean</a></li>
-                                            <li><a href="./High-Pressure-Cleaning.html">High Pressure Cleaning</a></li>
-                                            <li><a href="./Strip-&-Seal.html">Strip & Seal</a></li>
-                                            <li><a href="./Window-Cleaning.html">Window Cleaning</a></li>
-                                            <li><a href="./High-Level-Window-Cleaning.html">High Level Window
+                                            <li><a href="./Carpet-Steam-Clean.php">Carpet Steam Clean</a></li>
+                                            <li><a href="./High-Pressure-Cleaning.php">High Pressure Cleaning</a></li>
+                                            <li><a href="./Strip-&-Seal.php">Strip & Seal</a></li>
+                                            <li><a href="./Window-Cleaning.php">Window Cleaning</a></li>
+                                            <li><a href="./High-Level-Window-Cleaning.php">High Level Window
                                                     Cleaning</a></li>
-                                            <li><a href="./Graffiti-Removal.html">Graffiti Removal</a></li>
-                                            <li><a href="./Hard-Floor-Scrubbing.html">Hard Floor Scrubbing</a></li>
-                                            <li><a href="./House-moves.html">House Moves</a></li>
-                                            <li><a href="./Labour-hire.html">Labor Hire</a></li>
+                                            <li><a href="./Graffiti-Removal.php">Graffiti Removal</a></li>
+                                            <li><a href="./Hard-Floor-Scrubbing.php">Hard Floor Scrubbing</a></li>
+                                            <li><a href="./House-moves.php">House Moves</a></li>
+                                            <li><a href="./Labour-hire.php">Labor Hire</a></li>
 
                                         </ul>
                                     </li>
-                                    <li class="menu-item-has-children"><a href="guide.html">GUIDES</a>
+                                    <li class="menu-item-has-children"><a href="guide.php">GUIDES</a>
 
                                     </li>
-                                    <li class="menu-item-has-children"><a href="contact.html">CONTACT</a>
+                                    <li class="menu-item-has-children"><a href="contact.php">CONTACT</a>
                                     </li>
                                 </ul>
                             </nav>

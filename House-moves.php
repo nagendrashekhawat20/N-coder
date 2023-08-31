@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>High Level Window Cleaning</title>
+    <title>House Moves</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -69,104 +69,9 @@
         </div>
     </section>
 
-    <header>
-        <div class="tp-header-area-three header-sticky">
-            <div class="tp-custom-container">
-                <div class="row justify-content-xl-center align-items-center">
-                    <div class="col-xxl-3 col-xl-4 col-8">
-                        <div class="tp-header-logo-three">
-                            <a href="index.html"><img src="assets/img/logo/logo.png" class="img-fluid"
-                                    alt="logo not found"></a>
-                        </div>
-                    </div>
-                    <div class="col-xxl-6 col-xl-6 col-4 d-flex justify-content-center">
-                        <div class="tp-main-menu tp-main-menu-three">
-                            <nav id="tp-mobile-menu">
-                                <ul>
-                                    <li class="menu-item-has-children"><a href="index.html">HOME</a>
-
-                                    </li>
-                                    <li class="menu-item-has-children"><a href="about.html">ABOUT</a>
-
-                                    </li>
-                                    <li class="menu-item-has-children"><a href="service.html"
-                                            class="active">SERVICES</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="./Office-cleaning.html">Office Cleaning</a></li>
-                                            <li><a href="./Residential _Cleaning.html">Residential Cleaning</a></li>
-                                            <li><a href="./Gardening & Landscaping.html">Gardening & Landscaping</a>
-                                            </li>
-                                            <li><a href="./Emergemcy-Cleaning">Emergemcy Cleaning</a></li>
-                                            <li><a href="./Carpet-Steam-Clean.html">Carpet Steam Clean</a></li>
-                                            <li><a href="./High-Pressure-Cleaning.html">High Pressure Cleaning</a></li>
-                                            <li><a href="./Strip-&-Seal.html">Strip & Seal</a></li>
-                                            <li><a href="./Window-Cleaning.html">Window Cleaning</a></li>
-                                            <li><a href="./High-Level-Window-Cleaning.html">High Level Window
-                                                    Cleaning</a></li>
-                                            <li><a href="./Graffiti-Removal.html">Graffiti Removal</a></li>
-                                            <li><a href="./Hard-Floor-Scrubbing.html">Hard Floor Scrubbing</a></li>
-                                            <li><a href="./House-moves.html">House Moves</a></li>
-                                            <li><a href="./Labour-hire.html">Labor Hire</a></li>
-
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children"><a href="guide.html">GUIDES</a>
-
-                                    </li>
-                                    <li class="menu-item-has-children"><a href="contact.html">CONTACT</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <!-- mobile menu activation -->
-                        <div class="side-menu-icon d-xl-none text-end">
-                            <button class="side-toggle text-dark"><i class="far fa-bars"></i></button>
-                        </div>
-                    </div>
-                    <div class="col-xxl-3 col-xl-2 d-none d-xl-block">
-                        <div class="tp-header-right-three">
-                            <!-- <div class="tp-header-number-three">
-                                <span>Call Us : <a href="tel:33888200-55">33 888 200 - 55</a></span>
-                            </div> -->
-                            <div class="tp-header-btn-three">
-                                <a href="tel:33888200-55" class="header-btn"><b>Call Us:</b> 04123 81 557</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-
-    <!-- mobile menu info -->
-    <div class="fix">
-        <div class="side-info">
-            <button class="side-info-close"><i class="fal fa-times"></i></button>
-            <div class="side-info-content">
-                <div class="tp-mobile-menu"></div>
-                <div class="contact-infos mb-30">
-                    <div class="contact-list mb-30">
-                        <h4>Contact Info</h4>
-                        <ul>
-                            <li><i class="flaticon-pin"></i>54B, Tailstoi Town 5238 ST,La city, IA 522364</li>
-                            <li><i class="flaticon-email"></i><a
-                                    href="mailto:info@klenar.com">admin@topmasterservice.com.au</a></li>
-                            <li><i class="flaticon-phone-call"></i><a href="tel:33388820055">04123 81 557</a></li>
-                        </ul>
-                        <div class="sidebar__menu--social">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-google"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="offcanvas-overlay"></div>
-    <!-- mobile menu info -->
+    <?php
+    include('header.php');
+    ?>
 
     <main>
 
@@ -182,13 +87,13 @@
                         <div class="container">
                             <div class="banner-heading">
                                 <h6>
-                                    High Level Window Cleaning
+                                    House Moves
                                 </h6>
                                 <h1>
-                                    Elevate your views with<br> sky-high clarity!
+                                    Set the tone for<br> a fresh start!
                                 </h1>
                                 <p>
-                                    Soaring heights, pristine sights
+                                    Beginnings Made Brighter
                                 </p>
                             </div>
                         </div>
@@ -199,7 +104,7 @@
                             <img src="./assets/img/slider/bubble-1.png" class="img-fluid" alt="Image not found">
                         </div>
                         <div class="image-container">
-                            <img src="./assets/img/service/high-window-bann.png" alt="Image not found"
+                            <img src="./assets/img/service/house-bann.png" alt="Image not found"
                                 class="img-fluid men-cleaning">
                             <div class="gradient-overlay"></div>
                         </div>
@@ -207,7 +112,7 @@
                     <div class="col-12 col-sm-12 col-md-6 p-0 banner-img-mobile">
                         <div class="image-container">
                             <div class="gradient-overlay-mobile"></div>
-                            <img src="./assets/img/service/high-window-bann.png" alt="Image not found"
+                            <img src="./assets/img/service/house-bann.png" alt="Image not found"
                                 class="img-fluid men-cleaning-mobile">
                         </div>
                     </div>
@@ -223,7 +128,7 @@
                 <img src="./assets/img/process/bubble.png" alt="Image not found">
             </div>
             <div class="container">
-                <img src="./assets/img/service/high-window-1.png" alt="Image not found"
+                <img src="./assets/img/service/house-bann-1.png" alt="Image not found"
                     class="img-fluid position-relative">
             </div>
         </section>
@@ -240,20 +145,20 @@
                                 Main DC Floor
                             </h6>
                             <h2 class="mb-30">
-                                Rise above ordinary with<br> crystal-clear panes
+                                Journey between homes,<br> free from grime
                             </h2>
                             <h4>
-                                Where sky meets shine
+                                Transitions made sparkling simple
                             </h4>
                             <p class="mb-30">
-                                Armed with state-of-the-art tools and unparalleled expertise, we tackle high-level
-                                window cleaning with precision, ensuring every pane, no matter how high, gleams with
-                                perfection.
+                                Amidst the chaos of packing and logistics, Top Masters is here to ease your transition.
+                                Our house moves cleaning service ensures that you depart from a spotless space and step
+                                into a fresh, impeccably clean new home.
                             </p>
-                            <a href="#" class="btn btn-about">Get Quote</a>
+                            <a href="" data-bs-target="#modalContactForm" data-bs-toggle="modal" class="btn btn-about">Get Quote</a>
 
                             <div class="container mt-50 mb-50">
-                                <img src="./assets/img/service/high-window-1.png" alt="Image not found"
+                                <img src="./assets/img/service/house-bann-1.png" alt="Image not found"
                                     class="img-fluid bath-img-mobile">
                             </div>
                         </div>
@@ -264,7 +169,7 @@
                                 <img src="./assets/img/process/bubble1.png" alt="Image not found" class="img-fluid">
                             </div>
                             <h4>
-                                Why high-level window cleaning?
+                                Benefits of House Moves Service by Top Masters:
                             </h4>
                             <div>
                                 <div class="d-flex align-items-center">
@@ -272,7 +177,8 @@
 
                                     <div class="ps-1">
                                         <p class="mb-0">
-                                            Stunning Views: Maximize breathtaking vistas with spotless windows.
+                                            Spotless Start: Begin your new chapter in a home that's cleaned to
+                                            perfection, ensuring a fresh start.
                                         </p>
                                     </div>
                                 </div>
@@ -281,8 +187,8 @@
 
                                     <div class="ps-1">
                                         <p class="mb-0">
-                                            Safety Assured: Professionals handle heights with expert skills and
-                                            equipment.
+                                            Save Time: Moving is demanding. Our dedicated cleaning team means one less
+                                            task for you to handle.
                                         </p>
                                     </div>
                                 </div>
@@ -291,8 +197,8 @@
 
                                     <div class="ps-1">
                                         <p class="mb-0">
-                                            Weather Defense: Protect windows from harsh conditions, ensuring glass
-                                            integrity.
+                                            Attention to Detail: From ovens to baseboards, we clean every nook and
+                                            cranny, so you don't have to.
                                         </p>
                                     </div>
                                 </div>
@@ -301,8 +207,8 @@
 
                                     <div class="ps-1">
                                         <p class="mb-0">
-                                            Elevated Aesthetics: A gleaming high-rise stands out, reflecting quality
-                                            maintenance.
+                                            Peace of Mind: Focus on settling in, knowing the cleanliness of both your
+                                            old and new homes is taken care of by professionals.
                                         </p>
                                     </div>
                                 </div>
@@ -310,7 +216,7 @@
                         </div>
                     </div>
                     <div>
-                        <a href="#" class="btn btn-about btn-quote-mobile mt-5 mx-5">Get Quote</a>
+                        <a href="" data-bs-target="#modalContactForm" data-bs-toggle="modal" class="btn btn-about btn-quote-mobile mt-5 mx-5">Get Quote</a>
                     </div>
                 </div>
             </div>
@@ -711,106 +617,9 @@
 
     </main>
 
-    <footer class="theme-dark-bg2">
-        <div class="tp-footer-area-two">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-12 col-md-3 mb-10 foot-new">
-                        <img src="./assets/img/footer/footer-1 2.png" alt="Image not found" class="img-fluid">
-                    </div>
-                    <div class="col-12 col-md-3">
-                        <h4>
-                            Subscribe to Newsletter
-                        </h4>
-                    </div>
-                    <div class="col-12 col-md-4 mb-4">
-                        <form action="#">
-                            <label for="email" class="form-label"></label>
-                            <input type="email" class="form-control" name="email" id="email" aria-describedby="email"
-                                placeholder="Enter your email address">
-                        </form>
-                    </div>
-                    <div class="col-12 col-md-2 mb-3">
-                        <button type="submit" class="footer-btn btn">Submit</button>
-                    </div>
-                </div>
-
-            </div>
-            <hr>
-            <div class="container">
-                <div class="footer-bubble">
-                    <img src="./assets/img/footer/bubble1.png" alt="Image not found" class="img-fluid">
-                </div>
-                <div class="row pb-40 pt-40">
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="tp-footer-widget footer-col-1 mb-30 wow fadeInUp" data-wow-delay=".3s">
-                            <div class="tp-footer-info tp-footer-info-three">
-                                <div class="tp-footer-info-logo mb-35">
-                                    <a href="index.html"><img src="assets/img/logo/logo-footer.png" class="img-fluid"
-                                            alt="img not found"></a>
-                                </div>
-                                <!-- <p class="text-white mb-35">Pulvinar seneius morbi to quisque nunc a towa faucibus netus a mone lestie nice disease</p> -->
-                                <div class="tp-footer-info-social tp-footer-info-social-three">
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="tp-footer-widget footer-col-2 mb-30 wow fadeInUp" data-wow-delay=".6s">
-                            <h4 class="tp-footer-widget-title mb-35">Info</h4>
-                            <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Guides</a></li>
-                                <li><a href="#">Get a quote</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="tp-footer-widget mb-30 wow fadeInUp" data-wow-delay=".9s">
-                            <h4 class="tp-footer-widget-title mb-35">Services</h4>
-                            <ul>
-                                <li><a href="#">Residential Cleaning</a></li>
-                                <li><a href="#">Office Cleaning</a></li>
-                                <li><a href="#">Emergency Cleaning</a></li>
-                                <li><a href="#">Pandemic Cleaning</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="tp-footer-widget footer-col-4 mb-30 wow fadeInUp" data-wow-delay="1.2s">
-                            <h4 class="tp-footer-widget-title mb-40">Contact</h4>
-                            <ul>
-                                <li><a href="#">54B, Tailstoi Town 5238 ST,La city, IA 522364</a></li>
-                                <li class="text-white">Email Us:</li>
-                                <li><a href="">admin@topmasterservice.com.au</a></li>
-                                <li><a href="#">04123 81 557</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                </div>
-                <hr>
-            </div>
-        </div>
-        <div class="tp-copyright-area-two theme-dark-bg3 z-index pt-30 pb-30">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="tp-copyright tp-copyright-two">
-                            <p class="m-0">© Copyright Top Master Service 2023 . All right reserved.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
+    <?php
+    include('footer.php');
+    ?>
 
 
     <!-- JS here -->

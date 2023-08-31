@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Window Cleaning</title>
+    <title>Carpet Steam Cleaning</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -69,95 +69,10 @@
         </div>
     </section>
 
-    <header>
-        <div class="tp-header-area-three header-sticky">
-            <div class="tp-custom-container">
-                <div class="row justify-content-xl-center align-items-center">
-                    <div class="col-xxl-3 col-xl-4 col-8">
-                        <div class="tp-header-logo-three">
-                            <a href="index.html"><img src="assets/img/logo/logo.png" class="img-fluid"
-                                    alt="logo not found"></a>
-                        </div>
-                    </div>
-                    <div class="col-xxl-6 col-xl-6 col-4 d-flex justify-content-center">
-                        <div class="tp-main-menu tp-main-menu-three">
-                            <nav id="tp-mobile-menu">
-                                <ul>
-                                    <li class="menu-item-has-children"><a href="index.html" class="active">HOME</a>
 
-                                    </li>
-                                    <li class="menu-item-has-children"><a href="about.html">ABOUT</a>
-
-                                    </li>
-                                    <li class="menu-item-has-children"><a href="service.html">SERVICES</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="service.html">Services</a></li>
-                                            <li><a href="service-details.html">Services Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children"><a href="guide.html">GUIDES</a>
-                                        <!-- <ul class="sub-menu">
-                                            <li><a href="project.html">Projects</a></li>
-                                            <li><a href="project-details.html">Projects Details</a></li>
-                                        </ul> -->
-                                    </li>
-                                    <li class="menu-item-has-children"><a href="contact.html">CONTACT</a>
-                                        <!-- <ul class="sub-menu">
-                                            <li><a href="blog-sidebar.html">Blog Sidebar</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
-                                        </ul> -->
-                                    </li>
-                                    <!-- <li><a href="#">Contact</a></li> -->
-                                </ul>
-                            </nav>
-                        </div>
-                        <!-- mobile menu activation -->
-                        <div class="side-menu-icon d-xl-none text-end">
-                            <button class="side-toggle"><i class="far fa-bars"></i></button>
-                        </div>
-                    </div>
-                    <div class="col-xxl-3 col-xl-2 d-none d-xl-block">
-                        <div class="tp-header-right-three">
-                            <!-- <div class="tp-header-number-three">
-                                <span>Call Us : <a href="tel:33888200-55">33 888 200 - 55</a></span>
-                            </div> -->
-                            <div class="tp-header-btn-three">
-                                <a href="tel:33888200-55" class="header-btn"><b>Call Us:</b> 04123 81 557</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <!-- mobile menu info -->
-    <div class="fix">
-        <div class="side-info">
-            <button class="side-info-close"><i class="fal fa-times"></i></button>
-            <div class="side-info-content">
-                <div class="tp-mobile-menu"></div>
-                <div class="contact-infos mb-30">
-                    <div class="contact-list mb-30">
-                        <h4>Contact Info</h4>
-                        <ul>
-                            <li><i class="flaticon-pin"></i>28/4 Palmal, London</li>
-                            <li><i class="flaticon-email"></i><a href="mailto:info@klenar.com">info@klenar.com</a></li>
-                            <li><i class="flaticon-phone-call"></i><a href="tel:33388820055">333 888 200 - 55</a></li>
-                        </ul>
-                        <div class="sidebar__menu--social">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-google"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="offcanvas-overlay"></div>
-    <!-- mobile menu info -->
+    <?php
+    include('header.php');
+    ?>
 
     <main>
 
@@ -173,13 +88,13 @@
                         <div class="container">
                             <div class="banner-heading">
                                 <h6>
-                                    Window Cleaning
+                                    Carpet Steam Clean
                                 </h6>
                                 <h1>
-                                    Crystal-clear views,<br> every time!
+                                    Get ready to see<br> your carpets gleam!
                                 </h1>
                                 <p>
-                                    Transparency at its finest
+                                    Exemplary cleaning, fresh results
                                 </p>
                             </div>
                         </div>
@@ -190,7 +105,7 @@
                             <img src="./assets/img/slider/bubble-1.png" class="img-fluid" alt="Image not found">
                         </div>
                         <div class="image-container">
-                            <img src="./assets/img/service/window-bann.png" alt="Image not found"
+                            <img src="./assets/img/about/image 12.png" alt="Image not found"
                                 class="img-fluid men-cleaning">
                             <div class="gradient-overlay"></div>
                         </div>
@@ -198,7 +113,7 @@
                     <div class="col-12 col-sm-12 col-md-6 p-0 banner-img-mobile">
                         <div class="image-container">
                             <div class="gradient-overlay-mobile"></div>
-                            <img src="./assets/img/service/window-bann.png" alt="Image not found"
+                            <img src="./assets/img/about/image 12.png" alt="Image not found"
                                 class="img-fluid men-cleaning-mobile">
                         </div>
                     </div>
@@ -214,12 +129,13 @@
                 <img src="./assets/img/process/bubble.png" alt="Image not found">
             </div>
             <div class="container">
-                <img src="./assets/img/service/window-1.png" alt="Image not found" class="img-fluid position-relative">
+                <img src="./assets/img/service/carpet-bot.png" alt="Image not found"
+                    class="img-fluid position-relative">
             </div>
         </section>
 
 
-        <!--Info starts here-->
+        <!--Carpet starts here-->
         <section class="mb-100 mt-100">
             <div class="container">
                 <div class="row">
@@ -230,16 +146,17 @@
                                 Bathrooms
                             </h6> -->
                             <h2 class="mb-30">
-                                See the world more <br>clearly
+                                Deep cleaning, deep <br>commitment!
                             </h2>
                             <h4>
-                                Reflecting perfection in every pane
+                                Rediscover the original beauty of your carpets
                             </h4>
                             <p class="mb-30">
-                                Leveraging cutting-edge tools and sustainable practices, we ensure each pane gleams with
-                                perfection, revealing unobstructed vistas and natural light.
+                                Our expertly trained professionals and top-tier equipment ensure that every fibre of
+                                your carpet is meticulously treated, bringing about a transformation you can both see
+                                and feel.
                             </p>
-                            <a href="#" class="btn btn-about">Get Quote</a>
+                            <a href="" data-bs-target="#modalContactForm" data-bs-toggle="modal" class="btn btn-about">Get Quote</a>
 
                             <div class="container mt-50 mb-50">
                                 <img src="./assets/img/service/carpet-bot.png" alt="Image not found"
@@ -253,7 +170,7 @@
                                 <img src="./assets/img/process/bubble1.png" alt="Image not found" class="img-fluid">
                             </div>
                             <h4>
-                                Why window cleaning?
+                                Why carpet steam cleaning?
                             </h4>
                             <div>
                                 <div class="d-flex align-items-center">
@@ -261,7 +178,8 @@
 
                                     <div class="ps-1">
                                         <p class="mb-0">
-                                            Crystal Clear Views: Revel in unspoiled scenic views and enhanced clarity from your interiors.
+                                            Deep Cleaning: Steam penetrates deep into the fibres, extracting dirt,
+                                            allergens, and bacteria that regular vacuuming can't reach.
                                         </p>
                                     </div>
                                 </div>
@@ -270,7 +188,8 @@
 
                                     <div class="ps-1">
                                         <p class="mb-0">
-                                            Boosted Curb Appeal: Clean windows elevate a property's overall aesthetic, be it a home or business.
+                                            Prolongs Carpet Life: Regular steam cleaning increases the longevity of your
+                                            carpet, ensuring it remains a staple of your space for years to come.
                                         </p>
                                     </div>
                                 </div>
@@ -279,7 +198,8 @@
 
                                     <div class="ps-1">
                                         <p class="mb-0">
-                                            Sunlight Maximization: Welcome more natural light for a brighter, invigorated indoor environment.
+                                            Odour Removal: Say goodbye to unpleasant odours. Our steam cleaning method
+                                            leaves your carpet smelling fresh and clean.
                                         </p>
                                     </div>
                                 </div>
@@ -288,7 +208,8 @@
 
                                     <div class="ps-1">
                                         <p class="mb-0">
-                                            Healthier Living Spaces: By reducing allergens and pollutants, ensure purer, cleaner indoor air.
+                                            Stain Removal: Difficult stains are no match for our powerful steam cleaning
+                                            process.
                                         </p>
                                     </div>
                                 </div>
@@ -296,12 +217,12 @@
                         </div>
                     </div>
                     <div>
-                        <a href="#" class="btn btn-about btn-quote-mobile mt-5 mx-5">Get Quote</a>
+                        <a href="" data-bs-target="#modalContactForm" data-bs-toggle="modal" class="btn btn-about btn-quote-mobile mt-5 mx-5">Get Quote</a>
                     </div>
                 </div>
             </div>
         </section>
-        <!--info ends here-->
+        <!--Carpet ends here-->
 
 
         <!--work starts here-->
@@ -357,7 +278,7 @@
         </section>
         <!--work ends here-->
 
-   
+
         <!-- our cleaning services start here -->
         <section>
             <div class="container">
@@ -695,108 +616,12 @@
 
 
 
+
     </main>
 
-    <footer class="theme-dark-bg2">
-        <div class="tp-footer-area-two">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-12 col-md-3 mb-10 foot-new">
-                        <img src="./assets/img/footer/footer-1 2.png" alt="Image not found" class="img-fluid">
-                    </div>
-                    <div class="col-12 col-md-3">
-                        <h4>
-                            Subscribe to Newsletter
-                        </h4>
-                    </div>
-                    <div class="col-12 col-md-4 mb-4">
-                        <form action="#">
-                            <label for="email" class="form-label"></label>
-                            <input type="email" class="form-control" name="email" id="email" aria-describedby="email"
-                                placeholder="Enter your email address">
-                        </form>
-                    </div>
-                    <div class="col-12 col-md-2 mb-3">
-                        <button type="submit" class="footer-btn btn">Submit</button>
-                    </div>
-                </div>
-
-            </div>
-            <hr>
-            <div class="container">
-                <div class="footer-bubble">
-                    <img src="./assets/img/footer/bubble1.png" alt="Image not found" class="img-fluid">
-                </div>
-                <div class="row pb-40 pt-40">
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="tp-footer-widget footer-col-1 mb-30 wow fadeInUp" data-wow-delay=".3s">
-                            <div class="tp-footer-info tp-footer-info-three">
-                                <div class="tp-footer-info-logo mb-35">
-                                    <a href="index.html"><img src="assets/img/logo/logo-footer.png" class="img-fluid"
-                                            alt="img not found"></a>
-                                </div>
-                                <!-- <p class="text-white mb-35">Pulvinar seneius morbi to quisque nunc a towa faucibus netus a mone lestie nice disease</p> -->
-                                <div class="tp-footer-info-social tp-footer-info-social-three">
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="tp-footer-widget footer-col-2 mb-30 wow fadeInUp" data-wow-delay=".6s">
-                            <h4 class="tp-footer-widget-title mb-35">Info</h4>
-                            <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Guides</a></li>
-                                <li><a href="#">Get a quote</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="tp-footer-widget mb-30 wow fadeInUp" data-wow-delay=".9s">
-                            <h4 class="tp-footer-widget-title mb-35">Services</h4>
-                            <ul>
-                                <li><a href="#">Residential Cleaning</a></li>
-                                <li><a href="#">Office Cleaning</a></li>
-                                <li><a href="#">Emergency Cleaning</a></li>
-                                <li><a href="#">Pandemic Cleaning</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="tp-footer-widget footer-col-4 mb-30 wow fadeInUp" data-wow-delay="1.2s">
-                            <h4 class="tp-footer-widget-title mb-40">Contact</h4>
-                            <ul>
-                                <li><a href="#">54B, Tailstoi Town 5238 ST,La city, IA 522364</a></li>
-                                <li class="text-white">Email Us:</li>
-                                <li><a href="">admin@topmasterservice.com.au</a></li>
-                                <li><a href="#">04123 81 557</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                </div>
-                <hr>
-            </div>
-        </div>
-        <div class="tp-copyright-area-two theme-dark-bg3 z-index pt-30 pb-30">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="tp-copyright tp-copyright-two">
-                            <p class="m-0">© Copyright Top Master Service 2023 . All right reserved.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
+    <?php
+    include('footer.php');
+    ?>
 
 
     <!-- JS here -->

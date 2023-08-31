@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Hard Floor Scrubbing</title>
+    <title>Residential cleaning</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -42,7 +42,6 @@
 
 <body>
 
-
     <!-- preloader -->
     <div id="preloader">
         <div class="preloader">
@@ -69,154 +68,46 @@
         </div>
     </section>
 
-    <header>
-        <div class="tp-header-area-three header-sticky">
-            <div class="tp-custom-container">
-                <div class="row justify-content-xl-center align-items-center">
-                    <div class="col-xxl-3 col-xl-4 col-8">
-                        <div class="tp-header-logo-three">
-                            <a href="index.html"><img src="assets/img/logo/logo.png" class="img-fluid"
-                                    alt="logo not found"></a>
-                        </div>
-                    </div>
-                    <div class="col-xxl-6 col-xl-6 col-4 d-flex justify-content-center">
-                        <div class="tp-main-menu tp-main-menu-three">
-                            <nav id="tp-mobile-menu">
-                                <ul>
-                                    <li class="menu-item-has-children"><a href="index.html">HOME</a>
-
-                                    </li>
-                                    <li class="menu-item-has-children"><a href="about.html">ABOUT</a>
-
-                                    </li>
-                                    <li class="menu-item-has-children"><a href="service.html"
-                                            class="active">SERVICES</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="./Office-cleaning.html">Office Cleaning</a></li>
-                                            <li><a href="./Residential _Cleaning.html">Residential Cleaning</a></li>
-                                            <li><a href="./Gardening & Landscaping.html">Gardening & Landscaping</a>
-                                            </li>
-                                            <li><a href="./Emergemcy-Cleaning">Emergemcy Cleaning</a></li>
-                                            <li><a href="./Carpet-Steam-Clean.html">Carpet Steam Clean</a></li>
-                                            <li><a href="./High-Pressure-Cleaning.html">High Pressure Cleaning</a></li>
-                                            <li><a href="./Strip-&-Seal.html">Strip & Seal</a></li>
-                                            <li><a href="./Window-Cleaning.html">Window Cleaning</a></li>
-                                            <li><a href="./High-Level-Window-Cleaning.html">High Level Window
-                                                    Cleaning</a></li>
-                                            <li><a href="./Graffiti-Removal.html">Graffiti Removal</a></li>
-                                            <li><a href="./Hard-Floor-Scrubbing.html">Hard Floor Scrubbing</a></li>
-                                            <li><a href="./House-moves.html">House Moves</a></li>
-                                            <li><a href="./Labour-hire.html">Labor Hire</a></li>
-
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children"><a href="guide.html">GUIDES</a>
-
-                                    </li>
-                                    <li class="menu-item-has-children"><a href="contact.html">CONTACT</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <!-- mobile menu activation -->
-                        <div class="side-menu-icon d-xl-none text-end">
-                            <button class="side-toggle text-dark"><i class="far fa-bars"></i></button>
-                        </div>
-                    </div>
-                    <div class="col-xxl-3 col-xl-2 d-none d-xl-block">
-                        <div class="tp-header-right-three">
-                            <!-- <div class="tp-header-number-three">
-                                <span>Call Us : <a href="tel:33888200-55">33 888 200 - 55</a></span>
-                            </div> -->
-                            <div class="tp-header-btn-three">
-                                <a href="tel:33888200-55" class="header-btn"><b>Call Us:</b> 04123 81 557</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-
-    <!-- mobile menu info -->
-    <div class="fix">
-        <div class="side-info">
-            <button class="side-info-close"><i class="fal fa-times"></i></button>
-            <div class="side-info-content">
-                <div class="tp-mobile-menu"></div>
-                <div class="contact-infos mb-30">
-                    <div class="contact-list mb-30">
-                        <h4>Contact Info</h4>
-                        <ul>
-                            <li><i class="flaticon-pin"></i>54B, Tailstoi Town 5238 ST,La city, IA 522364</li>
-                            <li><i class="flaticon-email"></i><a
-                                    href="mailto:info@klenar.com">admin@topmasterservice.com.au</a></li>
-                            <li><i class="flaticon-phone-call"></i><a href="tel:33388820055">04123 81 557</a></li>
-                        </ul>
-                        <div class="sidebar__menu--social">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-google"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="offcanvas-overlay"></div>
-    <!-- mobile menu info -->
-
+    <?php
+    include('header.php');
+    ?>
+    
     <main>
-
-
         <!-- hero area start here -->
-        <section class="tp-slider-area-three banner-car-top">
-            <div class="container-fluid">
+        <section class="tp-slider-area-three fix">
+            <div class="container">
                 <div class="row">
-                    <div class="col-12 col-sm-12 col-md-6 align-items-center top-heading d-flex">
+                    <div class="col-12 col-sm-12 col-md-6 align-items-center d-flex">
                         <div class="bubble_img">
                             <img src="./assets/img/slider/bubble.png" alt="Image not found" class="img-fluid">
                         </div>
-                        <div class="container">
-                            <div class="banner-heading">
-                                <h6>
-                                    Hard Floor Scrubbing
-                                </h6>
-                                <h1>
-                                    Step up
-                                    your<br> floor's brilliance!
-                                </h1>
-                                <p>
-                                    A gleam that speaks volumes
-                                </p>
-                            </div>
+                        <div class="banner-heading">
+                            <h6 class="uppercase">
+                                Residential Cleaning
+                            </h6>
+                            <h1>
+                                Leave the window open to a cleaner home
+                            </h1>
+                            <p>
+                                Welcome to your renewed house
+                            </p>
+                        </div>
+                        <div>
+                            <img src="./assets/img/slider/bubble-1.png" class="bubble_img_top img-fluid"
+                                alt="Image not found">
                         </div>
                     </div>
-
-                    <div class="col-12 col-sm-12 col-md-6 p-0 banner-img">
-                        <div class="bubble_img_top-ser">
-                            <img src="./assets/img/slider/bubble-1.png" class="img-fluid" alt="Image not found">
-                        </div>
-                        <div class="image-container">
-                            <img src="./assets/img/service/hard-floor-bann.png" alt="Image not found"
-                                class="img-fluid men-cleaning">
-                            <div class="gradient-overlay"></div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-6 p-0 banner-img-mobile">
-                        <div class="image-container">
-                            <div class="gradient-overlay-mobile"></div>
-                            <img src="./assets/img/service/hard-floor-bann.png" alt="Image not found"
-                                class="img-fluid men-cleaning-mobile">
+                    <div class="col-12 col-sm-12 col-md-6">
+                        <img src="./assets/img/about/Layer 4 1.png" alt="Image not found"
+                            class="img-fluid men-cleaning">
+                        <div>
+                            <img src="./assets/img/slider/dots-img.png" alt="Image not found"
+                                class="banner_img_dots img-fluid">
                         </div>
                     </div>
                 </div>
             </div>
-            </div>
         </section>
-
         <!-- hero area end here -->
 
         <section class="mt-100 mb-100 bath-img">
@@ -224,8 +115,7 @@
                 <img src="./assets/img/process/bubble.png" alt="Image not found">
             </div>
             <div class="container">
-                <img src="./assets/img/service/hard-floor-1.png" alt="Image not found"
-                    class="img-fluid position-relative">
+                <img src="./assets/img/about/image 8.png" alt="Image not found" class="img-fluid position-relative">
             </div>
         </section>
 
@@ -237,24 +127,24 @@
                     <div class="col-12 col-lg-6 col-md-6 d-flex align-items-center">
 
                         <div class="rs-about-detail">
-                            <!-- <h6 class="mb-30">
-                                Main DC Floor
-                            </h6> -->
+                            <h6 class="mb-30">
+                                Bathrooms
+                            </h6>
                             <h2 class="mb-30">
-                                Bringing out the brilliance<br> in every floor
+                                Flush the foul out for a<br> sparkling bathroom
                             </h2>
                             <h4>
-                                From dull & drab to fab & fabulous!
+                                You call, we scrub it clean!
                             </h4>
                             <p class="mb-30">
-                                Hard floors endure constant foot traffic, accumulating dirt, grime, and scuffs over
-                                time. Top Masters stands ready with cutting-edge hard floor scrubbing solutions that
-                                delve deep into every crevice and pore.
+                                Experience the epitome of cleanliness with our efficient bathroom cleaning service. Our
+                                adept team attentively tackles every inch of your bathroom, ensuring the space is
+                                gleaming in freshness and hygiene.
                             </p>
-                            <a href="#" class="btn btn-about">Get Quote</a>
+                            <a href="" data-bs-target="#modalContactForm" data-bs-toggle="modal" class="btn btn-about">Get Quote</a>
 
                             <div class="container mt-50 mb-50">
-                                <img src="./assets/img/service/hard-floor-1.png" alt="Image not found"
+                                <img src="./assets/img/about/image 8.png" alt="Image not found"
                                     class="img-fluid bath-img-mobile">
                             </div>
                         </div>
@@ -265,7 +155,7 @@
                                 <img src="./assets/img/process/bubble1.png" alt="Image not found" class="img-fluid">
                             </div>
                             <h4>
-                                Why hard floor scrubbing?
+                                Task List
                             </h4>
                             <div>
                                 <div class="d-flex align-items-center">
@@ -273,8 +163,8 @@
 
                                     <div class="ps-1">
                                         <p class="mb-0">
-                                            Deep Clean: Penetrate the toughest grime layers, revealing a floor's true
-                                            vibrancy and texture.
+                                            Toilets disinfected, bowl scrubbed, seat cleaned (top and bottom), buttons
+                                            disinfected.
                                         </p>
                                     </div>
                                 </div>
@@ -283,8 +173,8 @@
 
                                     <div class="ps-1">
                                         <p class="mb-0">
-                                            Extended Floor Life: Regular scrubbing prevents the accumulation of dirt
-                                            that can erode and damage flooring over time.
+                                            Toilets disinfected, bowl scrubbed, seat cleaned (top and bottom), buttons
+                                            disinfected.
                                         </p>
                                     </div>
                                 </div>
@@ -293,8 +183,7 @@
 
                                     <div class="ps-1">
                                         <p class="mb-0">
-                                            Safety Enhancement: Removal of stubborn stains and slippery build-ups,
-                                            reducing the risk of slips and falls.
+                                            Toilet paper and hand towel restocked (WesTrac to supply)
                                         </p>
                                     </div>
                                 </div>
@@ -303,8 +192,75 @@
 
                                     <div class="ps-1">
                                         <p class="mb-0">
-                                            Cost-Efficiency: Maintain floors with scrubbing to avoid costly replacements
-                                            or repairs in the long run.
+                                            Urinals (waterless) cleaned as per supplier instruction, urinal deodorisers
+                                            and purpose cleaner (invoiced separately as required)
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <i class="fa fa-check-circle m-2"></i>
+
+                                    <div class="ps-1">
+                                        <p class="mb-0">
+                                            Mirrors cleaned free of marks
+
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <i class="fa fa-check-circle m-2"></i>
+
+                                    <div class="ps-1">
+                                        <p class="mb-0">
+                                            Sinks, tap-ware and benches wiped down and disinfected
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <i class="fa fa-check-circle m-2"></i>
+
+                                    <div class="ps-1">
+                                        <p class="mb-0">
+                                            Stainless steel (where present) cleaned
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <i class="fa fa-check-circle m-2"></i>
+
+                                    <div class="ps-1">
+                                        <p class="mb-0">
+                                            Floors mopped and disinfected
+
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <i class="fa fa-check-circle m-2"></i>
+
+                                    <div class="ps-1">
+                                        <p class="mb-0">
+                                            Bins emptied and liners replaced
+
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <i class="fa fa-check-circle m-2"></i>
+
+                                    <div class="ps-1">
+                                        <p class="mb-0">
+                                            Visible cobwebs removed
+
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <i class="fa fa-check-circle m-2"></i>
+
+                                    <div class="ps-1">
+                                        <p class="mb-0">
+                                            Marks cleaned from light switches
                                         </p>
                                     </div>
                                 </div>
@@ -312,13 +268,136 @@
                         </div>
                     </div>
                     <div>
-                        <a href="#" class="btn btn-about btn-quote-mobile mt-5 mx-5">Get Quote</a>
+                        <a href="" data-bs-target="#modalContactForm" data-bs-toggle="modal" class="btn btn-about btn-quote-mobile mt-5 mx-5">Get Quote</a>
                     </div>
                 </div>
             </div>
         </section>
-        <!--info ends here-->
+        <!--Info ends here-->
 
+
+        <section class="mt-100 mb-100 kitch-img">
+            <div class="bubble-work">
+                <img src="./assets/img/process/bubble.png" alt="Image not found" class="img-fluid">
+            </div>
+            <div class="container">
+                <img src="./assets/img/about/image-resdi.png" alt="Image not found" class="img-fluid">
+            </div>
+        </section>
+
+        <!--Info starts here-->
+        <section class="mb-100 mt-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-6 col-md-6 d-flex align-items-center">
+
+                        <div class="rs-about-detail">
+                            <h6 class="mb-30">
+                                Kitchen
+                            </h6>
+                            <h2 class="mb-30">
+                                Discover the joy of a<br> spotless kitchen
+                            </h2>
+                            <h4>
+                                Let us clean up the mess
+                            </h4>
+                            <p class="mb-30">
+                                Step into a kitchen that radiates brilliance, igniting your passion for gastronomic
+                                excellence. Grease and stains vanish as we restore every surface to pristine vibrancy in
+                                your culinary zone.
+                            </p>
+                            <a href="" data-bs-target="#modalContactForm" data-bs-toggle="modal" class="btn btn-about">Get Quote</a>
+                            <div class="container">
+                                <img src="./assets/img/about/image-resdi.png" alt="Image not found"
+                                    class="img-fluid mt-50 mb-50 kitch-img-mobile">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="detail-list-res p-4">
+                            <div class="bubble-work2">
+                                <img src="./assets/img/process/bubble1.png" alt="Image not found">
+                            </div>
+                            <h4>
+                                Task List
+                            </h4>
+                            <div>
+                                <div class="d-flex align-items-center">
+                                    <i class="fa fa-check-circle m-2"></i>
+
+                                    <div class="ps-1">
+                                        <p class="mb-0">
+                                            Coffee station restocked and cleanedBins emptied and liners replaced
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <i class="fa fa-check-circle m-2"></i>
+
+                                    <div class="ps-1">
+                                        <p class="mb-0">
+                                            All benches and sinks including tap-ware and splashbacks cleaned down
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <i class="fa fa-check-circle m-2"></i>
+
+                                    <div class="ps-1">
+                                        <p class="mb-0">
+                                            Visible cobwebs removed
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <i class="fa fa-check-circle m-2"></i>
+
+                                    <div class="ps-1">
+                                        <p class="mb-0">
+                                            Microwave cleaned (daily), internally & externally
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <i class="fa fa-check-circle m-2"></i>
+
+                                    <div class="ps-1">
+                                        <p class="mb-0">
+                                            Fridge exterior and internal ledges cleaned (daily)
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <i class="fa fa-check-circle m-2"></i>
+
+                                    <div class="ps-1">
+                                        <p class="mb-0">
+                                            Floors swept and mopped
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <i class="fa fa-check-circle m-2"></i>
+
+                                    <div class="ps-1">
+                                        <p class="mb-0">
+                                            Tables and chairs wiped down
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="" data-bs-target="#modalContactForm" data-bs-toggle="modal" class="btn btn-about btn-quote-mobile mt-5 mx-5">Get Quote</a>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+        </section>
+        <!--Info ends here-->
 
         <!--work starts here-->
         <section class="work-process">
@@ -403,23 +482,6 @@
                                             <div class="col-lg-4 col-md-6">
                                                 <div class="tp-project z-index mb-30">
                                                     <div class="tp-project-img">
-                                                        <a href="./Residential _Cleaning.html"><img
-                                                                src="assets/img/service/Residential.png"
-                                                                class="img-fluid" alt="img not found"></a>
-                                                    </div>
-                                                    <div class="tp-project-text">
-                                                        <div class="tp-project-text-content">
-
-                                                            <h4 class="tp-project-title"><a
-                                                                    href="./Residential _Cleaning.html">Residential
-                                                                    Cleaning</a></h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6">
-                                                <div class="tp-project z-index mb-30">
-                                                    <div class="tp-project-img">
                                                         <a href="./Office-cleaning.html"><img
                                                                 src="assets/img/service/commercial.png"
                                                                 class="img-fluid" alt="img not found"></a>
@@ -452,6 +514,24 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                            <div class="col-lg-4 col-md-6">
+                                                <div class="tp-project z-index mb-30">
+                                                    <div class="tp-project-img">
+                                                        <a href="./Gardening & Landscaping.html"><img
+                                                                src="assets/img/service/gardening-1.png"
+                                                                class="img-fluid" alt="img not found"></a>
+                                                    </div>
+                                                    <div class="tp-project-text">
+                                                        <div class="tp-project-text-content">
+
+                                                            <h4 class="tp-project-title"><a
+                                                                    href="./Emergency-Cleaning.html">Gardening &
+                                                                    Landscaping</a>
+                                                            </h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -464,7 +544,7 @@
         <!-- our cleaning services end here -->
 
         <!-- testimonial area start here -->
-        <section class="tp-testimonial-area-three pt-60 pb-120 bg-white mb-50">
+        <section class="tp-testimonial-area-three pt-50 pb-120 bg-white mb-50">
             <div class="container">
                 <div class="bubble-testi">
                     <img src="./assets/img/about/bubble.png" alt="Image not found" class="img-fluid">
@@ -491,9 +571,9 @@
                                     sociis libero varius cumer to duine felis enisa porta ridiculus nisl acequis. </p>
                                 <div class="tp-testimonial-two-author mb-20">
                                     <!-- <div class="tp-testimonial-two-author-img">
-                            <img src="assets/img/testimonial/author-2.png" class="img-fluid"
-                                alt="img not found">
-                        </div> -->
+                                    <img src="assets/img/testimonial/author-2.png" class="img-fluid"
+                                        alt="img not found">
+                                </div> -->
                                     <div class="tp-testimonial-two-author-text">
                                         <span>Senior Designer</span>
                                         <h4 class="tp-testimonial-two-name">Petar Mansion</h4>
@@ -514,9 +594,9 @@
                                     sociis libero varius cumer to duine felis enisa porta ridiculus nisl acequis. </p>
                                 <div class="tp-testimonial-two-author mb-20">
                                     <!-- <div class="tp-testimonial-two-author-img">
-                            <img src="assets/img/testimonial/author-2.png" class="img-fluid"
-                                alt="img not found">
-                        </div> -->
+                                    <img src="assets/img/testimonial/author-2.png" class="img-fluid"
+                                        alt="img not found">
+                                </div> -->
                                     <div class="tp-testimonial-two-author-text">
                                         <span>Senior Designer</span>
                                         <h4 class="tp-testimonial-two-name">Petar Mansion</h4>
@@ -537,9 +617,9 @@
                                     sociis libero varius cumer to duine felis enisa porta ridiculus nisl acequis. </p>
                                 <div class="tp-testimonial-two-author mb-20">
                                     <!-- <div class="tp-testimonial-two-author-img">
-                            <img src="assets/img/testimonial/author-2.png" class="img-fluid"
-                                alt="img not found">
-                        </div> -->
+                                    <img src="assets/img/testimonial/author-2.png" class="img-fluid"
+                                        alt="img not found">
+                                </div> -->
                                     <div class="tp-testimonial-two-author-text">
                                         <span>Senior Designer</span>
                                         <h4 class="tp-testimonial-two-name">Petar Mansion</h4>
@@ -560,9 +640,9 @@
                                     sociis libero varius cumer to duine felis enisa porta ridiculus nisl acequis. </p>
                                 <div class="tp-testimonial-two-author mb-20">
                                     <!-- <div class="tp-testimonial-two-author-img">
-                            <img src="assets/img/testimonial/author-2.png" class="img-fluid"
-                                alt="img not found">
-                        </div> -->
+                                    <img src="assets/img/testimonial/author-2.png" class="img-fluid"
+                                        alt="img not found">
+                                </div> -->
                                     <div class="tp-testimonial-two-author-text">
                                         <span>Senior Designer</span>
                                         <h4 class="tp-testimonial-two-name">Petar Mansion</h4>
@@ -583,9 +663,9 @@
                                     sociis libero varius cumer to duine felis enisa porta ridiculus nisl acequis. </p>
                                 <div class="tp-testimonial-two-author mb-20">
                                     <!-- <div class="tp-testimonial-two-author-img">
-                            <img src="assets/img/testimonial/author-2.png" class="img-fluid"
-                                alt="img not found">
-                        </div> -->
+                                    <img src="assets/img/testimonial/author-2.png" class="img-fluid"
+                                        alt="img not found">
+                                </div> -->
                                     <div class="tp-testimonial-two-author-text">
                                         <span>Senior Designer</span>
                                         <h4 class="tp-testimonial-two-name">Petar Mansion</h4>
@@ -606,9 +686,9 @@
                                     sociis libero varius cumer to duine felis enisa porta ridiculus nisl acequis. </p>
                                 <div class="tp-testimonial-two-author mb-20">
                                     <!-- <div class="tp-testimonial-two-author-img">
-                            <img src="assets/img/testimonial/author-2.png" class="img-fluid"
-                                alt="img not found">
-                        </div> -->
+                                    <img src="assets/img/testimonial/author-2.png" class="img-fluid"
+                                        alt="img not found">
+                                </div> -->
                                     <div class="tp-testimonial-two-author-text">
                                         <span>Senior Designer</span>
                                         <h4 class="tp-testimonial-two-name">Petar Mansion</h4>
@@ -644,8 +724,8 @@
 
                             </div>
                             <!-- <p class="text-white">
-                        54B, Tailstoi Town 5238 ST,La city, IA 522364
-                    </p> -->
+                                54B, Tailstoi Town 5238 ST,La city, IA 522364
+                            </p> -->
                             <p class="text-white">
                                 Monday - Friday<br>
                                 8.00 am - 7.00 pm / Sunday<br>
@@ -708,111 +788,11 @@
         </section>
         <!--contact form ends here-->
 
-
-
     </main>
-
-    <footer class="theme-dark-bg2">
-        <div class="tp-footer-area-two">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-12 col-md-3 mb-10 foot-new">
-                        <img src="./assets/img/footer/footer-1 2.png" alt="Image not found" class="img-fluid">
-                    </div>
-                    <div class="col-12 col-md-3">
-                        <h4>
-                            Subscribe to Newsletter
-                        </h4>
-                    </div>
-                    <div class="col-12 col-md-4 mb-4">
-                        <form action="#">
-                            <label for="email" class="form-label"></label>
-                            <input type="email" class="form-control" name="email" id="email" aria-describedby="email"
-                                placeholder="Enter your email address">
-                        </form>
-                    </div>
-                    <div class="col-12 col-md-2 mb-3">
-                        <button type="submit" class="footer-btn btn">Submit</button>
-                    </div>
-                </div>
-
-            </div>
-            <hr>
-            <div class="container">
-                <div class="footer-bubble">
-                    <img src="./assets/img/footer/bubble1.png" alt="Image not found" class="img-fluid">
-                </div>
-                <div class="row pb-40 pt-40">
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="tp-footer-widget footer-col-1 mb-30 wow fadeInUp" data-wow-delay=".3s">
-                            <div class="tp-footer-info tp-footer-info-three">
-                                <div class="tp-footer-info-logo mb-35">
-                                    <a href="index.html"><img src="assets/img/logo/logo-footer.png" class="img-fluid"
-                                            alt="img not found"></a>
-                                </div>
-                                <!-- <p class="text-white mb-35">Pulvinar seneius morbi to quisque nunc a towa faucibus netus a mone lestie nice disease</p> -->
-                                <div class="tp-footer-info-social tp-footer-info-social-three">
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="tp-footer-widget footer-col-2 mb-30 wow fadeInUp" data-wow-delay=".6s">
-                            <h4 class="tp-footer-widget-title mb-35">Info</h4>
-                            <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Guides</a></li>
-                                <li><a href="#">Get a quote</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="tp-footer-widget mb-30 wow fadeInUp" data-wow-delay=".9s">
-                            <h4 class="tp-footer-widget-title mb-35">Services</h4>
-                            <ul>
-                                <li><a href="#">Residential Cleaning</a></li>
-                                <li><a href="#">Office Cleaning</a></li>
-                                <li><a href="#">Emergency Cleaning</a></li>
-                                <li><a href="#">Pandemic Cleaning</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="tp-footer-widget footer-col-4 mb-30 wow fadeInUp" data-wow-delay="1.2s">
-                            <h4 class="tp-footer-widget-title mb-40">Contact</h4>
-                            <ul>
-                                <li><a href="#">54B, Tailstoi Town 5238 ST,La city, IA 522364</a></li>
-                                <li class="text-white">Email Us:</li>
-                                <li><a href="">admin@topmasterservice.com.au</a></li>
-                                <li><a href="#">04123 81 557</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                </div>
-                <hr>
-            </div>
-        </div>
-        <div class="tp-copyright-area-two theme-dark-bg3 z-index pt-30 pb-30">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="tp-copyright tp-copyright-two">
-                            <p class="m-0">© Copyright Top Master Service 2023 . All right reserved.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-
+ 
+    <?php
+    include('footer.php');
+    ?>
 
     <!-- JS here -->
     <script src="assets/js/vendor/jquery.min.js"></script>

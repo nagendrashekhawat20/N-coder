@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Gardening & Landscaping</title>
+    <title>High Level Window Cleaning</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="assets/css/main.css">
 
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
@@ -37,11 +37,11 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
 
 </head>
 
 <body>
+
 
     <!-- preloader -->
     <div id="preloader">
@@ -69,140 +69,58 @@
         </div>
     </section>
 
-    <header>
-        <div class="tp-header-area-three header-sticky">
-            <div class="tp-custom-container">
-                <div class="row justify-content-xl-center align-items-center">
-                    <div class="col-xxl-3 col-xl-4 col-8">
-                        <div class="tp-header-logo-three">
-                            <a href="index.html"><img src="assets/img/logo/logo.png" class="img-fluid"
-                                    alt="logo not found"></a>
-                        </div>
-                    </div>
-                    <div class="col-xxl-6 col-xl-6 col-4 d-flex justify-content-center">
-                        <div class="tp-main-menu tp-main-menu-three">
-                            <nav id="tp-mobile-menu">
-                                <ul>
-                                    <li class="menu-item-has-children"><a href="index.html">HOME</a>
-
-                                    </li>
-                                    <li class="menu-item-has-children"><a href="about.html">ABOUT</a>
-
-                                    </li>
-                                    <li class="menu-item-has-children"><a href="service.html"
-                                            class="active">SERVICES</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="./Office-cleaning.html">Office Cleaning</a></li>
-                                            <li><a href="./Residential _Cleaning.html">Residential Cleaning</a></li>
-                                            <li><a href="./Gardening & Landscaping.html">Gardening & Landscaping</a>
-                                            </li>
-                                            <li><a href="./Emergemcy-Cleaning">Emergemcy Cleaning</a></li>
-                                            <li><a href="./Carpet-Steam-Clean.html">Carpet Steam Clean</a></li>
-                                            <li><a href="./High-Pressure-Cleaning.html">High Pressure Cleaning</a></li>
-                                            <li><a href="./Strip-&-Seal.html">Strip & Seal</a></li>
-                                            <li><a href="./Window-Cleaning.html">Window Cleaning</a></li>
-                                            <li><a href="./High-Level-Window-Cleaning.html">High Level Window
-                                                    Cleaning</a></li>
-                                            <li><a href="./Graffiti-Removal.html">Graffiti Removal</a></li>
-                                            <li><a href="./Hard-Floor-Scrubbing.html">Hard Floor Scrubbing</a></li>
-                                            <li><a href="./House-moves.html">House Moves</a></li>
-                                            <li><a href="./Labour-hire.html">Labor Hire</a></li>
-
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children"><a href="guide.html">GUIDES</a>
-
-                                    </li>
-                                    <li class="menu-item-has-children"><a href="contact.html">CONTACT</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <!-- mobile menu activation -->
-                        <div class="side-menu-icon d-xl-none text-end">
-                            <button class="side-toggle text-dark"><i class="far fa-bars"></i></button>
-                        </div>
-                    </div>
-                    <div class="col-xxl-3 col-xl-2 d-none d-xl-block">
-                        <div class="tp-header-right-three">
-                            <!-- <div class="tp-header-number-three">
-                                <span>Call Us : <a href="tel:33888200-55">33 888 200 - 55</a></span>
-                            </div> -->
-                            <div class="tp-header-btn-three">
-                                <a href="tel:33888200-55" class="header-btn"><b>Call Us:</b> 04123 81 557</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <!-- mobile menu info -->
-    <div class="fix">
-        <div class="side-info">
-            <button class="side-info-close"><i class="fal fa-times"></i></button>
-            <div class="side-info-content">
-                <div class="tp-mobile-menu"></div>
-                <div class="contact-infos mb-30">
-                    <div class="contact-list mb-30">
-                        <h4>Contact Info</h4>
-                        <ul>
-                            <li><i class="flaticon-pin"></i>54B, Tailstoi Town 5238 ST,La city, IA 522364</li>
-                            <li><i class="flaticon-email"></i><a
-                                    href="mailto:info@klenar.com">admin@topmasterservice.com.au</a></li>
-                            <li><i class="flaticon-phone-call"></i><a href="tel:33388820055">04123 81 557</a></li>
-                        </ul>
-                        <div class="sidebar__menu--social">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-google"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="offcanvas-overlay"></div>
-    <!-- mobile menu info -->
+    <?php
+    include('header.php');
+    ?>
 
     <main>
+
+
         <!-- hero area start here -->
-        <section class="tp-slider-area-three fix">
-            <div class="container">
+        <section class="tp-slider-area-three banner-car-top">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="col-12 col-sm-12 col-md-6 align-items-center d-flex">
+                    <div class="col-12 col-sm-12 col-md-6 align-items-center top-heading d-flex">
                         <div class="bubble_img">
                             <img src="./assets/img/slider/bubble.png" alt="Image not found" class="img-fluid">
                         </div>
-                        <div class="banner-heading">
-                            <h6>
-                                Gardening & Landscaping
-                            </h6>
-                            <h1>
-                                Nature's craftsmanship <br> at your doorstep!
-                            </h1>
-                            <p>
-                                Crafting green masterpieces
-                            </p>
-                        </div>
-                        <div>
-                            <img src="./assets/img/slider/bubble-1.png" class="bubble_img_top img-fluid"
-                                alt="Image not found">
+                        <div class="container">
+                            <div class="banner-heading">
+                                <h6>
+                                    High Level Window Cleaning
+                                </h6>
+                                <h1>
+                                    Elevate your views with<br> sky-high clarity!
+                                </h1>
+                                <p>
+                                    Soaring heights, pristine sights
+                                </p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-6">
-                        <img src="./assets/img/service/garden-banner.png" alt="Image not found"
-                            class="img-fluid men-cleaning">
-                        <div>
-                            <img src="./assets/img/slider/dots-img.png" alt="Image not found"
-                                class="banner_img_dots img-fluid">
+
+                    <div class="col-12 col-sm-12 col-md-6 p-0 banner-img">
+                        <div class="bubble_img_top-ser">
+                            <img src="./assets/img/slider/bubble-1.png" class="img-fluid" alt="Image not found">
+                        </div>
+                        <div class="image-container">
+                            <img src="./assets/img/service/high-window-bann.png" alt="Image not found"
+                                class="img-fluid men-cleaning">
+                            <div class="gradient-overlay"></div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 p-0 banner-img-mobile">
+                        <div class="image-container">
+                            <div class="gradient-overlay-mobile"></div>
+                            <img src="./assets/img/service/high-window-bann.png" alt="Image not found"
+                                class="img-fluid men-cleaning-mobile">
                         </div>
                     </div>
                 </div>
             </div>
+            </div>
         </section>
+
         <!-- hero area end here -->
 
         <section class="mt-100 mb-100 bath-img">
@@ -210,38 +128,37 @@
                 <img src="./assets/img/process/bubble.png" alt="Image not found">
             </div>
             <div class="container">
-                <img src="./assets/img/service/garden-sec.png" alt="Image not found"
+                <img src="./assets/img/service/high-window-1.png" alt="Image not found"
                     class="img-fluid position-relative">
             </div>
         </section>
 
 
-        <!--Garden starts here-->
+        <!--Info starts here-->
         <section class="mb-100 mt-100">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-lg-6 col-md-6 d-flex align-items-center">
 
                         <div class="rs-about-detail">
-                            <!-- <h6 class="mb-30">
-                                Meeting Rooms, Offices and Workspaces
-                            </h6> -->
+                            <h6 class="mb-30">
+                                Main DC Floor
+                            </h6>
                             <h2 class="mb-30">
-                                Where nature meets<br> expertise
+                                Rise above ordinary with<br> crystal-clear panes
                             </h2>
                             <h4>
-                                Your green oasis awaits
+                                Where sky meets shine
                             </h4>
                             <p class="mb-30">
-                                Our team of seasoned gardeners and landscape architects blend creativity with expertise
-                                to offer you a garden or landscape that's not only beautiful but also a testament to
-                                quality workmanship.
+                                Armed with state-of-the-art tools and unparalleled expertise, we tackle high-level
+                                window cleaning with precision, ensuring every pane, no matter how high, gleams with
+                                perfection.
                             </p>
-                            <a href="" data-bs-target="#modalContactForm" data-bs-toggle="modal"
-                                class="btn btn-about">Get Quote</a>
+                            <a href="" data-bs-target="#modalContactForm" data-bs-toggle="modal" class="btn btn-about">Get Quote</a>
 
                             <div class="container mt-50 mb-50">
-                                <img src="./assets/img/service/garden-sec.png" alt="Image not found"
+                                <img src="./assets/img/service/high-window-1.png" alt="Image not found"
                                     class="img-fluid bath-img-mobile">
                             </div>
                         </div>
@@ -252,7 +169,7 @@
                                 <img src="./assets/img/process/bubble1.png" alt="Image not found" class="img-fluid">
                             </div>
                             <h4>
-                                Why Choose Top Masters for Your Green Ambitions?
+                                Why high-level window cleaning?
                             </h4>
                             <div>
                                 <div class="d-flex align-items-center">
@@ -260,8 +177,7 @@
 
                                     <div class="ps-1">
                                         <p class="mb-0">
-                                            Native Knowledge: Expertise in Australian native plants ensures a garden
-                                            that's both beautiful and sustainable.
+                                            Stunning Views: Maximize breathtaking vistas with spotless windows.
                                         </p>
                                     </div>
                                 </div>
@@ -270,8 +186,8 @@
 
                                     <div class="ps-1">
                                         <p class="mb-0">
-                                            End-to-End Service: From initial consultation to maintenance, we provide a
-                                            comprehensive gardening solution.
+                                            Safety Assured: Professionals handle heights with expert skills and
+                                            equipment.
                                         </p>
                                     </div>
                                 </div>
@@ -280,8 +196,8 @@
 
                                     <div class="ps-1">
                                         <p class="mb-0">
-                                            Customized Designs: Every garden is as unique as its owner. Our designs
-                                            reflect your individual taste and style.
+                                            Weather Defense: Protect windows from harsh conditions, ensuring glass
+                                            integrity.
                                         </p>
                                     </div>
                                 </div>
@@ -290,8 +206,8 @@
 
                                     <div class="ps-1">
                                         <p class="mb-0">
-                                            Quality Guaranteed: Using top-tier plants, materials, and equipment, we
-                                            ensure a lasting and beautiful transformation.
+                                            Elevated Aesthetics: A gleaming high-rise stands out, reflecting quality
+                                            maintenance.
                                         </p>
                                     </div>
                                 </div>
@@ -299,13 +215,13 @@
                         </div>
                     </div>
                     <div>
-                        <a href="" data-bs-target="#modalContactForm" data-bs-toggle="modal"
-                            class="btn btn-about btn-quote-mobile mt-5 mx-5">Get Quote</a>
+                        <a href="" data-bs-target="#modalContactForm" data-bs-toggle="modal" class="btn btn-about btn-quote-mobile mt-5 mx-5">Get Quote</a>
                     </div>
                 </div>
             </div>
         </section>
-        <!--Garden ends here-->
+        <!--info ends here-->
+
 
         <!--work starts here-->
         <section class="work-process">
@@ -359,6 +275,7 @@
             </div>
         </section>
         <!--work ends here-->
+
 
         <!-- our cleaning services start here -->
         <section>
@@ -451,7 +368,7 @@
         <!-- our cleaning services end here -->
 
         <!-- testimonial area start here -->
-        <section class="tp-testimonial-area-three pt-50 pb-120 bg-white mb-50">
+        <section class="tp-testimonial-area-three pt-60 pb-120 bg-white mb-50">
             <div class="container">
                 <div class="bubble-testi">
                     <img src="./assets/img/about/bubble.png" alt="Image not found" class="img-fluid">
@@ -696,185 +613,12 @@
         <!--contact form ends here-->
 
 
+
     </main>
-    <footer class="theme-dark-bg2">
-        <div class="tp-footer-area-two">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-12 col-md-3 mb-10 foot-new">
-                        <img src="./assets/img/footer/footer-1 2.png" alt="Image not found" class="img-fluid">
-                    </div>
-                    <div class="col-12 col-md-3">
-                        <h4>
-                            Subscribe to Newsletter
-                        </h4>
-                    </div>
-                    <div class="col-12 col-md-4 mb-4">
-                        <form action="#">
-                            <label for="email" class="form-label"></label>
-                            <input type="email" class="form-control" name="email" id="email" aria-describedby="email"
-                                placeholder="Enter your email address">
-                        </form>
-                    </div>
-                    <div class="col-12 col-md-2 mb-3">
-                        <button type="submit" class="footer-btn btn">Submit</button>
-                    </div>
-                </div>
 
-            </div>
-            <hr>
-            <div class="container">
-                <div class="footer-bubble">
-                    <img src="./assets/img/footer/bubble1.png" alt="Image not found" class="img-fluid">
-                </div>
-                <div class="row pb-40 pt-40">
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="tp-footer-widget footer-col-1 mb-30 wow fadeInUp" data-wow-delay=".3s">
-                            <div class="tp-footer-info tp-footer-info-three">
-                                <div class="tp-footer-info-logo mb-35">
-                                    <a href="index.html"><img src="assets/img/logo/logo-footer.png" class="img-fluid"
-                                            alt="img not found"></a>
-                                </div>
-                                <!-- <p class="text-white mb-35">Pulvinar seneius morbi to quisque nunc a towa faucibus netus a mone lestie nice disease</p> -->
-                                <div class="tp-footer-info-social tp-footer-info-social-three">
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="tp-footer-widget footer-col-2 mb-30 wow fadeInUp" data-wow-delay=".6s">
-                            <h4 class="tp-footer-widget-title mb-35">Info</h4>
-                            <ul>
-                                <li><a href="./index-3.html">Home</a></li>
-                                <li><a href="./about.html">About Us</a></li>
-                                <li><a href="./Guide.html">Guides</a></li>
-                                <li><a href="#">Get a quote</a></li>
-                                <li><a href="./contact.html">Contact Us</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="tp-footer-widget mb-30 wow fadeInUp" data-wow-delay=".9s">
-                            <h4 class="tp-footer-widget-title mb-35">Services</h4>
-                            <ul>
-                                <li><a href="./Residential _Cleaning.html">Residential Cleaning</a></li>
-                                <li><a href="./Office-cleaning.html">Office Cleaning</a></li>
-                                <li><a href="./Emergency-Cleaning.html">Emergency Cleaning</a></li>
-                                <li><a href="#">Gardening & Landscaping</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="tp-footer-widget footer-col-4 mb-30 wow fadeInUp" data-wow-delay="1.2s">
-                            <h4 class="tp-footer-widget-title mb-40">Contact</h4>
-                            <ul>
-                                <li><a href="#">54B, Tailstoi Town 5238 ST,La city, IA 522364</a></li>
-                                <li class="text-white">Email Us:</li>
-                                <li><a href="">admin@topmasterservice.com.au</a></li>
-                                <li><a href="#">04123 81 557</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                </div>
-                <hr>
-            </div>
-        </div>
-        <div class="tp-copyright-area-two theme-dark-bg3 z-index pt-30 pb-30">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="tp-copyright tp-copyright-two">
-                            <p class="m-0">© Copyright Top Master Service 2023 . All right reserved.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-
-                <div class="modal-body">
-                    <div class="row align-items-center">
-                        <div class="col-12 col-md-4 pop-up-img mt-20">
-                            <img src="./assets/img/about/pop-up.png" alt="Image not found" class="img-fluid">
-                        </div>
-                        <div class="col-12 col-md-8 pop-up-detail pb-20">
-                            <div class="modal-header text-center">
-                                <h2 class="modal-title">Request a free quote</h2>
-                                <button type="button" id="Close_popup" class="close text-dark" data-bs-dismiss="modal"
-                                    aria-label="Close">
-                                    <span aria-hidden="true"><i class="fa fa-close"></i></span>
-                                </button>
-                            </div>
-                            <div class="row form-m-inline">
-                                <div class="form-group col-12 col-sm-6 col-md-6">
-                                    <label for="firstName"></label>
-                                    <input type="text" class="form-control" id="firstName" name="name"
-                                        placeholder="First Name" />
-                                </div>
-                                <div class="form-group col-12 col-sm-6 col-md-6">
-                                    <label for="lastName"></label>
-                                    <input type="text" class="form-control" id="lastName" name="name"
-                                        placeholder="Last Name" />
-                                </div>
-                            </div>
-
-                            <div class="row form-m-inline">
-                                <div class="form-group col-12 col-sm-6 col-md-6">
-                                    <label for="email"></label>
-                                    <input type="text" class="form-control" id="email" name="email"
-                                        placeholder="Email address" />
-                                </div>
-
-                                <div class="form-group col-12 col-sm-6 col-md-6">
-                                    <label for="phone"></label>
-                                    <input type="number" class="form-control" id="phone" name="phone"
-                                        placeholder="Phone" />
-                                </div>
-                            </div>
-                            <div class="wrapper">
-                                <select class="form-select" aria-label="Default select" size="1" id="custom-select">
-                                    <option selected>Select Services</option>
-                                    <option value="1">Office Cleaning</option>
-                                    <option value="2">Residential Cleaning</option>
-                                    <option value="3">Emergency Cleaning</option>
-                                    <option value="4">Gardening & Landscaping</option>
-                                    <option value="5">Carpet Steam Cleaning</option>
-                                    <option value="6">Graffiti Removal</option>
-                                    <option value="7">Window Cleaning</option>
-                                    <option value="8">Strip & Seal</option>
-                                    <option value="9">Hard Floor Scrubbing</option>
-                                    <option value="10">High Pressure Cleaning</option>
-                                    <option value="11">High Level Window Cleaning</option>
-                                    <option value="12">House Moves</option>
-                                    <option value="13">Labour Hire</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="message"></label>
-                                <textarea class="form-control" id="message" name="message" rows="4"
-                                    placeholder="Message"></textarea>
-                            </div>
-
-                            <a type="submit" class="btn contact-form col-12">
-                                Submit
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php
+    include('footer.php');
+    ?>
 
 
 
@@ -889,28 +633,6 @@
     <script src="assets/js/ajax-form.js"></script>
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/main.js"></script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
-
-    <script>
-        function openModal() {
-            $('#modalContactForm').modal('show');
-        }
-
-        var imagePopUp = document.querySelector();
-        imagePopUp.addEventListener('click', function (e) {
-            $('#modalContactForm').modal('show');
-        });
-
-        $(document).ready(function () {
-            $('#custom-select').select2({
-                dropdownCssClass: 'custom-dropdown',
-                dropdownAutoWidth: true,
-                minimumResultsForSearch: Infinity
-            });
-        });
-    </script>
 </body>
 
 </html>

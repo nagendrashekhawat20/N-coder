@@ -95,11 +95,11 @@
                             <h4 class="tp-footer-widget-title mb-35">Info</h4>
                             <ul>
                                 <li><a href="./index.php">Home</a></li>
-                                <li><a href="./about.html">About Us</a></li>
-                                <li><a href="./Guide.html">Guides</a></li>
+                                <li><a href="./about.php">About Us</a></li>
+                                <li><a href="./Guide.php">Guides</a></li>
                                 <li><a href=" " data-bs-target="#modalContactForm" data-bs-toggle="modal">Get a
                                         quote</a></li>
-                                <li><a href="./contact.html">Contact Us</a></li>
+                                <li><a href="./contact.php">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -107,10 +107,10 @@
                         <div class="tp-footer-widget mb-30 wow fadeInUp" data-wow-delay=".9s">
                             <h4 class="tp-footer-widget-title mb-35">Services</h4>
                             <ul>
-                                <li><a href="./Residential _Cleaning.html">Residential Cleaning</a></li>
-                                <li><a href="./Office-cleaning.html">Office Cleaning</a></li>
-                                <li><a href="./Emergency-Cleaning.html">Emergency Cleaning</a></li>
-                                <li><a href="./Gardening & Landscaping.html">Gardening & Landscaping</a></li>
+                                <li><a href="./Residential _Cleaning.php">Residential Cleaning</a></li>
+                                <li><a href="./Office-cleaning.php">Office Cleaning</a></li>
+                                <li><a href="./Emergency-Cleaning.php">Emergency Cleaning</a></li>
+                                <li><a href="./Gardening & Landscaping.php">Gardening & Landscaping</a></li>
                             </ul>
                         </div>
                     </div>

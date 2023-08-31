@@ -503,7 +503,7 @@
                                                     <h2>
                                                         Book Your Cleaning Today!
                                                     </h2>
-                                                    <a href="#" class="btn btn-banner_light  mt-10">Get an instant
+                                                    <a href="" class="btn btn-banner_light  mt-10" data-bs-target="#modalContactForm" data-bs-toggle="modal" >Get an instant
                                                         quote</a>
                                                     <h3 class="mt-20"> <a href="tel:04123 81 557" class="mt-20"><i
                                                                 class="fa fa-phone-volume"></i>04123 81 557</a></h3>
@@ -967,117 +967,9 @@
 
     </main>
 
-    <footer class="theme-dark-bg2">
-        <div class="tp-footer-area-two">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-12 col-md-3 mb-10 foot-new">
-                        <img src="./assets/img/footer/footer-1 2.png" alt="Image not found" class="img-fluid">
-                    </div>
-                    <div class="col-12 col-md-3">
-                        <h4>
-                            Subscribe to Newsletter
-                        </h4>
-                    </div>
-                    <div class="col-12 col-md-4 mb-4">
-                        <form action="#">
-                            <label for="email" class="form-label"></label>
-                            <input type="email" class="form-control" name="email" id="email" aria-describedby="email"
-                                placeholder="Enter your email address">
-                        </form>
-                    </div>
-                    <div class="col-12 col-md-2 mb-3">
-                        <button type="submit" class="footer-btn btn">Submit</button>
-                    </div>
-                </div>
-
-            </div>
-            <hr>
-            <div class="container">
-                <div class="footer-bubble">
-                    <img src="./assets/img/footer/bubble1.png" alt="Image not found" class="img-fluid">
-                </div>
-                <div class="row pb-40 pt-40">
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="tp-footer-widget footer-col-1 mb-30 wow fadeInUp" data-wow-delay=".3s">
-                            <div class="tp-footer-info tp-footer-info-three">
-                                <div class="tp-footer-info-logo mb-35">
-                                    <a href="index.html"><img src="assets/img/logo/logo-footer.png" class="img-fluid"
-                                            alt="img not found"></a>
-                                </div>
-                                <!-- <p class="text-white mb-35">Pulvinar seneius morbi to quisque nunc a towa faucibus netus a mone lestie nice disease</p> -->
-                                <div class="tp-footer-info-social tp-footer-info-social-three">
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="tp-footer-widget footer-col-2 mb-30 wow fadeInUp" data-wow-delay=".6s">
-                            <h4 class="tp-footer-widget-title mb-35">Info</h4>
-                            <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Guides</a></li>
-                                <li><a href="#">Get a quote</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="tp-footer-widget mb-30 wow fadeInUp" data-wow-delay=".9s">
-                            <h4 class="tp-footer-widget-title mb-35">Services</h4>
-                            <ul>
-                                <li><a href="#">Residential Cleaning</a></li>
-                                <li><a href="#">Office Cleaning</a></li>
-                                <li><a href="#">Emergency Cleaning</a></li>
-                                <li><a href="#">Pandemic Cleaning</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="tp-footer-widget footer-col-4 mb-30 wow fadeInUp" data-wow-delay="1.2s">
-                            <h4 class="tp-footer-widget-title mb-40">Contact</h4>
-                            <ul>
-                                <li><a href="#">54B, Tailstoi Town 5238 ST,La city, IA 522364</a></li>
-                                <li class="text-white">Email Us:</li>
-                                <li><a href="">admin@topmasterservice.com.au</a></li>
-                                <li><a href="#">04123 81 557</a></li>
-                            </ul>
-                            <!-- <div class="tp-footer-newsletter-three">
-                                <p class="mb-20">Sign up to get new exclusive offers</p>
-                                <form action="#">
-                                    <div class="tp-footer-newsletter-three-field position-relative mb-20">
-                                        <input type="email" placeholder="Enter Email">
-                                        <i class="fal fa-paper-plane"></i>
-                                    </div>
-                                    <button type="submit" class="yellow-btn"><i class="flaticon-enter"></i> Subscribe</button>
-                                </form>
-                            </div> -->
-                        </div>
-                    </div>
-
-                </div>
-                <hr>
-            </div>
-        </div>
-        <div class="tp-copyright-area-two theme-dark-bg3 z-index pt-30 pb-30">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="tp-copyright tp-copyright-two">
-                            <p class="m-0">© Copyright Top Master Service 2023 . All right reserved.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-
+    <?php
+    include('header.php');
+    ?>
 
     <!-- JS here -->
     <script src="assets/js/vendor/jquery.min.js"></script>

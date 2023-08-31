@@ -34,9 +34,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 </head>
 
@@ -70,8 +68,9 @@
 
 
     <?php
-include('header.php');
-?>
+    include('header.php');
+    ?>
+    
     <main>
         <!-- hero area start here -->
         <section class="tp-slider-area-three fix">
@@ -89,16 +88,14 @@ include('header.php');
                                 Professional cleaning wizards at your service
                             </p>
                             <div class="row mt-5 justify-content-between text-center">
-                                <a href="" class="btn btn-banner_quote col-10 col-lg-6 mt-10 mx-auto"
-                                    data-bs-target="#modalContactForm" data-bs-toggle="modal">Get an instant
+                                <a href="" class="btn btn-banner_quote col-10 col-lg-6 mt-10 mx-auto" data-bs-target="#modalContactForm" data-bs-toggle="modal">Get an instant
                                     quote</a>
                                 <a href="./service.html" class="btn btn-banner_light col-8 col-lg-5 mt-10 mx-auto">Our
                                     Services</a>
                             </div>
                         </div>
                         <div>
-                            <img src="./assets/img/slider/bubble-1.png" class="bubble_img_top img-fluid"
-                                alt="Image not found">
+                            <img src="./assets/img/slider/bubble-1.png" class="bubble_img_top img-fluid" alt="Image not found">
                         </div>
                     </div>
                     <div class="col-12 col-sm-12 col-md-6">
@@ -124,33 +121,27 @@ include('header.php');
                             Cleaning your worries away
                         </h2>
                         <div class="bubble-service">
-                            <img src="./assets/img/process/bubble.png" alt="Image not found" height="100" width="100"
-                                class="img-fluid">
+                            <img src="./assets/img/process/bubble.png" alt="Image not found" height="100" width="100" class="img-fluid">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12">
                             <div class="tp-prjects-tab-content">
                                 <div class="tab-content" id="myTabContent">
-                                    <div class="tab-pane fade show active" id="home" role="tabpanel"
-                                        aria-labelledby="home-tab">
+                                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                                         <div class="row">
                                             <div class="bubble_img">
-                                                <img src="./assets/img/slider/bubble.png" alt="Image not found"
-                                                    class="img-fluid">
+                                                <img src="./assets/img/slider/bubble.png" alt="Image not found" class="img-fluid">
                                             </div>
                                             <div class="col-lg-3 col-md-6">
                                                 <div class="tp-project z-index mb-30">
                                                     <div class="tp-project-img">
-                                                        <a href="./Residential _Cleaning.html"><img
-                                                                src="assets/img/service/Residential.png"
-                                                                class="img-fluid" alt="img not found"></a>
+                                                        <a href="./Residential _Cleaning.html"><img src="assets/img/service/Residential.png" class="img-fluid" alt="img not found"></a>
                                                     </div>
                                                     <div class="tp-project-text">
                                                         <div class="tp-project-text-content">
 
-                                                            <h4 class="tp-project-title"><a
-                                                                    href="./Residential _Cleaning.html">Residential
+                                                            <h4 class="tp-project-title"><a href="./Residential _Cleaning.html">Residential
                                                                     Cleaning</a></h4>
                                                         </div>
                                                     </div>
@@ -159,15 +150,12 @@ include('header.php');
                                             <div class="col-lg-3 col-md-6">
                                                 <div class="tp-project z-index mb-30">
                                                     <div class="tp-project-img">
-                                                        <a href="./Office-cleaning.html"><img
-                                                                src="assets/img/service/commercial.png"
-                                                                class="img-fluid" alt="img not found"></a>
+                                                        <a href="./Office-cleaning.html"><img src="assets/img/service/commercial.png" class="img-fluid" alt="img not found"></a>
                                                     </div>
                                                     <div class="tp-project-text">
                                                         <div class="tp-project-text-content">
 
-                                                            <h4 class="tp-project-title"><a
-                                                                    href="./Emergency-Cleaning.html">Commercial
+                                                            <h4 class="tp-project-title"><a href="./Emergency-Cleaning.html">Commercial
                                                                     Cleaning</a>
                                                             </h4>
                                                         </div>
@@ -177,15 +165,12 @@ include('header.php');
                                             <div class="col-lg-3 col-md-6">
                                                 <div class="tp-project z-index mb-30">
                                                     <div class="tp-project-img">
-                                                        <a href="./Emergency-Cleaning.html"><img
-                                                                src="assets/img/service/Emergency.png" class="img-fluid"
-                                                                alt="img not found"></a>
+                                                        <a href="./Emergency-Cleaning.html"><img src="assets/img/service/Emergency.png" class="img-fluid" alt="img not found"></a>
                                                     </div>
                                                     <div class="tp-project-text">
                                                         <div class="tp-project-text-content">
 
-                                                            <h4 class="tp-project-title"><a
-                                                                    href="./Emergency-Cleaning.html">Emergency
+                                                            <h4 class="tp-project-title"><a href="./Emergency-Cleaning.html">Emergency
                                                                     Cleaning</a>
                                                             </h4>
                                                         </div>
@@ -195,15 +180,12 @@ include('header.php');
                                             <div class="col-lg-3 col-md-6">
                                                 <div class="tp-project z-index mb-30">
                                                     <div class="tp-project-img">
-                                                        <a href="./Gardening & Landscaping.html"><img
-                                                                src="assets/img/service/gardening.png" class="img-fluid"
-                                                                alt="img not found" ></a>
+                                                        <a href="./Gardening & Landscaping.html"><img src="assets/img/service/gardening.png" class="img-fluid" alt="img not found"></a>
                                                     </div>
                                                     <div class="tp-project-text pt-2">
                                                         <div class="tp-project-text-content">
 
-                                                            <h4 class="tp-project-title"><a
-                                                                    href="./Emergency-Cleaning.html">Gardening &
+                                                            <h4 class="tp-project-title"><a href="./Emergency-Cleaning.html">Gardening &
                                                                     Landscaping</a>
                                                             </h4>
                                                         </div>
@@ -328,9 +310,7 @@ include('header.php');
                                             <div class="col-sm-6">
                                                 <div class="tp-about-number mb-20">
                                                     <div class="bg-color-i mb-20 p-3 rounded-circle">
-                                                        <img src="./assets/img/about/money (1) 1.png"
-                                                            alt="icon not found" height="40" width="50"
-                                                            class="img-fluid">
+                                                        <img src="./assets/img/about/money (1) 1.png" alt="icon not found" height="40" width="50" class="img-fluid">
                                                     </div>
                                                     <div class="tp-about-service-text mx-3">
                                                         <h4 class="tp-about-service-text-title mb-15">
@@ -343,9 +323,7 @@ include('header.php');
                                             <div class="col-sm-6">
                                                 <div class="tp-about-number mb-20">
                                                     <div class="bg-color-i rounded-circle mb-30 p-3">
-                                                        <img src="./assets/img/about/checked (1) 1.png"
-                                                            alt="icon not found" height="40" width="50"
-                                                            class="img-fluid">
+                                                        <img src="./assets/img/about/checked (1) 1.png" alt="icon not found" height="40" width="50" class="img-fluid">
                                                     </div>
                                                     <div class="tp-about-service-text mx-3">
                                                         <h4 class="tp-about-service-text-title mb-15">Effortless
@@ -358,9 +336,7 @@ include('header.php');
                                             <div class="col-sm-6">
                                                 <div class="tp-about-number mb-20">
                                                     <div class="bg-color-i rounded-circle mb-30 p-3">
-                                                        <img src="./assets/img/about/vacuum-cleaner (1) 1.png"
-                                                            alt="icon not found" height="40" width="50"
-                                                            class="img-fluid">
+                                                        <img src="./assets/img/about/vacuum-cleaner (1) 1.png" alt="icon not found" height="40" width="50" class="img-fluid">
                                                     </div>
                                                     <div class="tp-about-service-text mx-3">
                                                         <h4 class="tp-about-service-text-title mb-15">Proficient
@@ -373,9 +349,7 @@ include('header.php');
                                             <div class="col-sm-6">
                                                 <div class="tp-about-number mb-20">
                                                     <div class="bg-color-i rounded-circle mb-30 p-3">
-                                                        <img src="./assets/img/about/contract 1.png"
-                                                            alt="icon not found" height="40" width="50"
-                                                            class="img-fluid">
+                                                        <img src="./assets/img/about/contract 1.png" alt="icon not found" height="40" width="50" class="img-fluid">
                                                     </div>
                                                     <div class="tp-about-service-text mx-3">
                                                         <h4 class="tp-about-service-text-title mb-15">Contract-free
@@ -387,8 +361,7 @@ include('header.php');
                                             <div class="col-sm-6">
                                                 <div class="tp-about-number mb-20">
                                                     <div class="bg-color-i rounded-circle mb-30 p-3">
-                                                        <img src="./assets/img/about/broom 1.png" alt="icon not found"
-                                                            height="40" width="50" class="img-fluid">
+                                                        <img src="./assets/img/about/broom 1.png" alt="icon not found" height="40" width="50" class="img-fluid">
                                                     </div>
                                                     <div class="tp-about-service-text mx-3">
                                                         <h4 class="tp-about-service-text-title mb-15">Customisable
@@ -424,12 +397,10 @@ include('header.php');
                         Master the art of cleaning with<br> our insightful guides
                     </h2>
                     <div class="bubble-guide">
-                        <img src="./assets/img/guide/shape-5 16.png" alt="Image not found" height="100" width="100"
-                            class="img-fluid">
+                        <img src="./assets/img/guide/shape-5 16.png" alt="Image not found" height="100" width="100" class="img-fluid">
                     </div>
                     <div class="bubble-service">
-                        <img src="./assets/img/guide/shape-5 16.png" alt="Image not found" height="100" width="100"
-                            class="img-fluid">
+                        <img src="./assets/img/guide/shape-5 16.png" alt="Image not found" height="100" width="100" class="img-fluid">
                     </div>
                 </div>
                 <div class="row">
@@ -498,13 +469,11 @@ include('header.php');
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item my-3">
                             <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button bg-white" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <button class="accordion-button bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                     <b>What cleaning services does Top Master offer?</b>
                                 </button>
                             </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                                data-bs-parent="#accordionExample">
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body bg-white py-4">
                                     <p>
                                         Top Master Service offers a comprehensive range of top-notch cleaning services
@@ -517,14 +486,11 @@ include('header.php');
                         </div>
                         <div class="accordion-item my-3">
                             <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed bg-white" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                                    aria-controls="collapseTwo">
+                                <button class="accordion-button collapsed bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                     <b>How can I schedule a cleaning service with Top Master Service?</b>
                                 </button>
                             </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                data-bs-parent="#accordionExample">
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div class="accordion-body bg-white py-4">
                                     <p>
                                         Scheduling a cleaning service with us is easy. You can either call our hotline
@@ -536,14 +502,11 @@ include('header.php');
                         </div>
                         <div class="accordion-item my-3">
                             <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed bg-white" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
-                                    aria-controls="collapseThree">
+                                <button class="accordion-button collapsed bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                     <b>Is your cleaning staff background-checked and trained?</b>
                                 </button>
                             </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                                data-bs-parent="#accordionExample">
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                 <div class="accordion-body bg-white py-4">
                                     <p>
                                         Absolutely. At Top Master Service, we prioritise your safety and satisfaction.
@@ -556,14 +519,11 @@ include('header.php');
                         </div>
                         <div class="accordion-item my-3">
                             <h2 class="accordion-header" id="headingFour">
-                                <button class="accordion-button collapsed bg-white" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
-                                    aria-controls="collapseFour">
+                                <button class="accordion-button collapsed bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                     <b>What cleaning products and equipment do you use?</b>
                                 </button>
                             </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                                data-bs-parent="#accordionExample">
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                 <div class="accordion-body bg-white py-4">
                                     <p>
                                         We only use eco-friendly and safe cleaning products that are effective in
@@ -575,14 +535,11 @@ include('header.php');
                         </div>
                         <div class="accordion-item my-3">
                             <h2 class="accordion-header" id="headingFive">
-                                <button class="accordion-button collapsed bg-white border-1" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
-                                    aria-controls="collapseFive">
+                                <button class="accordion-button collapsed bg-white border-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                     <b> Is Top Master Service insured?</b>
                                 </button>
                             </h2>
-                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                                data-bs-parent="#accordionExample">
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                 <div class="accordion-body bg-white py-4">
                                     <p>
                                         Yes, we are fully insured. We have liability insurance to provide coverage for
@@ -802,7 +759,9 @@ include('header.php');
                             <h4>
                                 Have a Questions ?
                             </h4>
-                            <a href="tel: 04123 81 557"><p class="text-white"><b>04123 81 557</b></p></a>
+                            <a href="tel: 04123 81 557">
+                                <p class="text-white"><b>04123 81 557</b></p>
+                            </a>
                         </div>
 
                     </div>
@@ -812,34 +771,29 @@ include('header.php');
                             <div class="row form-m-inline">
                                 <div class="form-group col-12 col-md-6">
                                     <label for="firstName"></label>
-                                    <input type="text" class="form-control" id="firstName" name="name"
-                                        placeholder="First Name" />
+                                    <input type="text" class="form-control" id="firstName" name="name" placeholder="First Name" />
                                 </div>
                                 <div class="form-group col-12 col-md-6">
                                     <label for="lastName"></label>
-                                    <input type="text" class="form-control" id="lastName" name="name"
-                                        placeholder="Last Name" />
+                                    <input type="text" class="form-control" id="lastName" name="name" placeholder="Last Name" />
                                 </div>
                             </div>
 
                             <div class="row form-m-inline">
                                 <div class="form-group col-12 col-md-6">
                                     <label for="email"></label>
-                                    <input type="text" class="form-control" id="email" name="email"
-                                        placeholder="Email address" />
+                                    <input type="text" class="form-control" id="email" name="email" placeholder="Email address" />
                                 </div>
 
                                 <div class="form-group col-12 col-md-6">
                                     <label for="phone"></label>
-                                    <input type="number" class="form-control" id="phone" name="phone"
-                                        placeholder="Phone" />
+                                    <input type="number" class="form-control" id="phone" name="phone" placeholder="Phone" />
                                 </div>
                             </div>
 
                             <div class="form-group">
                                 <label for="message"></label>
-                                <textarea class="form-control" id="message" name="message" rows="4"
-                                    placeholder="Message"></textarea>
+                                <textarea class="form-control" id="message" name="message" rows="4" placeholder="Message"></textarea>
                             </div>
 
                             <a type="submit" class="btn contact-form col-12">
@@ -856,8 +810,8 @@ include('header.php');
     </main>
 
     <?php
-include('footer.php');
-?>
+    include('footer.php');
+    ?>
 
     <!-- JS here -->
     <script src="assets/js/vendor/jquery.min.js"></script>
@@ -878,7 +832,7 @@ include('footer.php');
         }
 
         var imagePopUp = document.querySelector();
-        imagePopUp.addEventListener('click', function (e) {
+        imagePopUp.addEventListener('click', function(e) {
             $('#modalContactForm').modal('show');
         });
     </script>
