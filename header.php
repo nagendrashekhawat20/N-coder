@@ -4,7 +4,7 @@
                 <div class="row justify-content-xl-center align-items-center">
                     <div class="col-xxl-3 col-xl-4 col-8">
                         <div class="tp-header-logo-three">
-                            <a href="index.html"><img src="assets/img/logo/logo.png" class="img-fluid"
+                            <a href="index.php"><img src="assets/img/logo/logo.png" class="img-fluid"
                                     alt="logo not found"></a>
                         </div>
                     </div>
@@ -12,7 +12,7 @@
                         <div class="tp-main-menu tp-main-menu-three">
                             <nav id="tp-mobile-menu">
                                 <ul>
-                                    <li class="menu-item-has-children"><a href="index.html" class="active">HOME</a>
+                                    <li class="menu-item-has-children"><a href="index.php" class="active">HOME</a>
 
                                     </li>
                                     <li class="menu-item-has-children"><a href="about.html">ABOUT</a>

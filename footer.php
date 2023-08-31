@@ -8,9 +8,11 @@
         <div class="tp-footer-area-two">
             <div class="container">
                 <div class="row align-items-center">
+            
                     <div class="col-12 col-md-3 mb-10 foot-new">
-                        <img src="./assets/img/footer/footer-1 2.png" alt="Image not found" class="img-fluid">
-                    </div>
+                            <a href="index.php"><img src="./assets/img/footer/footer-1 2.pngg" class="img-fluid"
+                                    alt="logo not found"></a>
+                        </div>
                     <div class="col-12 col-md-2">
                         <h4>
                             Subscribe to Newsletter
