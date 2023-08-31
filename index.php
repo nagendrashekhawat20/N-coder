@@ -70,8 +70,8 @@
 
 
     <?php
-include('header.php');
-?>
+    include('header.php');
+    ?>
     <main>
         <!-- hero area start here -->
         <section class="tp-slider-area-three fix">
@@ -801,7 +801,9 @@ include('header.php');
                             <h4>
                                 Have a Questions ?
                             </h4>
-                            <a href="tel: 04123 81 557"><p class="text-white"><b>04123 81 557</b></p></a>
+                            <a href="tel: 04123 81 557">
+                                <p class="text-white"><b>04123 81 557</b></p>
+                            </a>
                         </div>
 
                     </div>
@@ -855,89 +857,8 @@ include('header.php');
     </main>
 
     <?php
-include('footer.php');
-?>
-
-
-<div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-
-                <div class="modal-body">
-                    <div class="row align-items-center">
-                        <div class="col-12 col-md-4 pop-up-img mt-20">
-                            <img src="./assets/img/about/pop-up.png" alt="Image not found" class="img-fluid">
-                        </div>
-                        <div class="col-12 col-md-8 pop-up-detail pb-20">
-                            <div class="modal-header text-center">
-                                <h2 class="modal-title">Request a free quote</h2>
-                                <button type="button" id="Close_popup" class="close text-dark" data-bs-dismiss="modal"
-                                    aria-label="Close">
-                                    <span aria-hidden="true"><i class="fa fa-close"></i></span>
-                                </button>
-                            </div>
-                            <div class="row form-m-inline">
-                                <div class="form-group col-12 col-sm-6 col-md-6">
-                                    <label for="firstName"></label>
-                                    <input type="text" class="form-control" id="firstName" name="name"
-                                        placeholder="First Name" />
-                                </div>
-                                <div class="form-group col-12 col-sm-6 col-md-6">
-                                    <label for="lastName"></label>
-                                    <input type="text" class="form-control" id="lastName" name="name"
-                                        placeholder="Last Name" />
-                                </div>
-                            </div>
-
-                            <div class="row form-m-inline">
-                                <div class="form-group col-12 col-sm-6 col-md-6">
-                                    <label for="email"></label>
-                                    <input type="text" class="form-control" id="email" name="email"
-                                        placeholder="Email" />
-                                </div>
-
-                                <div class="form-group col-12 col-sm-6 col-md-6">
-                                    <label for="phone"></label>
-                                    <input type="number" class="form-control" id="phone" name="phone"
-                                        placeholder="Phone" />
-                                </div>
-                            </div>
-                            <div class="wrapper">
-                                <select class="form-select" aria-label="Default select" size="1" id="custom-select">
-                                    <option selected>Select Services</option>
-                                    <option value="1">Office Cleaning</option>
-                                    <option value="2">Residential Cleaning</option>
-                                    <option value="3">Emergency Cleaning</option>
-                                    <option value="4">Gardening & Landscaping</option>
-                                    <option value="5">Carpet Steam Cleaning</option>
-                                    <option value="6">Graffiti Removal</option>
-                                    <option value="7">Window Cleaning</option>
-                                    <option value="8">Strip & Seal</option>
-                                    <option value="9">Hard Floor Scrubbing</option>
-                                    <option value="10">High Pressure Cleaning</option>
-                                    <option value="11">High Level Window Cleaning</option>
-                                    <option value="12">House Moves</option>
-                                    <option value="13">Labour Hire</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="message"></label>
-                                <textarea class="form-control" id="message" name="message" rows="4"
-                                    placeholder="Message"></textarea>
-                            </div>
-
-                            <a type="submit" class="btn contact-form col-12">
-                                Submit
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
+    include('footer.php');
+    ?>
 
 
 

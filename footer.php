@@ -20,7 +20,8 @@
                         <form action="#">
                             <label for="email" class="form-label"></label>
                             <input type="email" class="form-control" name="email" id="email" aria-describedby="email"
-                                placeholder="Enter your email address" style="border: 0.5px solid #cfceda73; color: #A5C766; background-color: #ffffff00;">
+                                placeholder="Enter your email address"
+                                style="border: 0.5px solid #cfceda73; color: #A5C766; background-color: #ffffff00;">
                         </form>
                     </div>
                     <div class="col-12 col-md-2 mb-3">
@@ -59,7 +60,8 @@
                                 <li><a href="./index.php">Home</a></li>
                                 <li><a href="./about.html">About Us</a></li>
                                 <li><a href="./Guide.html">Guides</a></li>
-                                <li><a href=" " data-bs-target="#modalContactForm" data-bs-toggle="modal">Get a quote</a></li>
+                                <li><a href=" " data-bs-target="#modalContactForm" data-bs-toggle="modal">Get a
+                                        quote</a></li>
                                 <li><a href="./contact.html">Contact Us</a></li>
                             </ul>
                         </div>
@@ -80,7 +82,8 @@
                             <h4 class="tp-footer-widget-title mb-40">Contact</h4>
                             <ul>
                                 <li class="text-white"><b>Email Us:</b></li>
-                                <li><a href="mailto: admin@topmasterservice.com.au">admin@topmasterservice.com.au</a></li>
+                                <li><a href="mailto: admin@topmasterservice.com.au">admin@topmasterservice.com.au</a>
+                                </li>
                                 <li><a href="tel: 0481 826 682">0481 826 682</a></li>
                             </ul>
                         </div>
@@ -102,6 +105,7 @@
             </div>
         </div>
     </footer>
+
 
     <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
         aria-hidden="true">
@@ -147,14 +151,24 @@
                                         placeholder="Phone" />
                                 </div>
                             </div>
-
-                            <select class="form-select" aria-label="Default select example">
-                                <option selected>Select Services</option>
-                                <option value="1"></option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
-
+                            <div class="wrapper">
+                                <select class="form-select" aria-label="Default select" size="1" id="custom-select">
+                                    <option selected>Select Services</option>
+                                    <option value="1">Office Cleaning</option>
+                                    <option value="2">Residential Cleaning</option>
+                                    <option value="3">Emergency Cleaning</option>
+                                    <option value="4">Gardening & Landscaping</option>
+                                    <option value="5">Carpet Steam Cleaning</option>
+                                    <option value="6">Graffiti Removal</option>
+                                    <option value="7">Window Cleaning</option>
+                                    <option value="8">Strip & Seal</option>
+                                    <option value="9">Hard Floor Scrubbing</option>
+                                    <option value="10">High Pressure Cleaning</option>
+                                    <option value="11">High Level Window Cleaning</option>
+                                    <option value="12">House Moves</option>
+                                    <option value="13">Labour Hire</option>
+                                </select>
+                            </div>
                             <div class="form-group">
                                 <label for="message"></label>
                                 <textarea class="form-control" id="message" name="message" rows="4"
