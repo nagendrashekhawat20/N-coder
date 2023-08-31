@@ -197,7 +197,7 @@ include('header.php');
                                                     <div class="tp-project-img">
                                                         <a href="./Gardening & Landscaping.html"><img
                                                                 src="assets/img/service/gardening.png" class="img-fluid"
-                                                                alt="img not found" style="height: 198px;"></a>
+                                                                alt="img not found"></a>
                                                     </div>
                                                     <div class="tp-project-text pt-2">
                                                         <div class="tp-project-text-content">
