@@ -8454,7 +8454,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
   display: inline-block;
   top: 0px;
   left: 0px;
-  background: #yarr;
+  background: #fff;
 }
 
 .tp-faqs-right .accordion-button:not(.collapsed)::after {
