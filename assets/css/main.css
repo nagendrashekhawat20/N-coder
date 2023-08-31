@@ -9828,11 +9828,3 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 
-@media (min-width: 420px) and (max-width: 574.98px) {
-  #pop-img-first{
-    display: none !important;
-  }
-  .pop-up-img{
-    display: none !important;
-  }
-}

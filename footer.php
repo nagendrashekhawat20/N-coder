@@ -28,7 +28,16 @@
 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+<style>
+    @media (min-width: 420px) and (max-width: 574.98px) {
+  #pop-img-first{
+    display: none !important;
+  }
+  .pop-up-img{
+    display: none !important;
+  }
+}
+    </style>
 </head>
 
 <body>
