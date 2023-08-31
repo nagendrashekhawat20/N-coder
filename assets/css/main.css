@@ -9509,7 +9509,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   .faqs-block h2,
   .guide-heading h2,
   .tp-section-title-two {
-    font-size: 28px; 
+    font-size: 28px;
   }
 
   .section-title-wrapper {
@@ -9519,15 +9519,24 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   .about-detail {
     margin-top: 20px;
   }
-  
+
   .about-detail h2,
   .about-detail h6 {
     text-align: center;
   }
-  .faqs-block  {
+
+  .faqs-block {
     text-align: start !important;
     margin-left: 20px;
-}
+  }
+
+  .pop-up-img {
+    order: 1;
+  }
+
+  .pop-up-detail {
+    order: 0;
+  }
 
 }
 
@@ -9612,10 +9621,18 @@ only screen and (min-width: 768px) and (max-width: 991px) {
     order: 1;
   }
 
-  .faqs-block  {
+  .faqs-block {
     text-align: start !important;
     margin-left: 20px;
-}
+  }
+
+  .pop-up-img {
+    order: 1;
+  }
+
+  .pop-up-detail {
+    order: 0;
+  }
 
 }
 
@@ -9709,13 +9726,14 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   .pop-up-img {
     order: 1;
   }
+
   .pop-up-detail {
     order: 0;
   }
 
-  .faqs-block  {
+  .faqs-block {
     text-align: start !important;
-}
+  }
 
 
 }
@@ -9779,11 +9797,11 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   border-radius: 30px;
   margin-top: 20px;
   padding: 0.8rem;
-  color: #6e777f; 
+  color: #6e777f;
 }
 
 .form-select:focus {
-  border-color:#ced4da;
+  border-color: #ced4da;
   outline: 0;
   box-shadow: none;
 }
@@ -9798,8 +9816,10 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .custom-dropdown {
-  max-height: 150px; /* Control the maximum visible height */
-  overflow-y: auto; /* Enable scrolling */
+  max-height: 150px;
+  /* Control the maximum visible height */
+  overflow-y: auto;
+  /* Enable scrolling */
 }
 
 

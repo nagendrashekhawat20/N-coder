@@ -859,7 +859,8 @@ include('header.php');
 include('footer.php');
 ?>
 
-    <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+
+<div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
@@ -903,14 +904,24 @@ include('footer.php');
                                         placeholder="Phone" />
                                 </div>
                             </div>
-
-                            <select class="form-select" aria-label="Default select example">
-                                <option selected>Select Services</option>
-                                <option value="1"></option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
-
+                            <div class="wrapper">
+                                <select class="form-select" aria-label="Default select" size="1" id="custom-select">
+                                    <option selected>Select Services</option>
+                                    <option value="1">Office Cleaning</option>
+                                    <option value="2">Residential Cleaning</option>
+                                    <option value="3">Emergency Cleaning</option>
+                                    <option value="4">Gardening & Landscaping</option>
+                                    <option value="5">Carpet Steam Cleaning</option>
+                                    <option value="6">Graffiti Removal</option>
+                                    <option value="7">Window Cleaning</option>
+                                    <option value="8">Strip & Seal</option>
+                                    <option value="9">Hard Floor Scrubbing</option>
+                                    <option value="10">High Pressure Cleaning</option>
+                                    <option value="11">High Level Window Cleaning</option>
+                                    <option value="12">House Moves</option>
+                                    <option value="13">Labour Hire</option>
+                                </select>
+                            </div>
                             <div class="form-group">
                                 <label for="message"></label>
                                 <textarea class="form-control" id="message" name="message" rows="4"
@@ -927,6 +938,8 @@ include('footer.php');
             </div>
         </div>
     </div>
+
+
 
 
 
