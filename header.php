@@ -102,7 +102,7 @@
     <script src="assets/js/swiper-bundle.js"></script>
     <script src="assets/js/venobox.min.js"></script>
     <script src="assets/js/backToTop.js"></script>
-    <script src="assets/js/jquery.meanmenu.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/9.3.0/mmenu.js" integrity="sha512-D1qgHT+xXRgN9gLLLYHbQ/c8wkrADqfXg1kr1dRbP9nOtNzIKKNDU+hmFqR1fSbsU1YFBkw6TbvfZo+SyI0K6w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
     <script src="assets/js/ajax-form.js"></script>
     <script src="assets/js/wow.min.js"></script>
