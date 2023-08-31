@@ -30,7 +30,7 @@ $('.side-info-close,.offcanvas-overlay').on('click', function () {
 //sticky menu activation
 win.on('scroll', function () {
 	var scroll = win.scrollTop();
-	if (scroll < 90) {
+	if (scroll < 105) {
 		$(".header-sticky").removeClass("sticky-menu");
 	} else {
 		$(".header-sticky").addClass("sticky-menu");
