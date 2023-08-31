@@ -8,11 +8,9 @@
         <div class="tp-footer-area-two">
             <div class="container">
                 <div class="row align-items-center">
-            
                     <div class="col-12 col-md-3 mb-10 foot-new">
-                            <a href="index.php"><img src="./assets/img/footer/footer-1 2.pngg" class="img-fluid"
-                                    alt="logo not found"></a>
-                        </div>
+                        <img src="./assets/img/footer/footer-1 2.png" alt="Image not found" class="img-fluid">
+                    </div>
                     <div class="col-12 col-md-2">
                         <h4>
                             Subscribe to Newsletter
@@ -41,7 +39,7 @@
                         <div class="tp-footer-widget footer-col-1 mb-30 wow fadeInUp" data-wow-delay=".3s">
                             <div class="tp-footer-info tp-footer-info-three">
                                 <div class="tp-footer-info-logo mb-35">
-                                    <a href="index.html"><img src="assets/img/logo/logo-footer.png" class="img-fluid"
+                                    <a href="index.php"><img src="assets/img/logo/logo-footer.png" class="img-fluid"
                                             alt="img not found"></a>
                                 </div>
                                 <!-- <p class="text-white mb-35">Pulvinar seneius morbi to quisque nunc a towa faucibus netus a mone lestie nice disease</p> -->
@@ -58,7 +56,7 @@
                         <div class="tp-footer-widget footer-col-2 mb-30 wow fadeInUp" data-wow-delay=".6s">
                             <h4 class="tp-footer-widget-title mb-35">Info</h4>
                             <ul>
-                                <li><a href="./index-3.html">Home</a></li>
+                                <li><a href="./index.php">Home</a></li>
                                 <li><a href="./about.html">About Us</a></li>
                                 <li><a href="./Guide.html">Guides</a></li>
                                 <li><a href=" " data-bs-target="#modalContactForm" data-bs-toggle="modal">Get a quote</a></li>
@@ -82,7 +80,7 @@
                             <h4 class="tp-footer-widget-title mb-40">Contact</h4>
                             <ul>
                                 <li class="text-white"><b>Email Us:</b></li>
-                                <li><a href="mailto: admin@topmasterservice.com.au    ">admin@topmasterservice.com.au</a></li>
+                                <li><a href="mailto: admin@topmasterservice.com.au">admin@topmasterservice.com.au</a></li>
                                 <li><a href="tel: 0481 826 682">0481 826 682</a></li>
                             </ul>
                         </div>
