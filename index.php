@@ -44,12 +44,7 @@
 
 
     <!-- preloader -->
-    <div id="preloader">
-        <div class="preloader">
-            <span></span>
-            <span></span>
-        </div>
-    </div>
+
     <!-- preloader end  -->
 
     <!-- back to top start -->
