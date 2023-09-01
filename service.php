@@ -34,9 +34,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 </head>
 
@@ -75,8 +73,7 @@
                 <div class="row justify-content-xl-center align-items-center">
                     <div class="col-xxl-3 col-xl-4 col-8">
                         <div class="tp-header-logo-three">
-                            <a href="index.php"><img src="assets/img/logo/logo.png" class="img-fluid"
-                                    alt="logo not found"></a>
+                            <a href="index.php"><img src="assets/img/logo/logo.png" class="img-fluid" alt="logo not found"></a>
                         </div>
                     </div>
                     <div class="col-xxl-6 col-xl-6 col-4 d-flex justify-content-center">
@@ -137,7 +134,7 @@
         </div>
     </header>
 
- 
+
     <!-- mobile menu info -->
     <div class="fix">
         <div class="side-info">
@@ -149,8 +146,7 @@
                         <h4>Contact Info</h4>
                         <ul>
                             <li><i class="flaticon-pin"></i>54B, Tailstoi Town 5238 ST,La city, IA 522364</li>
-                            <li><i class="flaticon-email"></i><a
-                                    href="mailto:info@klenar.com">admin@topmasterservice.com.au</a></li>
+                            <li><i class="flaticon-email"></i><a href="mailto:info@klenar.com">admin@topmasterservice.com.au</a></li>
                             <li><i class="flaticon-phone-call"></i><a href="tel:33388820055">04123 81 557</a></li>
                         </ul>
                         <div class="sidebar__menu--social">
@@ -203,11 +199,9 @@
                         <img src="./assets/img/slider/bubble.png" alt="Image not found" class="img-fluid">
                     </div>
                     <div class="col-12 col-sm-12 col-md-6 p-0">
-                        <img src="./assets/img/service/Layer 2 1.png" alt="Image not found"
-                            class="img-fluid men-cleaning">
+                        <img src="./assets/img/service/Layer 2 1.png" alt="Image not found" class="img-fluid men-cleaning">
                         <div>
-                            <img src="./assets/img/slider/dots-img.png" alt="Image not found"
-                                class="banner_img_dots img-fluid">
+                            <img src="./assets/img/slider/dots-img.png" alt="Image not found" class="banner_img_dots img-fluid">
                         </div>
                     </div>
                 </div>
@@ -227,8 +221,7 @@
                         Choose the Apex of Cleaning Excellence
                     </h2>
                     <div class="bubble-service">
-                        <img src="./assets/img/process/bubble.png" alt="Image not found" height="100" width="100"
-                            class="img-fluid">
+                        <img src="./assets/img/process/bubble.png" alt="Image not found" height="100" width="100" class="img-fluid">
                     </div>
                 </div>
                 <!-- <div class="row">
@@ -274,25 +267,20 @@
                     <div class="col-12">
                         <div class="tp-prjects-tab-content">
                             <div class="tab-content" id="myTabContent">
-                                <div class="tab-pane fade show active" id="home" role="tabpanel"
-                                    aria-labelledby="home-tab">
+                                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                                     <div class="row">
                                         <div class="bubble_img">
-                                            <img src="./assets/img/slider/bubble.png" alt="Image not found"
-                                                class="img-fluid">
+                                            <img src="./assets/img/slider/bubble.png" alt="Image not found" class="img-fluid">
                                         </div>
                                         <div class="col-lg-4 col-md-6">
                                             <div class="tp-project z-index mb-30">
                                                 <div class="tp-project-img">
-                                                    <a href="./Residential _Cleaning.php"><img
-                                                            src="assets/img/service/Residential.png" class="img-fluid"
-                                                            alt="img not found"></a>
+                                                    <a href="./Residential _Cleaning.php"><img src="assets/img/service/Residential.png" class="img-fluid" alt="img not found"></a>
                                                 </div>
                                                 <div class="tp-project-text">
                                                     <div class="tp-project-text-content">
 
-                                                        <h4 class="tp-project-title"><a
-                                                                href="./Residential _Cleaning.php">Residential
+                                                        <h4 class="tp-project-title"><a href="./Residential _Cleaning.php">Residential
                                                                 Cleaning</a></h4>
                                                     </div>
                                                 </div>
@@ -301,15 +289,12 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="tp-project z-index mb-30">
                                                 <div class="tp-project-img">
-                                                    <a href="./Office-cleaning.php"><img
-                                                            src="assets/img/service/commercial.png" class="img-fluid"
-                                                            alt="img not found"></a>
+                                                    <a href="./Office-cleaning.php"><img src="assets/img/service/commercial.png" class="img-fluid" alt="img not found"></a>
                                                 </div>
                                                 <div class="tp-project-text">
                                                     <div class="tp-project-text-content">
 
-                                                        <h4 class="tp-project-title"><a
-                                                                href="./Emergency-Cleaning.php">Commercial
+                                                        <h4 class="tp-project-title"><a href="./Emergency-Cleaning.php">Commercial
                                                                 Cleaning</a>
                                                         </h4>
                                                     </div>
@@ -319,15 +304,12 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="tp-project z-index mb-30">
                                                 <div class="tp-project-img">
-                                                    <a href="./Emergency-Cleaning.php"><img
-                                                            src="assets/img/service/Emergency.png" class="img-fluid"
-                                                            alt="img not found"></a>
+                                                    <a href="./Emergency-Cleaning.php"><img src="assets/img/service/Emergency.png" class="img-fluid" alt="img not found"></a>
                                                 </div>
                                                 <div class="tp-project-text">
                                                     <div class="tp-project-text-content">
 
-                                                        <h4 class="tp-project-title"><a
-                                                                href="./Emergency-Cleaning.php">Emergency Cleaning</a>
+                                                        <h4 class="tp-project-title"><a href="./Emergency-Cleaning.php">Emergency Cleaning</a>
                                                         </h4>
                                                     </div>
                                                 </div>
@@ -336,15 +318,12 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="tp-project z-index mb-30">
                                                 <div class="tp-project-img">
-                                                    <a href="./Gardening & Landscaping.php"><img
-                                                            src="assets/img/service/gardening.png" class="img-fluid"
-                                                            alt="img not found"></a>
+                                                    <a href="./Gardening & Landscaping.php"><img src="assets/img/service/gardening.png" class="img-fluid" alt="img not found"></a>
                                                 </div>
                                                 <div class="tp-project-text">
                                                     <div class="tp-project-text-content">
 
-                                                        <h4 class="tp-project-title"><a
-                                                                href="./Gardening & Landscaping.php">Gardening &
+                                                        <h4 class="tp-project-title"><a href="./Gardening & Landscaping.php">Gardening &
                                                                 Landscaping</a></h4>
                                                     </div>
                                                 </div>
@@ -353,15 +332,12 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="tp-project z-index mb-30">
                                                 <div class="tp-project-img">
-                                                    <a href="./Carpet-Steam-Clean.php"><img
-                                                            src="assets/img/service/carpet.png" class="img-fluid"
-                                                            alt="img not found"></a>
+                                                    <a href="./Carpet-Steam-Clean.php"><img src="assets/img/service/carpet.png" class="img-fluid" alt="img not found"></a>
                                                 </div>
                                                 <div class="tp-project-text">
                                                     <div class="tp-project-text-content">
 
-                                                        <h4 class="tp-project-title"><a
-                                                                href="./Carpet-Steam-Clean.php">Carpet Steam Clean</a>
+                                                        <h4 class="tp-project-title"><a href="./Carpet-Steam-Clean.php">Carpet Steam Clean</a>
                                                         </h4>
                                                     </div>
                                                 </div>
@@ -370,15 +346,12 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="tp-project z-index mb-30">
                                                 <div class="tp-project-img">
-                                                    <a href="./High-Pressure-Cleaning.php"><img
-                                                            src="assets/img/service/high-pressure.png" class="img-fluid"
-                                                            alt="img not found"></a>
+                                                    <a href="./High-Pressure-Cleaning.php"><img src="assets/img/service/high-pressure.png" class="img-fluid" alt="img not found"></a>
                                                 </div>
                                                 <div class="tp-project-text">
                                                     <div class="tp-project-text-content">
 
-                                                        <h4 class="tp-project-title"><a
-                                                                href="./High-Pressure-Cleaning.php">High Pressure
+                                                        <h4 class="tp-project-title"><a href="./High-Pressure-Cleaning.php">High Pressure
                                                                 Cleaning</a></h4>
                                                     </div>
                                                 </div>
@@ -387,9 +360,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="tp-project z-index mb-30">
                                                 <div class="tp-project-img">
-                                                    <a href="./Strip-&-Seal.php"><img
-                                                            src="assets/img/service/strip.png" class="img-fluid"
-                                                            alt="img not found"></a>
+                                                    <a href="./Strip-&-Seal.php"><img src="assets/img/service/strip.png" class="img-fluid" alt="img not found"></a>
                                                 </div>
                                                 <div class="tp-project-text">
                                                     <div class="tp-project-text-content">
@@ -403,15 +374,12 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="tp-project z-index mb-30">
                                                 <div class="tp-project-img">
-                                                    <a href="./Window-Cleaning.php"><img
-                                                            src="assets/img/service/window.png" class="img-fluid"
-                                                            alt="img not found"></a>
+                                                    <a href="./Window-Cleaning.php"><img src="assets/img/service/window.png" class="img-fluid" alt="img not found"></a>
                                                 </div>
                                                 <div class="tp-project-text">
                                                     <div class="tp-project-text-content">
 
-                                                        <h4 class="tp-project-title"><a
-                                                                href="./Window-Cleaning.php">Window Cleaning</a></h4>
+                                                        <h4 class="tp-project-title"><a href="./Window-Cleaning.php">Window Cleaning</a></h4>
                                                     </div>
                                                 </div>
                                             </div>
@@ -419,15 +387,12 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="tp-project z-index mb-30">
                                                 <div class="tp-project-img">
-                                                    <a href="./High-Level-Window-Cleaning.php"><img
-                                                            src="assets/img/service/high-level.png" class="img-fluid"
-                                                            alt="img not found"></a>
+                                                    <a href="./High-Level-Window-Cleaning.php"><img src="assets/img/service/high-level.png" class="img-fluid" alt="img not found"></a>
                                                 </div>
                                                 <div class="tp-project-text">
                                                     <div class="tp-project-text-content">
 
-                                                        <h4 class="tp-project-title"><a
-                                                                href="./High-Level-Window-Cleaning.php">High Level
+                                                        <h4 class="tp-project-title"><a href="./High-Level-Window-Cleaning.php">High Level
                                                                 Window Cleaning</a></h4>
                                                     </div>
                                                 </div>
@@ -436,15 +401,12 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="tp-project z-index mb-30">
                                                 <div class="tp-project-img">
-                                                    <a href="./Graffiti-Removal.php"><img
-                                                            src="assets/img/service/graffiti.png" class="img-fluid"
-                                                            alt="img not found"></a>
+                                                    <a href="./Graffiti-Removal.php"><img src="assets/img/service/graffiti.png" class="img-fluid" alt="img not found"></a>
                                                 </div>
                                                 <div class="tp-project-text">
                                                     <div class="tp-project-text-content">
 
-                                                        <h4 class="tp-project-title"><a
-                                                                href="./Graffiti-Removal.php">Graffiti Removal</a></h4>
+                                                        <h4 class="tp-project-title"><a href="./Graffiti-Removal.php">Graffiti Removal</a></h4>
                                                     </div>
                                                 </div>
                                             </div>
@@ -452,15 +414,12 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="tp-project z-index mb-30">
                                                 <div class="tp-project-img">
-                                                    <a href="./Hard-Floor-Scrubbing.php"><img
-                                                            src="assets/img/service/har-floor.png" class="img-fluid"
-                                                            alt="img not found"></a>
+                                                    <a href="./Hard-Floor-Scrubbing.php"><img src="assets/img/service/har-floor.png" class="img-fluid" alt="img not found"></a>
                                                 </div>
                                                 <div class="tp-project-text">
                                                     <div class="tp-project-text-content">
 
-                                                        <h4 class="tp-project-title"><a
-                                                                href="./Hard-Floor-Scrubbing.php">Hard Floor
+                                                        <h4 class="tp-project-title"><a href="./Hard-Floor-Scrubbing.php">Hard Floor
                                                                 Scrubbing</a></h4>
                                                     </div>
                                                 </div>
@@ -469,9 +428,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="tp-project z-index mb-30">
                                                 <div class="tp-project-img">
-                                                    <a href="./House-moves.php"><img
-                                                            src="assets/img/service/house-moves.png" class="img-fluid"
-                                                            alt="img not found"></a>
+                                                    <a href="./House-moves.php"><img src="assets/img/service/house-moves.png" class="img-fluid" alt="img not found"></a>
                                                 </div>
                                                 <div class="tp-project-text">
                                                     <div class="tp-project-text-content">
@@ -484,9 +441,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="tp-project z-index mb-30">
                                                 <div class="tp-project-img">
-                                                    <a href="./Labour-hire.php"><img
-                                                            src="assets/img/service/labour-hire.png" class="img-fluid"
-                                                            alt="img not found"></a>
+                                                    <a href="./Labour-hire.php"><img src="assets/img/service/labour-hire.png" class="img-fluid" alt="img not found"></a>
                                                 </div>
                                                 <div class="tp-project-text">
                                                     <div class="tp-project-text-content">
@@ -503,10 +458,9 @@
                                                     <h2>
                                                         Book Your Cleaning Today!
                                                     </h2>
-                                                    <a href="" class="btn btn-banner_light  mt-10" data-bs-target="#modalContactForm" data-bs-toggle="modal" >Get an instant
+                                                    <a href="" class="btn btn-banner_light  mt-10" data-bs-target="#modalContactForm" data-bs-toggle="modal">Get an instant
                                                         quote</a>
-                                                    <h3 class="mt-20"> <a href="tel:04123 81 557" class="mt-20"><i
-                                                                class="fa fa-phone-volume"></i>04123 81 557</a></h3>
+                                                    <h3 class="mt-20"> <a href="tel:0481 826 682" class="mt-20"><i class="fa fa-phone-volume"></i>0481 826 682</a></h3>
                                                 </div>
 
                                             </div>
@@ -924,34 +878,29 @@
                             <div class="row form-m-inline">
                                 <div class="form-group col-12 col-md-6">
                                     <label for="firstName"></label>
-                                    <input type="text" class="form-control" id="firstName" name="name"
-                                        placeholder="First Name" />
+                                    <input type="text" class="form-control" id="firstName" name="name" placeholder="First Name" />
                                 </div>
                                 <div class="form-group col-12 col-md-6">
                                     <label for="lastName"></label>
-                                    <input type="text" class="form-control" id="lastName" name="name"
-                                        placeholder="Last Name" />
+                                    <input type="text" class="form-control" id="lastName" name="name" placeholder="Last Name" />
                                 </div>
                             </div>
 
                             <div class="row form-m-inline">
                                 <div class="form-group col-12 col-md-6">
                                     <label for="email"></label>
-                                    <input type="text" class="form-control" id="email" name="email"
-                                        placeholder="Email address" />
+                                    <input type="text" class="form-control" id="email" name="email" placeholder="Email address" />
                                 </div>
 
                                 <div class="form-group col-12 col-md-6">
                                     <label for="phone"></label>
-                                    <input type="number" class="form-control" id="phone" name="phone"
-                                        placeholder="Phone" />
+                                    <input type="number" class="form-control" id="phone" name="phone" placeholder="Phone" />
                                 </div>
                             </div>
 
                             <div class="form-group">
                                 <label for="message"></label>
-                                <textarea class="form-control" id="message" name="message" rows="4"
-                                    placeholder="Message"></textarea>
+                                <textarea class="form-control" id="message" name="message" rows="4" placeholder="Message"></textarea>
                             </div>
 
                             <a type="submit" class="btn contact-form col-12">
@@ -968,7 +917,7 @@
     </main>
 
     <?php
-    include('header.php');
+    include('footer.php');
     ?>
 
     <!-- JS here -->
@@ -977,7 +926,6 @@
     <script src="assets/js/swiper-bundle.js"></script>
     <script src="assets/js/venobox.min.js"></script>
     <script src="assets/js/backToTop.js"></script>
-    <script src="assets/js/jquery.meanmenu.min.js"></script>
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
     <script src="assets/js/ajax-form.js"></script>
     <script src="assets/js/wow.min.js"></script>
