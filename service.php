@@ -75,7 +75,7 @@
                 <div class="row justify-content-xl-center align-items-center">
                     <div class="col-xxl-3 col-xl-4 col-8">
                         <div class="tp-header-logo-three">
-                            <a href="index.html"><img src="assets/img/logo/logo.png" class="img-fluid"
+                            <a href="index.php"><img src="assets/img/logo/logo.png" class="img-fluid"
                                     alt="logo not found"></a>
                         </div>
                     </div>
@@ -83,36 +83,36 @@
                         <div class="tp-main-menu tp-main-menu-three">
                             <nav id="tp-mobile-menu">
                                 <ul>
-                                    <li class="menu-item-has-children"><a href="index.html">HOME</a>
+                                    <li class="menu-item-has-children"><a href="index.php">HOME</a>
 
                                     </li>
-                                    <li class="menu-item-has-children"><a href="about.html">ABOUT</a>
+                                    <li class="menu-item-has-children"><a href="about.php">ABOUT</a>
 
                                     </li>
-                                    <li class="menu-item-has-children"><a href="service.html" class="active">SERVICES</a>
+                                    <li class="menu-item-has-children"><a href="service.php" class="active">SERVICES</a>
                                         <ul class="sub-menu">
-                                            <li><a href="./Office-cleaning.html">Office Cleaning</a></li>
-                                            <li><a href="./Residential _Cleaning.html">Residential Cleaning</a></li>
-                                            <li><a href="./Gardening & Landscaping.html">Gardening & Landscaping</a>
+                                            <li><a href="./Office-cleaning.php">Office Cleaning</a></li>
+                                            <li><a href="./Residential _Cleaning.php">Residential Cleaning</a></li>
+                                            <li><a href="./Gardening & Landscaping.php">Gardening & Landscaping</a>
                                             </li>
                                             <li><a href="./Emergemcy-Cleaning">Emergemcy Cleaning</a></li>
-                                            <li><a href="./Carpet-Steam-Clean.html">Carpet Steam Clean</a></li>
-                                            <li><a href="./High-Pressure-Cleaning.html">High Pressure Cleaning</a></li>
-                                            <li><a href="./Strip-&-Seal.html">Strip & Seal</a></li>
-                                            <li><a href="./Window-Cleaning.html">Window Cleaning</a></li>
-                                            <li><a href="./High-Level-Window-Cleaning.html">High Level Window
+                                            <li><a href="./Carpet-Steam-Clean.php">Carpet Steam Clean</a></li>
+                                            <li><a href="./High-Pressure-Cleaning.php">High Pressure Cleaning</a></li>
+                                            <li><a href="./Strip-&-Seal.php">Strip & Seal</a></li>
+                                            <li><a href="./Window-Cleaning.php">Window Cleaning</a></li>
+                                            <li><a href="./High-Level-Window-Cleaning.php">High Level Window
                                                     Cleaning</a></li>
-                                            <li><a href="./Graffiti-Removal.html">Graffiti Removal</a></li>
-                                            <li><a href="./Hard-Floor-Scrubbing.html">Hard Floor Scrubbing</a></li>
-                                            <li><a href="./House-moves.html">House Moves</a></li>
-                                            <li><a href="./Labour-hire.html">Labor Hire</a></li>
+                                            <li><a href="./Graffiti-Removal.php">Graffiti Removal</a></li>
+                                            <li><a href="./Hard-Floor-Scrubbing.php">Hard Floor Scrubbing</a></li>
+                                            <li><a href="./House-moves.php">House Moves</a></li>
+                                            <li><a href="./Labour-hire.php">Labor Hire</a></li>
 
                                         </ul>
                                     </li>
-                                    <li class="menu-item-has-children"><a href="guide.html">GUIDES</a>
+                                    <li class="menu-item-has-children"><a href="guide.php">GUIDES</a>
 
                                     </li>
-                                    <li class="menu-item-has-children"><a href="contact.html">CONTACT</a>
+                                    <li class="menu-item-has-children"><a href="contact.php">CONTACT</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -184,7 +184,7 @@
                                     <div class="breadcrumb-menu">
                                         <nav class="breadcrumb-trail breadcrumbs">
                                             <ul class="trail-items">
-                                                <li class="trail-item trail-begin"><a href="index.html">Home</a>
+                                                <li class="trail-item trail-begin"><a href="index.php">Home</a>
                                                 </li>
                                                 <li class="trail-item trail-end"><span>Services</span></li>
                                             </ul>
@@ -284,7 +284,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="tp-project z-index mb-30">
                                                 <div class="tp-project-img">
-                                                    <a href="./Residential _Cleaning.html"><img
+                                                    <a href="./Residential _Cleaning.php"><img
                                                             src="assets/img/service/Residential.png" class="img-fluid"
                                                             alt="img not found"></a>
                                                 </div>
@@ -292,7 +292,7 @@
                                                     <div class="tp-project-text-content">
 
                                                         <h4 class="tp-project-title"><a
-                                                                href="./Residential _Cleaning.html">Residential
+                                                                href="./Residential _Cleaning.php">Residential
                                                                 Cleaning</a></h4>
                                                     </div>
                                                 </div>
@@ -301,7 +301,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="tp-project z-index mb-30">
                                                 <div class="tp-project-img">
-                                                    <a href="./Office-cleaning.html"><img
+                                                    <a href="./Office-cleaning.php"><img
                                                             src="assets/img/service/commercial.png" class="img-fluid"
                                                             alt="img not found"></a>
                                                 </div>
@@ -309,7 +309,7 @@
                                                     <div class="tp-project-text-content">
 
                                                         <h4 class="tp-project-title"><a
-                                                                href="./Emergency-Cleaning.html">Commercial
+                                                                href="./Emergency-Cleaning.php">Commercial
                                                                 Cleaning</a>
                                                         </h4>
                                                     </div>
@@ -319,7 +319,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="tp-project z-index mb-30">
                                                 <div class="tp-project-img">
-                                                    <a href="./Emergency-Cleaning.html"><img
+                                                    <a href="./Emergency-Cleaning.php"><img
                                                             src="assets/img/service/Emergency.png" class="img-fluid"
                                                             alt="img not found"></a>
                                                 </div>
@@ -327,7 +327,7 @@
                                                     <div class="tp-project-text-content">
 
                                                         <h4 class="tp-project-title"><a
-                                                                href="./Emergency-Cleaning.html">Emergency Cleaning</a>
+                                                                href="./Emergency-Cleaning.php">Emergency Cleaning</a>
                                                         </h4>
                                                     </div>
                                                 </div>
@@ -336,7 +336,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="tp-project z-index mb-30">
                                                 <div class="tp-project-img">
-                                                    <a href="./Gardening & Landscaping.html"><img
+                                                    <a href="./Gardening & Landscaping.php"><img
                                                             src="assets/img/service/gardening.png" class="img-fluid"
                                                             alt="img not found"></a>
                                                 </div>
@@ -344,7 +344,7 @@
                                                     <div class="tp-project-text-content">
 
                                                         <h4 class="tp-project-title"><a
-                                                                href="./Gardening & Landscaping.html">Gardening &
+                                                                href="./Gardening & Landscaping.php">Gardening &
                                                                 Landscaping</a></h4>
                                                     </div>
                                                 </div>
@@ -353,7 +353,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="tp-project z-index mb-30">
                                                 <div class="tp-project-img">
-                                                    <a href="./Carpet-Steam-Clean.html"><img
+                                                    <a href="./Carpet-Steam-Clean.php"><img
                                                             src="assets/img/service/carpet.png" class="img-fluid"
                                                             alt="img not found"></a>
                                                 </div>
@@ -361,7 +361,7 @@
                                                     <div class="tp-project-text-content">
 
                                                         <h4 class="tp-project-title"><a
-                                                                href="./Carpet-Steam-Clean.html">Carpet Steam Clean</a>
+                                                                href="./Carpet-Steam-Clean.php">Carpet Steam Clean</a>
                                                         </h4>
                                                     </div>
                                                 </div>
@@ -370,7 +370,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="tp-project z-index mb-30">
                                                 <div class="tp-project-img">
-                                                    <a href="./High-Pressure-Cleaning.html"><img
+                                                    <a href="./High-Pressure-Cleaning.php"><img
                                                             src="assets/img/service/high-pressure.png" class="img-fluid"
                                                             alt="img not found"></a>
                                                 </div>
@@ -378,7 +378,7 @@
                                                     <div class="tp-project-text-content">
 
                                                         <h4 class="tp-project-title"><a
-                                                                href="./High-Pressure-Cleaning.html">High Pressure
+                                                                href="./High-Pressure-Cleaning.php">High Pressure
                                                                 Cleaning</a></h4>
                                                     </div>
                                                 </div>
@@ -387,14 +387,14 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="tp-project z-index mb-30">
                                                 <div class="tp-project-img">
-                                                    <a href="./Strip-&-Seal.html"><img
+                                                    <a href="./Strip-&-Seal.php"><img
                                                             src="assets/img/service/strip.png" class="img-fluid"
                                                             alt="img not found"></a>
                                                 </div>
                                                 <div class="tp-project-text">
                                                     <div class="tp-project-text-content">
 
-                                                        <h4 class="tp-project-title"><a href="./Strip-&-Seal.html">Strip
+                                                        <h4 class="tp-project-title"><a href="./Strip-&-Seal.php">Strip
                                                                 & Seal</a></h4>
                                                     </div>
                                                 </div>
@@ -403,7 +403,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="tp-project z-index mb-30">
                                                 <div class="tp-project-img">
-                                                    <a href="./Window-Cleaning.html"><img
+                                                    <a href="./Window-Cleaning.php"><img
                                                             src="assets/img/service/window.png" class="img-fluid"
                                                             alt="img not found"></a>
                                                 </div>
@@ -411,7 +411,7 @@
                                                     <div class="tp-project-text-content">
 
                                                         <h4 class="tp-project-title"><a
-                                                                href="./Window-Cleaning.html">Window Cleaning</a></h4>
+                                                                href="./Window-Cleaning.php">Window Cleaning</a></h4>
                                                     </div>
                                                 </div>
                                             </div>
@@ -419,7 +419,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="tp-project z-index mb-30">
                                                 <div class="tp-project-img">
-                                                    <a href="./High-Level-Window-Cleaning.html"><img
+                                                    <a href="./High-Level-Window-Cleaning.php"><img
                                                             src="assets/img/service/high-level.png" class="img-fluid"
                                                             alt="img not found"></a>
                                                 </div>
@@ -427,7 +427,7 @@
                                                     <div class="tp-project-text-content">
 
                                                         <h4 class="tp-project-title"><a
-                                                                href="./High-Level-Window-Cleaning.html">High Level
+                                                                href="./High-Level-Window-Cleaning.php">High Level
                                                                 Window Cleaning</a></h4>
                                                     </div>
                                                 </div>
@@ -436,7 +436,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="tp-project z-index mb-30">
                                                 <div class="tp-project-img">
-                                                    <a href="./Graffiti-Removal.html"><img
+                                                    <a href="./Graffiti-Removal.php"><img
                                                             src="assets/img/service/graffiti.png" class="img-fluid"
                                                             alt="img not found"></a>
                                                 </div>
@@ -444,7 +444,7 @@
                                                     <div class="tp-project-text-content">
 
                                                         <h4 class="tp-project-title"><a
-                                                                href="./Graffiti-Removal.html">Graffiti Removal</a></h4>
+                                                                href="./Graffiti-Removal.php">Graffiti Removal</a></h4>
                                                     </div>
                                                 </div>
                                             </div>
@@ -452,7 +452,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="tp-project z-index mb-30">
                                                 <div class="tp-project-img">
-                                                    <a href="./Hard-Floor-Scrubbing.html"><img
+                                                    <a href="./Hard-Floor-Scrubbing.php"><img
                                                             src="assets/img/service/har-floor.png" class="img-fluid"
                                                             alt="img not found"></a>
                                                 </div>
@@ -460,7 +460,7 @@
                                                     <div class="tp-project-text-content">
 
                                                         <h4 class="tp-project-title"><a
-                                                                href="./Hard-Floor-Scrubbing.html">Hard Floor
+                                                                href="./Hard-Floor-Scrubbing.php">Hard Floor
                                                                 Scrubbing</a></h4>
                                                     </div>
                                                 </div>
@@ -469,13 +469,13 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="tp-project z-index mb-30">
                                                 <div class="tp-project-img">
-                                                    <a href="./House-moves.html"><img
+                                                    <a href="./House-moves.php"><img
                                                             src="assets/img/service/house-moves.png" class="img-fluid"
                                                             alt="img not found"></a>
                                                 </div>
                                                 <div class="tp-project-text">
                                                     <div class="tp-project-text-content">
-                                                        <h4 class="tp-project-title"><a href="./House-moves.html">House
+                                                        <h4 class="tp-project-title"><a href="./House-moves.php">House
                                                                 Moves</a></h4>
                                                     </div>
                                                 </div>
@@ -484,14 +484,14 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="tp-project z-index mb-30">
                                                 <div class="tp-project-img">
-                                                    <a href="./Labour-hire.html"><img
+                                                    <a href="./Labour-hire.php"><img
                                                             src="assets/img/service/labour-hire.png" class="img-fluid"
                                                             alt="img not found"></a>
                                                 </div>
                                                 <div class="tp-project-text">
                                                     <div class="tp-project-text-content">
 
-                                                        <h4 class="tp-project-title"><a href="./Labour-hire.html">Labor
+                                                        <h4 class="tp-project-title"><a href="./Labour-hire.php">Labor
                                                                 Hire</a></h4>
                                                     </div>
                                                 </div>
@@ -528,7 +528,7 @@
                                                     <div class="tp-project-text-content">
                                                         <span class="tp-project-subtitle">Residential Service</span>
                                                         <h4 class="tp-project-title"><a
-                                                                href="project-details.html">Window Cleaning</a></h4>
+                                                                href="project-details.php">Window Cleaning</a></h4>
                                                     </div>
                                                 </div>
                                             </div>
@@ -544,7 +544,7 @@
                                                     <div class="tp-project-text-content">
                                                         <span class="tp-project-subtitle">Residential Service</span>
                                                         <h4 class="tp-project-title"><a
-                                                                href="project-details.html">Plumbing Service</a></h4>
+                                                                href="project-details.php">Plumbing Service</a></h4>
                                                     </div>
                                                 </div>
                                             </div>
@@ -563,7 +563,7 @@
                                                     <div class="tp-project-text-content">
                                                         <span class="tp-project-subtitle">Residential Service</span>
                                                         <h4 class="tp-project-title"><a
-                                                                href="project-details.html">Window Cleaning</a></h4>
+                                                                href="project-details.php">Window Cleaning</a></h4>
                                                     </div>
                                                 </div>
                                             </div>
@@ -584,7 +584,7 @@
                                                     <div class="tp-project-text-content">
                                                         <span class="tp-project-subtitle">Residential Service</span>
                                                         <h4 class="tp-project-title"><a
-                                                                href="project-details.html">Window Cleaning</a></h4>
+                                                                href="project-details.php">Window Cleaning</a></h4>
                                                     </div>
                                                 </div>
                                             </div>
@@ -600,10 +600,10 @@
                                                     <div class="tp-project-text-content">
                                                         <span class="tp-project-subtitle">Residential Service</span>
                                                         <h4 class="tp-project-title"><a
-                                                                href="project-details.html">Plumbing Service</a></h4>
+                                                                href="project-details.php">Plumbing Service</a></h4>
                                                     </div>
                                                     <div class="tp-project-text-icon">
-                                                        <a href="project-details.html"><i class="fal fa-plus"></i></a>
+                                                        <a href="project-details.php"><i class="fal fa-plus"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -622,10 +622,10 @@
                                                     <div class="tp-project-text-content">
                                                         <span class="tp-project-subtitle">Residential Service</span>
                                                         <h4 class="tp-project-title"><a
-                                                                href="project-details.html">Window Cleaning</a></h4>
+                                                                href="project-details.php">Window Cleaning</a></h4>
                                                     </div>
                                                     <div class="tp-project-text-icon">
-                                                        <a href="project-details.html"><i class="fal fa-plus"></i></a>
+                                                        <a href="project-details.php"><i class="fal fa-plus"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -646,10 +646,10 @@
                                                     <div class="tp-project-text-content">
                                                         <span class="tp-project-subtitle">Residential Service</span>
                                                         <h4 class="tp-project-title"><a
-                                                                href="project-details.html">Window Cleaning</a></h4>
+                                                                href="project-details.php">Window Cleaning</a></h4>
                                                     </div>
                                                     <div class="tp-project-text-icon">
-                                                        <a href="project-details.html"><i class="fal fa-plus"></i></a>
+                                                        <a href="project-details.php"><i class="fal fa-plus"></i></a>
                                                     </div>
                                                 </div>
                                             </div>

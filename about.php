@@ -90,7 +90,7 @@
                                     <div class="breadcrumb-menu">
                                         <nav class="breadcrumb-trail breadcrumbs">
                                             <ul class="trail-items">
-                                                <li class="trail-item trail-begin"><a href="index.html">Home</a>
+                                                <li class="trail-item trail-begin"><a href="index.php">Home</a>
                                                 </li>
                                                 <li class="trail-item trail-end"><span>About</span></li>
                                             </ul>
@@ -468,7 +468,7 @@
                                             <div class="col-lg-4 col-md-6">
                                                 <div class="tp-project z-index mb-30">
                                                     <div class="tp-project-img">
-                                                        <a href="./Residential _Cleaning.html"><img
+                                                        <a href="./Residential _Cleaning.php"><img
                                                                 src="assets/img/service/Residential.png"
                                                                 class="img-fluid" alt="img not found"></a>
                                                     </div>
@@ -476,7 +476,7 @@
                                                         <div class="tp-project-text-content">
 
                                                             <h4 class="tp-project-title"><a
-                                                                    href="./Residential _Cleaning.html">Residential
+                                                                    href="./Residential _Cleaning.php">Residential
                                                                     Cleaning</a></h4>
                                                         </div>
                                                     </div>
@@ -485,7 +485,7 @@
                                             <div class="col-lg-4 col-md-6">
                                                 <div class="tp-project z-index mb-30">
                                                     <div class="tp-project-img">
-                                                        <a href="./Office-cleaning.html"><img
+                                                        <a href="./Office-cleaning.php"><img
                                                                 src="assets/img/service/commercial.png"
                                                                 class="img-fluid" alt="img not found"></a>
                                                     </div>
@@ -493,7 +493,7 @@
                                                         <div class="tp-project-text-content">
 
                                                             <h4 class="tp-project-title"><a
-                                                                    href="./Residential _Cleaning.html">Commercial
+                                                                    href="./Residential _Cleaning.php">Commercial
                                                                     Cleaning</a></h4>
                                                         </div>
                                                     </div>
@@ -502,7 +502,7 @@
                                             <div class="col-lg-4 col-md-6">
                                                 <div class="tp-project z-index mb-30">
                                                     <div class="tp-project-img">
-                                                        <a href="./Emergency-Cleaning.html"><img
+                                                        <a href="./Emergency-Cleaning.php"><img
                                                                 src="assets/img/service/Emergency.png" class="img-fluid"
                                                                 alt="img not found"></a>
                                                     </div>
@@ -510,7 +510,7 @@
                                                         <div class="tp-project-text-content">
 
                                                             <h4 class="tp-project-title"><a
-                                                                    href="./Emergency-Cleaning.html">Emergency
+                                                                    href="./Emergency-Cleaning.php">Emergency
                                                                     Cleaning</a>
                                                             </h4>
                                                         </div>

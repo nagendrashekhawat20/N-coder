@@ -90,7 +90,7 @@
                                     <div class="breadcrumb-menu">
                                         <nav class="breadcrumb-trail breadcrumbs">
                                             <ul class="trail-items">
-                                                <li class="trail-item trail-begin"><a href="index.html">Home</a>
+                                                <li class="trail-item trail-begin"><a href="index.php">Home</a>
                                                 </li>
                                                 <li class="trail-item trail-end"><span>Guide</span></li>
                                             </ul>
@@ -193,7 +193,7 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="tp-project z-index mb-30">
                                                 <div class="tp-project-img">
-                                                    <a href="./Guide-internal.html"><img
+                                                    <a href="./Guide-internal.php"><img
                                                             src="assets/img/guide/guide-3.png" class="img-fluid"
                                                             alt="img not found"></a>
                                                 </div>
@@ -201,9 +201,9 @@
                                                     <div class="tp-project-text-content">
                                                         <span class="tp-project-subtitle">19 March 2023</span>
                                                         <h4 class="tp-project-title"><a
-                                                                href="./Guide-internal.html">Kitchen cleaning
+                                                                href="./Guide-internal.php">Kitchen cleaning
                                                                 checklist for a spotless kitchen</a></h4>
-                                                        <a href="./Guide-internal.html" class="button">Read
+                                                        <a href="./Guide-internal.php" class="button">Read
                                                             more</a>
                                                     </div>
                                                 </div>
@@ -214,17 +214,17 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="tp-project z-index mb-30">
                                                 <div class="tp-project-img">
-                                                    <a href="./Guide-internal.html"><img
+                                                    <a href="./Guide-internal.php"><img
                                                             src="assets/img/guide/guide-2.png" class="img-fluid"
                                                             alt="img not found"></a>
                                                 </div>
                                                 <div class="tp-project-text">
                                                     <div class="tp-project-text-content">
                                                         <span class="tp-project-subtitle">19 March 2023</span>
-                                                        <h4 class="tp-project-title"><a href="./Guide-internal.html">How
+                                                        <h4 class="tp-project-title"><a href="./Guide-internal.php">How
                                                                 much does house
                                                                 cleaning cost?</a></h4>
-                                                        <a href="./Guide-internal.html" class="button">Read
+                                                        <a href="./Guide-internal.php" class="button">Read
                                                             more</a>
                                                     </div>
                                                 </div>
@@ -235,17 +235,17 @@
                                         <div class="col-lg-4 col-md-6">
                                             <div class="tp-project z-index mb-30">
                                                 <div class="tp-project-img">
-                                                    <a href="./Guide-internal.html"><img
+                                                    <a href="./Guide-internal.php"><img
                                                             src="assets/img/guide/guide-1.png" class="img-fluid"
                                                             alt="img not found"></a>
                                                 </div>
                                                 <div class="tp-project-text">
                                                     <div class="tp-project-text-content">
                                                         <span class="tp-project-subtitle">19 March 2023</span>
-                                                        <h4 class="tp-project-title"><a href="./Guide-internal.html">How
+                                                        <h4 class="tp-project-title"><a href="./Guide-internal.php">How
                                                                 to disinfect your
                                                                 house after COVID-19</a></h4>
-                                                        <a href="./Guide-internal.html" class="button">Read
+                                                        <a href="./Guide-internal.php" class="button">Read
                                                             more</a>
                                                     </div>
                                                 </div>
@@ -269,7 +269,7 @@
                                                     <div class="tp-project-text-content">
                                                         <span class="tp-project-subtitle">Residential Service</span>
                                                         <h4 class="tp-project-title"><a
-                                                                href="project-details.html">Window Cleaning</a></h4>
+                                                                href="project-details.php">Window Cleaning</a></h4>
                                                     </div>
                                                 </div>
                                             </div>
@@ -284,7 +284,7 @@
                                                     <div class="tp-project-text-content">
                                                         <span class="tp-project-subtitle">Residential Service</span>
                                                         <h4 class="tp-project-title"><a
-                                                                href="project-details.html">Kitchen Cleaning</a></h4>
+                                                                href="project-details.php">Kitchen Cleaning</a></h4>
                                                     </div>
                                                 </div>
                                             </div>
@@ -304,7 +304,7 @@
                                                     <div class="tp-project-text-content">
                                                         <span class="tp-project-subtitle">Residential Service</span>
                                                         <h4 class="tp-project-title"><a
-                                                                href="project-details.html">Window Cleaning</a></h4>
+                                                                href="project-details.php">Window Cleaning</a></h4>
                                                     </div>
                                                 </div>
                                             </div>
@@ -319,7 +319,7 @@
                                                     <div class="tp-project-text-content">
                                                         <span class="tp-project-subtitle">Residential Service</span>
                                                         <h4 class="tp-project-title"><a
-                                                                href="project-details.html">Kitchen Cleaning</a></h4>
+                                                                href="project-details.php">Kitchen Cleaning</a></h4>
                                                     </div>
                                                 </div>
                                             </div>
@@ -339,7 +339,7 @@
                                                     <div class="tp-project-text-content">
                                                         <span class="tp-project-subtitle">Residential Service</span>
                                                         <h4 class="tp-project-title"><a
-                                                                href="project-details.html">Window Cleaning</a></h4>
+                                                                href="project-details.php">Window Cleaning</a></h4>
                                                     </div>
                                                 </div>
                                             </div>
@@ -354,7 +354,7 @@
                                                     <div class="tp-project-text-content">
                                                         <span class="tp-project-subtitle">Residential Service</span>
                                                         <h4 class="tp-project-title"><a
-                                                                href="project-details.html">Kitchen Cleaning</a></h4>
+                                                                href="project-details.php">Kitchen Cleaning</a></h4>
                                                     </div>
                                                 </div>
                                             </div>
@@ -374,10 +374,10 @@
                                                     <div class="tp-project-text-content">
                                                         <span class="tp-project-subtitle">Residential Service</span>
                                                         <h4 class="tp-project-title"><a
-                                                                href="project-details.html">Window Cleaning</a></h4>
+                                                                href="project-details.php">Window Cleaning</a></h4>
                                                     </div>
                                                     <div class="tp-project-text-icon">
-                                                        <a href="project-details.html"><i class="fal fa-plus"></i></a>
+                                                        <a href="project-details.php"><i class="fal fa-plus"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -392,10 +392,10 @@
                                                     <div class="tp-project-text-content">
                                                         <span class="tp-project-subtitle">Residential Service</span>
                                                         <h4 class="tp-project-title"><a
-                                                                href="project-details.html">Kitchen Cleaning</a></h4>
+                                                                href="project-details.php">Kitchen Cleaning</a></h4>
                                                     </div>
                                                     <div class="tp-project-text-icon">
-                                                        <a href="project-details.html"><i class="fal fa-plus"></i></a>
+                                                        <a href="project-details.php"><i class="fal fa-plus"></i></a>
                                                     </div>
                                                 </div>
                                             </div>

@@ -90,7 +90,7 @@
                             <div class="row mt-5 justify-content-between text-center">
                                 <a href="" class="btn btn-banner_quote col-10 col-lg-6 mt-10 mx-auto" data-bs-target="#modalContactForm" data-bs-toggle="modal">Get an instant
                                     quote</a>
-                                <a href="./service.html" class="btn btn-banner_light col-8 col-lg-5 mt-10 mx-auto">Our
+                                <a href="./service.php" class="btn btn-banner_light col-8 col-lg-5 mt-10 mx-auto">Our
                                     Services</a>
                             </div>
                         </div>
@@ -113,7 +113,7 @@
         <section>
             <div class="container">
                 <div class="tp-prjects-area pt-60 pb-60">
-                    <div class="service-heading text-center">
+                    <div class="service-heading">
                         <h6>
                             our cleaning services
                         </h6>
@@ -136,12 +136,12 @@
                                             <div class="col-lg-3 col-md-6">
                                                 <div class="tp-project z-index mb-30">
                                                     <div class="tp-project-img">
-                                                        <a href="./Residential _Cleaning.html"><img src="assets/img/service/Residential.png" class="img-fluid" alt="img not found"></a>
+                                                        <a href="./Residential _Cleaning.php"><img src="assets/img/service/Residential.png" class="img-fluid" alt="img not found"></a>
                                                     </div>
                                                     <div class="tp-project-text">
                                                         <div class="tp-project-text-content">
 
-                                                            <h4 class="tp-project-title"><a href="./Residential _Cleaning.html">Residential
+                                                            <h4 class="tp-project-title"><a href="./Residential _Cleaning.php">Residential
                                                                     Cleaning</a></h4>
                                                         </div>
                                                     </div>
@@ -150,12 +150,12 @@
                                             <div class="col-lg-3 col-md-6">
                                                 <div class="tp-project z-index mb-30">
                                                     <div class="tp-project-img">
-                                                        <a href="./Office-cleaning.html"><img src="assets/img/service/commercial.png" class="img-fluid" alt="img not found"></a>
+                                                        <a href="./Office-cleaning.php"><img src="assets/img/service/commercial.png" class="img-fluid" alt="img not found"></a>
                                                     </div>
                                                     <div class="tp-project-text">
                                                         <div class="tp-project-text-content">
 
-                                                            <h4 class="tp-project-title"><a href="./Emergency-Cleaning.html">Commercial
+                                                            <h4 class="tp-project-title"><a href="./Emergency-Cleaning.php">Commercial
                                                                     Cleaning</a>
                                                             </h4>
                                                         </div>
@@ -165,12 +165,12 @@
                                             <div class="col-lg-3 col-md-6">
                                                 <div class="tp-project z-index mb-30">
                                                     <div class="tp-project-img">
-                                                        <a href="./Emergency-Cleaning.html"><img src="assets/img/service/Emergency.png" class="img-fluid" alt="img not found"></a>
+                                                        <a href="./Emergency-Cleaning.php"><img src="assets/img/service/Emergency.png" class="img-fluid" alt="img not found"></a>
                                                     </div>
                                                     <div class="tp-project-text">
                                                         <div class="tp-project-text-content">
 
-                                                            <h4 class="tp-project-title"><a href="./Emergency-Cleaning.html">Emergency
+                                                            <h4 class="tp-project-title"><a href="./Emergency-Cleaning.php">Emergency
                                                                     Cleaning</a>
                                                             </h4>
                                                         </div>
@@ -180,12 +180,12 @@
                                             <div class="col-lg-3 col-md-6">
                                                 <div class="tp-project z-index mb-30">
                                                     <div class="tp-project-img">
-                                                        <a href="./Gardening & Landscaping.html"><img src="assets/img/service/gardening.png" class="img-fluid garden-img" alt="img not found"></a>
+                                                        <a href="./Gardening & Landscaping.php"><img src="assets/img/service/gardening.png" class="img-fluid garden-img" alt="img not found"></a>
                                                     </div>
                                                     <div class="tp-project-text pt-2">
                                                         <div class="tp-project-text-content">
 
-                                                            <h4 class="tp-project-title"><a href="./Emergency-Cleaning.html">Gardening &
+                                                            <h4 class="tp-project-title"><a href="./Emergency-Cleaning.php">Gardening &
                                                                     Landscaping</a>
                                                             </h4>
                                                         </div>
@@ -193,7 +193,7 @@
                                                 </div>
                                             </div>
                                             <div class="d-flex justify-content-center">
-                                                <a href="./service.html" class="btn btn-banner_quote">See All
+                                                <a href="./service.php" class="btn btn-banner_quote">See All
                                                     Services</a>
                                             </div>
                                         </div>
@@ -231,7 +231,7 @@
                                 set the standard for squeaky-clean spaces, fostering lasting client relationships
                                 through our meticulous proficiency.
                             </p>
-                            <a href="./about.html" class="btn footer-btn">READ MORE</a>
+                            <a href="./about.php" class="btn footer-btn">READ MORE</a>
                         </div>
                     </div>
                 </div>
@@ -389,7 +389,7 @@
         <!--Guide starts here-->
         <section class="guide-block mt-100 mb-100">
             <div class="container">
-                <div class="guide-heading text-center">
+                <div class="guide-heading ">
                     <h6>
                         Guides
                     </h6>
@@ -414,7 +414,7 @@
                                 <h4>
                                     Kitchen cleaning checklist for a spotless kitchen
                                 </h4>
-                                <a href="./Guide.html">Read more</a>
+                                <a href="./Guide.php">Read more</a>
                             </div>
                         </div>
                     </div>
@@ -428,7 +428,7 @@
                                 <h4>
                                     How much does house cleaning cost?
                                 </h4>
-                                <a href="./Guide.html">Read more</a>
+                                <a href="./Guide.php">Read more</a>
                             </div>
                         </div>
                     </div>
@@ -442,7 +442,7 @@
                                 <h4>
                                     How to disinfect your house after COVID-19
                                 </h4>
-                                <a href="./Guide.html">Read more</a>
+                                <a href="./Guide.php">Read more</a>
                             </div>
                         </div>
                     </div>
@@ -552,7 +552,7 @@
 
                     </div>
                     <div class="d-flex justify-content-center">
-                        <a href="faq.html" class="btn footer-btn">KNOW MORE</a>
+                        <a href="faq.php" class="btn footer-btn">KNOW MORE</a>
 
                     </div>
                 </div>

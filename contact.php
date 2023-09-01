@@ -94,7 +94,7 @@
                                     <div class="breadcrumb-menu">
                                         <nav class="breadcrumb-trail breadcrumbs">
                                             <ul class="trail-items">
-                                                <li class="trail-item trail-begin"><a href="index.html">Home</a>
+                                                <li class="trail-item trail-begin"><a href="index.php">Home</a>
                                                 </li>
                                                 <li class="trail-item trail-end"><span>Contact Us</span></li>
                                             </ul>
@@ -316,7 +316,7 @@
 
                     </div>
                     <div class="d-flex justify-content-center">
-                        <a href="faq.html" class="btn footer-btn">KNOW MORE</a>
+                        <a href="faq.php" class="btn footer-btn">KNOW MORE</a>
 
                     </div>
                 </div>

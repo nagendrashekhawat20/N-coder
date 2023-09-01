@@ -9512,18 +9512,14 @@ only screen and (min-width: 768px) and (max-width: 991px) {
     font-size: 28px;
   }
 
-  .section-title-wrapper {
-    text-align: center;
+  .guide-heading {
+    text-align: left;
   }
 
   .about-detail {
     margin-top: 20px;
   }
 
-  .about-detail h2,
-  .about-detail h6 {
-    text-align: center;
-  }
 
   .faqs-block {
     text-align: start !important;
@@ -9536,6 +9532,10 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 
   .pop-up-detail {
     order: 0 !important;
+  }
+
+  .service-heading {
+    text-align: left !important;
   }
 
 }
@@ -9831,3 +9831,10 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   height: 199px !important;
 }
 
+.service-heading {
+  text-align: center;
+}
+
+.guide-heading {
+  text-align: center;
+}

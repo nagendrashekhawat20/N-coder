@@ -482,7 +482,7 @@
                                             <div class="col-lg-4 col-md-6">
                                                 <div class="tp-project z-index mb-30">
                                                     <div class="tp-project-img">
-                                                        <a href="./Office-cleaning.html"><img
+                                                        <a href="./Office-cleaning.php"><img
                                                                 src="assets/img/service/commercial.png"
                                                                 class="img-fluid" alt="img not found"></a>
                                                     </div>
@@ -490,7 +490,7 @@
                                                         <div class="tp-project-text-content">
 
                                                             <h4 class="tp-project-title"><a
-                                                                    href="./Residential _Cleaning.html">Commercial
+                                                                    href="./Residential _Cleaning.php">Commercial
                                                                     Cleaning</a></h4>
                                                         </div>
                                                     </div>
@@ -499,7 +499,7 @@
                                             <div class="col-lg-4 col-md-6">
                                                 <div class="tp-project z-index mb-30">
                                                     <div class="tp-project-img">
-                                                        <a href="./Emergency-Cleaning.html"><img
+                                                        <a href="./Emergency-Cleaning.php"><img
                                                                 src="assets/img/service/Emergency.png" class="img-fluid"
                                                                 alt="img not found"></a>
                                                     </div>
@@ -507,7 +507,7 @@
                                                         <div class="tp-project-text-content">
 
                                                             <h4 class="tp-project-title"><a
-                                                                    href="./Emergency-Cleaning.html">Emergency
+                                                                    href="./Emergency-Cleaning.php">Emergency
                                                                     Cleaning</a>
                                                             </h4>
                                                         </div>
@@ -517,7 +517,7 @@
                                             <div class="col-lg-4 col-md-6">
                                                 <div class="tp-project z-index mb-30">
                                                     <div class="tp-project-img">
-                                                        <a href="./Gardening & Landscaping.html"><img
+                                                        <a href="./Gardening & Landscaping.php"><img
                                                                 src="assets/img/service/gardening-1.png"
                                                                 class="img-fluid" alt="img not found"></a>
                                                     </div>
@@ -525,7 +525,7 @@
                                                         <div class="tp-project-text-content">
 
                                                             <h4 class="tp-project-title"><a
-                                                                    href="./Emergency-Cleaning.html">Gardening &
+                                                                    href="./Emergency-Cleaning.php">Gardening &
                                                                     Landscaping</a>
                                                             </h4>
                                                         </div>
