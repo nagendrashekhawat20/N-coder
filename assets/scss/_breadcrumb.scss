@@ -18,7 +18,7 @@
 }
 .breadcrumb-title {
     color: $heading-color-black;
-    font-size: 90px;
+    font-size: 80px;
     line-height: 1;
     margin-bottom: 20px;
     @media #{$lg} {
@@ -58,11 +58,11 @@
         }
     }
     & .trail-item {
-        font-size: 24px;
+        font-size: 18px !important;
         display: inline-block;
         list-style: none;
         color: $body-text-color-grey;
-        font-weight: 700;
+        font-weight: 500;
         margin-right: 30px;
         font-family: $nunitosans;
         @media #{$xs} {

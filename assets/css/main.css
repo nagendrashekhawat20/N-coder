@@ -2278,12 +2278,13 @@ only screen and (min-width: 768px) and (max-width: 991px),
   font-size: 14px;
   display: inline-block;
   margin-right: 5px;
-  background: #393f53;
+  background: #393f5300 !important;
+  border: 1px solid #fff;
   color: #ffffff;
   position: relative;
   z-index: 1;
   overflow: hidden;
-  border-radius: 5px;
+  border-radius: 50% !important;
 }
 
 .sidebar__menu--social a:before {
@@ -8585,7 +8586,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
 } */
 
 .breadcrumb-trail .trail-item {
-  font-size: 24px;
+  font-size: 18px !important;
   display: inline-block;
   list-style: none;
   color: #1B302A;

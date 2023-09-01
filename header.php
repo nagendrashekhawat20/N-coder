@@ -76,16 +76,16 @@
                     <div class="contact-list mb-30">
                         <h4>Contact Info</h4>
                         <ul>
-                            <li><i class="flaticon-pin"></i>54B, Tailstoi Town 5238 ST,La city, IA 522364</li>
+                            <li><i class="flaticon-pin"></i>Perth Western Australia</li>
                             <li><i class="flaticon-email"></i><a
-                                    href="mailto:info@klenar.com">admin@topmasterservice.com.au</a></li>
+                                    href="mailto:admin@topmasterservice.com.au">admin@topmasterservice.com.au</a></li>
                             <li><i class="flaticon-phone-call"></i><a href="tel:0481 826 682">0481 826 682</a></li>
                         </ul>
                         <div class="sidebar__menu--social">
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
                             <a href="#"><i class="fab fa-twitter"></i></a>
                             <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-google"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
                         </div>
                     </div>
                 </div>

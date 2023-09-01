@@ -278,12 +278,13 @@
         font-size: 14px;
         display: inline-block;
         margin-right: 5px;
-        background: #393f53;
+        background: #393f5300;
+        border: 1px solid #fff;
         color: $white;
         position: relative;
         z-index: 1;
         overflow: hidden;
-        border-radius: 5px;
+        border-radius: 50%;
         &:before {
             position: absolute;
             content: "";
