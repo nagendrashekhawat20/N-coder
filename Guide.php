@@ -84,7 +84,7 @@
 
                             <div class="banner-heading">
                                 <h1>
-                                    Our Services
+                                   Guides
                                 </h1>
                                 <div class="tp-page-title z-index">
                                     <div class="breadcrumb-menu">
@@ -109,7 +109,7 @@
                         <img src="./assets/img/slider/bubble.png" alt="Image not found" class="img-fluid">
                     </div>
                     <div class="col-12 col-sm-12 col-md-6 p-0">
-                        <img src="./assets/img/service/Layer 2 1.png" alt="Image not found"
+                        <img src="./assets/img/guide/guide-bann.png" alt="Image not found"
                             class="img-fluid men-cleaning">
                         <div>
                             <img src="./assets/img/slider/dots-img.png" alt="Image not found"

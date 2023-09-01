@@ -9240,10 +9240,6 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   color: #1B302A;
 }
 
-.about-detail h2, .about-detail h6 {
-  text-align: left;
-}
-
 .address-block {
   background-color: #1B302A;
 }
@@ -9438,7 +9434,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   }
 
   .banner-heading {
-    margin-top: 50px;
+    margin: 50px auto;
     text-align: center;
   }
 
@@ -9521,12 +9517,8 @@ only screen and (min-width: 768px) and (max-width: 991px) {
     font-size: 28px;
   }
 
-  .guide-heading {
-    text-align: left;
-  }
-
   .about-detail {
-    margin-top: 20px;
+    margin-top: 30px;
   }
 
 
@@ -9536,15 +9528,33 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   }
 
   .pop-up-img {
-    order: 1 !important;
+    display: none !important;
   }
 
   .pop-up-detail {
     order: 0 !important;
   }
 
+  .section-title-wrapper,
+  .guide-heading,
   .service-heading {
     text-align: left !important;
+  }
+
+  .banner-services-mobile {
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .tab-choose {
+    display: flex;
+    justify-content: center;
+  }
+
+  .guide-box {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
   }
 
 }
@@ -9561,7 +9571,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   }
 
   .banner-heading {
-    margin-top: 50px;
+    margin: 50px auto;
     text-align: center;
   }
 
@@ -9597,6 +9607,9 @@ only screen and (min-width: 768px) and (max-width: 991px) {
     padding-left: 0 !important;
   }
 
+  .about-detail {
+    margin-top: 30px;
+  }
 
   .title-work h2 {
     font-size: 28px;
@@ -9643,6 +9656,28 @@ only screen and (min-width: 768px) and (max-width: 991px) {
     order: 0 !important;
   }
 
+  .section-title-wrapper,
+  .guide-heading,
+  .service-heading {
+    text-align: left !important;
+  }
+
+  .banner-services-mobile {
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .tab-choose {
+    display: flex;
+    justify-content: center;
+  }
+
+  .guide-box {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
 }
 
 @media (min-width: 574.98px) and (max-width: 767.98px) {
@@ -9655,10 +9690,18 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   }
 
   .banner-heading {
-    margin-top: 50px;
+    margin: 50px auto;
     text-align: center;
   }
 
+  .about-detail {
+    margin-top: 30px;
+  }
+
+  .tab-choose {
+    display: flex;
+    justify-content: center;
+  }
 
   .bubble_img img {
     width: 100px;
@@ -9744,7 +9787,24 @@ only screen and (min-width: 768px) and (max-width: 991px) {
     text-align: start !important;
   }
 
+  .section-title-wrapper,
+  .guide-heading,
+  .service-heading {
+    text-align: left !important;
+  }
 
+  .banner-services-mobile {
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .guide-box {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+ 
 }
 
 @media (min-width: 767.98px) and (max-width: 991.98px) {
@@ -9755,8 +9815,12 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   }
 
   .guide-detail {
-    height: auto !important;
+    height: 240px !important;
   }
+  .tp-project-img img .garden-img {
+    height: 220px !important;
+  }
+
 }
 
 @media (min-width: 991.98px) and (max-width: 1200px) {}
@@ -9846,4 +9910,12 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 
 .guide-heading {
   text-align: center;
+}
+
+.section-title-wrapper {
+  text-align: center;
+}
+
+.g-international h2 {
+  color: #1B302A;
 }

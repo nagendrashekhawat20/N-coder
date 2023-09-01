@@ -34,9 +34,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 </head>
 
@@ -76,12 +74,28 @@
     <main>
 
         <section class="mt-100 mb-100">
+
             <div class="container">
+                <div class="breadcrumb-menu mb-10">
+                    <nav class="breadcrumb-trail breadcrumbs">
+                        <ul class="trail-items">
+                            <li class="trail-item trail-begin"><a href="./Guide.php">Guides</a>
+                            </li>
+                            <li class="trail-item trail-end"><span>Kitchen cleaning checklist for a spotless kitchen</span></li>
+                        </ul>
+                    </nav>
+                </div>
                 <div>
                     <img src="./assets/img/guide/guide-int.png" alt="image not found" class="img-fluid">
 
                 </div>
+                <div class="mt-10">
+                    <p>
+                        19 March 2023
+                    </p>
+                </div>
             </div>
+
         </section>
 
         <section>
@@ -178,34 +192,29 @@
                             <div class="row form-m-inline">
                                 <div class="form-group col-12 col-md-6">
                                     <label for="firstName"></label>
-                                    <input type="text" class="form-control" id="firstName" name="name"
-                                        placeholder="First Name" />
+                                    <input type="text" class="form-control" id="firstName" name="name" placeholder="First Name" />
                                 </div>
                                 <div class="form-group col-12 col-md-6">
                                     <label for="lastName"></label>
-                                    <input type="text" class="form-control" id="lastName" name="name"
-                                        placeholder="Last Name" />
+                                    <input type="text" class="form-control" id="lastName" name="name" placeholder="Last Name" />
                                 </div>
                             </div>
 
                             <div class="row form-m-inline">
                                 <div class="form-group col-12 col-md-6">
                                     <label for="email"></label>
-                                    <input type="text" class="form-control" id="email" name="email"
-                                        placeholder="Email address" />
+                                    <input type="text" class="form-control" id="email" name="email" placeholder="Email address" />
                                 </div>
 
                                 <div class="form-group col-12 col-md-6">
                                     <label for="phone"></label>
-                                    <input type="number" class="form-control" id="phone" name="phone"
-                                        placeholder="Phone" />
+                                    <input type="number" class="form-control" id="phone" name="phone" placeholder="Phone" />
                                 </div>
                             </div>
 
                             <div class="form-group">
                                 <label for="message"></label>
-                                <textarea class="form-control" id="message" name="message" rows="4"
-                                    placeholder="Message"></textarea>
+                                <textarea class="form-control" id="message" name="message" rows="4" placeholder="Message"></textarea>
                             </div>
 
                             <a type="submit" class="btn contact-form col-12">

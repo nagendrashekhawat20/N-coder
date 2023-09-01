@@ -77,7 +77,7 @@
         <section class="tp-slider-area-three fix">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-sm-12 col-md-6 align-items-center d-flex">
+                    <div class="col-12 col-sm-12 col-md-6 align-items-center d-flex banner-services-mobile">
                         <div class="bubble_img">
                             <img src="./assets/img/slider/bubble.png" alt="Image not found" class="img-fluid">
                         </div>
@@ -434,7 +434,7 @@
         <section>
             <div class="container">
                 <div class="tp-prjects-area pt-80 pb-40">
-                    <div class="service-heading text-center">
+                    <div class="service-heading">
                         <h6>
                             More Services
                         </h6>
@@ -529,7 +529,7 @@
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <div class="section-title-wrapper text-center mb-55">
+                        <div class="section-title-wrapper mb-55">
                             <h5 class="testimonial_h mb-20"> TESTIMONIALS</h5>
                             <h2 class="tp-section-title-two color-theme-blue">Get swept away by our pristine reputation
                             </h2>
