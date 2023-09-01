@@ -8907,6 +8907,10 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   color: #1B302A;
 }
 
+.banner-heading h6 {
+  text-transform: uppercase;
+}
+
 .btn-banner_light {
   font-size: 16px;
   font-weight: 500;

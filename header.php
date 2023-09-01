@@ -38,7 +38,7 @@
 
                                         </ul>
                                     </li>
-                                    <li class="menu-item-has-children"><a href="guide.php">GUIDES</a>
+                                    <li class="menu-item-has-children"><a href="./Guide.php">GUIDES</a>
 
                                     </li>
                                     <li class="menu-item-has-children"><a href="contact.php">CONTACT</a>

@@ -926,6 +926,7 @@
     <script src="assets/js/swiper-bundle.js"></script>
     <script src="assets/js/venobox.min.js"></script>
     <script src="assets/js/backToTop.js"></script>
+    <script src="assets/js/jquery.meanmenu.min.js"></script>
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
     <script src="assets/js/ajax-form.js"></script>
     <script src="assets/js/wow.min.js"></script>
