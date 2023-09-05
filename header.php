@@ -97,6 +97,15 @@
 
 
     <!-- JS here -->
+<script>
+  window.onUsersnapLoad = function(api) {
+    api.init();
+  }
+  var script = document.createElement('script');
+  script.defer = 1;
+  script.src = 'https://widget.usersnap.com/global/load/c78366c4-3bc1-45a9-a79c-97982f589328?onload=onUsersnapLoad';
+  document.getElementsByTagName('head')[0].appendChild(script);
+</script>
     <script src="assets/js/vendor/jquery.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/swiper-bundle.js"></script>
