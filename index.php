@@ -573,7 +573,7 @@
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <div class="section-title-wrapper mb-55">
+                        <div class="section-title-wrapper testimonial-heading mb-55">
                             <h5 class="testimonial_h mb-20"> TESTIMONIALS</h5>
                             <h2 class="tp-section-title-two color-theme-blue">Get swept away by our pristine reputation
                             </h2>
