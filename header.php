@@ -12,7 +12,7 @@
                         <div class="tp-main-menu tp-main-menu-three">
                             <nav id="tp-mobile-menu">
                                 <ul>
-                                    <li class="menu-item-has-children"><a href="index.php" class="active">HOME</a>
+                                    <li class="menu-item-has-children"><a href="index.php">HOME</a>
 
                                     </li>
                                     <li class="menu-item-has-children"><a href="about.php">ABOUT</a>
