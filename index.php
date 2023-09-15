@@ -192,7 +192,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="d-flex justify-content-center">
+                                            <div class="d-flex justify-content-center mt-20">
                                                 <a href="./service.php" class="btn btn-banner_quote">See All
                                                     Services</a>
                                             </div>
@@ -551,7 +551,7 @@
                         </div>
 
                     </div>
-                    <div class="d-flex justify-content-center">
+                    <div class="d-flex justify-content-center mt-20">
                         <a href="faq.php" class="btn header-btn">KNOW MORE</a>
 
                     </div>

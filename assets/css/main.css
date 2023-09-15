@@ -1700,6 +1700,7 @@ select {
   color: #A5C766;
   font-weight: normal;
   text-transform: uppercase;
+  font-weight: 600;
 }
 
 .yellow-btn {
@@ -9057,6 +9058,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   text-transform: uppercase;
   color: #A5C766;
   font-weight: normal;
+  font-weight: 600;
 }
 
 .icons-work img {
@@ -9089,6 +9091,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   text-transform: uppercase;
   font-weight: normal;
   margin-bottom: 20px;
+  font-weight: 600;
 }
 
 .service-box {
@@ -9182,6 +9185,10 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   color: #1B302A;
 }
 
+.guide-detail p {
+  color: #A5C766;
+}
+
 .guide-detail a {
   color: #A5C766;
   text-decoration: underline;
@@ -9197,6 +9204,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   text-transform: uppercase;
   font-weight: normal;
   margin-bottom: 20px;
+  font-weight: 600;
 }
 
 .faqs-block h2 {
@@ -9233,6 +9241,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   text-transform: uppercase;
   color: #A5C766;
   font-weight: normal;
+  font-weight: 700;
 }
 
 .about-detail h2,
