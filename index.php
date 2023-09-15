@@ -185,7 +185,7 @@
                                                     <div class="tp-project-text pt-2">
                                                         <div class="tp-project-text-content">
 
-                                                            <h4 class="tp-project-title"><a href="./Emergency-Cleaning.php">Gardening &
+                                                            <h4 class="tp-project-title"><a href="./Gardening & Landscaping.php">Gardening &
                                                                     Landscaping</a>
                                                             </h4>
                                                         </div>
@@ -231,7 +231,7 @@
                                 set the standard for squeaky-clean spaces, fostering lasting client relationships
                                 through our meticulous proficiency.
                             </p>
-                            <a href="./about.php" class="btn footer-btn">READ MORE</a>
+                            <a href="./about.php" class="btn header-btn">READ MORE</a>
                         </div>
                     </div>
                 </div>
@@ -301,7 +301,7 @@
                             <div class="row align-items-end justify-content-center col-lg-12">
                                 <div class="col-xl-12 col-lg-12">
                                     <div class="tp-choose-three">
-                                        <div class="section-title-wrapper mb-25">
+                                        <div class="mb-25">
                                             <h5 class="tp-section-subtitle-three mb-30">WHY CHOOSE US</h5>
                                             <h2 class="tp-section-title-two mb-40">Achieve impeccability through<br>
                                                 unmatched expertise</h2>
@@ -552,7 +552,7 @@
 
                     </div>
                     <div class="d-flex justify-content-center">
-                        <a href="faq.php" class="btn footer-btn">KNOW MORE</a>
+                        <a href="faq.php" class="btn header-btn">KNOW MORE</a>
 
                     </div>
                 </div>
