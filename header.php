@@ -4,7 +4,7 @@
                 <div class="row justify-content-xl-center align-items-center">
                     <div class="col-xxl-3 col-xl-4 col-8">
                         <div class="tp-header-logo-three">
-                            <a href="index.php"><img src="assets/img/logo/logo.png" class="img-fluid"
+                            <a href="index.php"><img src="assets/img/logo/logo1.png" class="img-fluid"
                                     alt="logo not found"></a>
                         </div>
                     </div>
