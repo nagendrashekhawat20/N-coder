@@ -72,6 +72,7 @@
     ?>
 
     <main>
+        
         <!-- hero area start here -->
         <section class="tp-slider-area-three fix">
             <div class="container">
@@ -826,16 +827,6 @@
     <script src="assets/js/main.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
-    <script>
-        function openModal() {
-            $('#modalContactForm').modal('show');
-        }
-
-        var imagePopUp = document.querySelector();
-        imagePopUp.addEventListener('click', function(e) {
-            $('#modalContactForm').modal('show');
-        });
-    </script>
 </body>
 
 </html>
