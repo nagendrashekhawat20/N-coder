@@ -193,7 +193,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="d-flex justify-content-center">
+                                            <div class="d-flex justify-content-center mt-20">
                                                 <a href="./service.php" class="btn btn-banner_quote">See All
                                                     Services</a>
                                             </div>
@@ -552,7 +552,7 @@
                         </div>
 
                     </div>
-                    <div class="d-flex justify-content-center">
+                    <div class="d-flex justify-content-center mt-20">
                         <a href="faq.php" class="btn header-btn">KNOW MORE</a>
 
                     </div>
@@ -574,7 +574,7 @@
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <div class="section-title-wrapper mb-55">
+                        <div class="section-title-wrapper testimonial-heading mb-55">
                             <h5 class="testimonial_h mb-20"> TESTIMONIALS</h5>
                             <h2 class="tp-section-title-two color-theme-blue">Get swept away by our pristine reputation
                             </h2>
@@ -827,6 +827,7 @@
     <script src="assets/js/main.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
+   
 </body>
 
 </html>

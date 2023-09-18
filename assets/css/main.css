@@ -187,7 +187,7 @@ i {
 }
 
 label {
-  color: #064e2a;
+  /* color: #064e2a; */
   cursor: pointer;
   font-size: 14px;
   font-weight: 400;
@@ -1700,6 +1700,7 @@ select {
   color: #A5C766;
   font-weight: normal;
   text-transform: uppercase;
+  font-weight: 600;
 }
 
 .yellow-btn {
@@ -9057,6 +9058,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   text-transform: uppercase;
   color: #A5C766;
   font-weight: normal;
+  font-weight: 600;
 }
 
 .icons-work img {
@@ -9089,6 +9091,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   text-transform: uppercase;
   font-weight: normal;
   margin-bottom: 20px;
+  font-weight: 600;
 }
 
 .service-box {
@@ -9148,6 +9151,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   text-transform: uppercase;
   font-weight: normal;
   margin-bottom: 20px;
+  font-weight: 600;
 }
 
 .guide-heading h2 {
@@ -9182,6 +9186,10 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   color: #1B302A;
 }
 
+.guide-detail p {
+  color: #A5C766;
+}
+
 .guide-detail a {
   color: #A5C766;
   text-decoration: underline;
@@ -9197,6 +9205,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   text-transform: uppercase;
   font-weight: normal;
   margin-bottom: 20px;
+  font-weight: 600;
 }
 
 .faqs-block h2 {
@@ -9233,6 +9242,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   text-transform: uppercase;
   color: #A5C766;
   font-weight: normal;
+  font-weight: 700;
 }
 
 .about-detail h2,
@@ -9505,6 +9515,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   .address-block {
     margin-top: 20px;
     order: 1;
+    display: none;
   }
 
   .bubble_img-about img {
@@ -9641,6 +9652,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   .address-block {
     margin-top: 20px;
     order: 1;
+    display: none;
   }
 
   .faqs-block {
@@ -9905,13 +9917,17 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .service-heading {
-  text-align: center !important;
+  text-align: center;
 }
 
 .guide-heading {
-  text-align: center !important;
+  text-align: center;
 }
 
 .g-international h2 {
   color: #1B302A;
+}
+
+.testimonial-heading {
+  text-align: center;
 }

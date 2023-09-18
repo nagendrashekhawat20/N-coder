@@ -77,7 +77,7 @@
                         <div class="tp-footer-widget footer-col-1 mb-30 wow fadeInUp" data-wow-delay=".3s">
                             <div class="tp-footer-info tp-footer-info-three">
                                 <div class="tp-footer-info-logo mb-35">
-                                    <a href="index.php"><img src="assets/img/logo/logo-footer.png" class="img-fluid"
+                                    <a href="index.php"><img src="assets/img/logo/logo-foot.png" class="img-fluid"
                                             alt="img not found"></a>
                                 </div>
                                 <!-- <p class="text-white mb-35">Pulvinar seneius morbi to quisque nunc a towa faucibus netus a mone lestie nice disease</p> -->
