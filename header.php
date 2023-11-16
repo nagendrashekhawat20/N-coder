@@ -1,14 +1,15 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <header>
         <div class="tp-header-area-three header-sticky">
             <div class="tp-custom-container">
                 <div class="row justify-content-xl-center align-items-center">
-                    <div class="col-xxl-3 col-xl-4 col-8">
+                    <div class="col-xxl-2 col-xl-2 col-8">
                         <div class="tp-header-logo-three">
-                            <a href="index.php"><img src="assets/img/logo/logo1.png" class="img-fluid"
-                                    alt="logo not found"></a>
+                            <a href="index.php"><img src="assets/img/logo/logo1.png" class="img-fluid" alt="logo not found"></a>
                         </div>
                     </div>
-                    <div class="col-xxl-6 col-xl-6 col-4 d-flex justify-content-center">
+                    <div class="col-xxl-8 col-xl-8 col-4 d-flex justify-content-center">
                         <div class="tp-main-menu tp-main-menu-three">
                             <nav id="tp-mobile-menu">
                                 <ul>
@@ -18,9 +19,10 @@
                                     <li class="menu-item-has-children"><a href="about.php">ABOUT</a>
 
                                     </li>
-                                    <li class="menu-item-has-children"><a href="service.php">SERVICES</a>
+
+                                    <li class="menu-item-has-children"><a href="service.php">SERVICES<i class="fa-solid fa-angle-down ms-1"></i></a>
                                         <ul class="sub-menu">
-                                            <li><a href="./Office-cleaning.php">Office Cleaning</a></li>
+                                            <li><a href="./Commercial-Cleaning.php">Commercial Cleaning</a></li>
                                             <li><a href="./Residential _Cleaning.php">Residential Cleaning</a></li>
                                             <li><a href="./Gardening & Landscaping.php">Gardening & Landscaping</a>
                                             </li>
@@ -38,8 +40,23 @@
 
                                         </ul>
                                     </li>
-                                    <li class="menu-item-has-children"><a href="./Guide.php">GUIDES</a>
+                                    <li class="menu-item-has-children"><a href="./Quality-Assurance.php">QUALITY ASSURANCE</a>
 
+                                    </li>
+                                    <li class="menu-item-has-children"><a href="./sectors.php">SECTOR<i class="fa-solid fa-angle-down ms-1"></i></a>
+                                        <ul class="sub-menu">
+                                            <li><a href="./Domestic-Sector.php">Domestic Sector</a></li>
+                                            <li><a href="./Commercial-Sector.php">Commercial Sector</a></li>
+                                            <li><a href="./Hospitality-Sector.php">Hospitality Sector</a>
+                                            </li>
+                                            <li><a href="./Transportation-Sector.php">Transportation Sector</a></li>
+                                            <li><a href="./Education-Sector.php">Education Sector</a></li>
+                                            <li><a href="./Retail-Sector.php">Retail Sector</a></li>
+                                            <li><a href="./Industrial-Sector.php">Industrial Sector</a></li>
+                                            <li><a href="./Child-Care-Sector.php">Child Care Sector</a></li>
+                                            <li><a href="./Health-Care-Sector.php">Health Care Sector</a></li>
+
+                                        </ul>
                                     </li>
                                     <li class="menu-item-has-children"><a href="contact.php">CONTACT</a>
                                     </li>
@@ -51,7 +68,7 @@
                             <button class="side-toggle text-dark"><i class="far fa-bars"></i></button>
                         </div>
                     </div>
-                    <div class="col-xxl-3 col-xl-2 d-none d-xl-block">
+                    <div class="col-xxl-2 col-xl-2 d-none d-xl-block">
                         <div class="tp-header-right-three">
                             <!-- <div class="tp-header-number-three">
                                 <span>Call Us : <a href="tel:33888200-55">33 888 200 - 55</a></span>
@@ -77,8 +94,7 @@
                         <h4>Contact Info</h4>
                         <ul>
                             <li><i class="flaticon-pin"></i>Perth Western Australia</li>
-                            <li><i class="flaticon-email"></i><a
-                                    href="mailto:admin@topmasterservice.com.au">admin@topmasterservice.com.au</a></li>
+                            <li><i class="flaticon-email"></i><a href="mailto:admin@topmasterservice.com.au">admin@topmasterservice.com.au</a></li>
                             <li><i class="flaticon-phone-call"></i><a href="tel:0481 826 682">0481 826 682</a></li>
                         </ul>
                         <div class="sidebar__menu--social">
@@ -97,15 +113,15 @@
 
 
     <!-- JS here -->
-<script>
-  window.onUsersnapLoad = function(api) {
-    api.init();
-  }
-  var script = document.createElement('script');
-  script.defer = 1;
-  script.src = 'https://widget.usersnap.com/global/load/c78366c4-3bc1-45a9-a79c-97982f589328?onload=onUsersnapLoad';
-  document.getElementsByTagName('head')[0].appendChild(script);
-</script>
+    <script>
+        window.onUsersnapLoad = function(api) {
+            api.init();
+        }
+        var script = document.createElement('script');
+        script.defer = 1;
+        script.src = 'https://widget.usersnap.com/global/load/c78366c4-3bc1-45a9-a79c-97982f589328?onload=onUsersnapLoad';
+        document.getElementsByTagName('head')[0].appendChild(script);
+    </script>
     <script src="assets/js/vendor/jquery.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/swiper-bundle.js"></script>
@@ -124,7 +140,7 @@
         }
 
         var imagePopUp = document.querySelector();
-        imagePopUp.addEventListener('click', function (e) {
+        imagePopUp.addEventListener('click', function(e) {
             $('#modalContactForm').modal('show');
         });
     </script>

@@ -28,41 +28,40 @@
 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-    @media (min-width: 420px) and (max-width: 574.98px) {
-  #pop-img-first{
-    display: none !important;
-  }
-  .pop-up-img{
-    display: none !important;
-  }
-}
+    <style>
+        @media (min-width: 420px) and (max-width: 574.98px) {
+            #pop-img-first {
+                display: none !important;
+            }
+
+            .pop-up-img {
+                display: none !important;
+            }
+        }
     </style>
 </head>
 
 <body>
     <footer class="theme-dark-bg2">
         <div class="tp-footer-area-two">
+            <div class="line-footer">
+
+            </div>
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-12 col-md-3 mb-10 foot-new">
-                        <img src="./assets/img/footer/footer-1 2.png" alt="Image not found" class="img-fluid">
-                    </div>
                     <div class="col-12 col-md-2">
                         <h4>
                             Subscribe to Newsletter
                         </h4>
                     </div>
-                    <div class="col-12 col-md-5 mb-4">
+                    <div class="col-12 col-md-7 mb-4">
                         <form action="#">
                             <label for="email" class="form-label"></label>
-                            <input type="email" class="form-control" name="email" id="email" aria-describedby="email"
-                                placeholder="Enter your email address"
-                                style="border: 0.5px solid #cfceda73; color: #A5C766; background-color: #ffffff00;">
+                            <input type="email" class="form-control subscribe-form" name="email" id="email" aria-describedby="email" placeholder="Enter your email address">
                         </form>
                     </div>
-                    <div class="col-12 col-md-2 mb-3">
-                        <button type="submit" class="footer-btn btn">Submit Now</button>
+                    <div class="col-12 col-md-3 mb-4 footer-btn btn">
+                        <a type="submit" class="">Submit Now</a>
                     </div>
                 </div>
 
@@ -77,15 +76,22 @@
                         <div class="tp-footer-widget footer-col-1 mb-30 wow fadeInUp" data-wow-delay=".3s">
                             <div class="tp-footer-info tp-footer-info-three">
                                 <div class="tp-footer-info-logo mb-35">
-                                    <a href="index.php"><img src="assets/img/logo/logo-foot.png" class="img-fluid"
-                                            alt="img not found"></a>
+                                    <a href="index.php"><img src="assets/img/logo/logo-foot.png" class="img-fluid" alt="img not found"></a>
                                 </div>
                                 <!-- <p class="text-white mb-35">Pulvinar seneius morbi to quisque nunc a towa faucibus netus a mone lestie nice disease</p> -->
                                 <div class="tp-footer-info-social tp-footer-info-social-three">
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fa fa-facebook-f"></i></a>
                                     <a href="#"><i class="fab fa-twitter"></i></a>
                                     <a href="#"><i class="fab fa-linkedin"></i></a>
                                     <a href="#"><i class="fab fa-instagram"></i></a>
+                                </div>
+                                <div class="tp-footer-widget mt-30 wow fadeInUp" data-wow-delay="1.2s">
+                                    <ul>
+                                        <li class="text-white"><b>Email Us:</b></li>
+                                        <li><a href="mailto: admin@topmasterservice.com.au">admin@topmasterservice.com.au</a>
+                                        </li>
+                                        <li><a href="tel: 0481 826 682">0481 826 682</a></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -96,6 +102,8 @@
                             <ul>
                                 <li><a href="./index.php">Home</a></li>
                                 <li><a href="./about.php">About Us</a></li>
+                                <li><a href="./Quality-Assurance.php">Quality Assurance</a></li>
+                                <li><a href="./sectors.php">Sectors</a></li>
                                 <li><a href="./Guide.php">Guides</a></li>
                                 <li><a href=" " data-bs-target="#modalContactForm" data-bs-toggle="modal">Get a
                                         quote</a></li>
@@ -108,20 +116,25 @@
                             <h4 class="tp-footer-widget-title mb-35">Services</h4>
                             <ul>
                                 <li><a href="./Residential _Cleaning.php">Residential Cleaning</a></li>
-                                <li><a href="./Office-cleaning.php">Office Cleaning</a></li>
+                                <li><a href="./Commercial-Cleaning.php">Commercial Cleaning</a></li>
                                 <li><a href="./Emergency-Cleaning.php">Emergency Cleaning</a></li>
                                 <li><a href="./Gardening & Landscaping.php">Gardening & Landscaping</a></li>
+                                <li><a href="./Carpet-Steam-Clean.php">Carpet Steam Clean</a></li>
+                                <li><a href="./High-Pressure-Cleaning.php">High Pressure Cleaning</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6">
-                        <div class="tp-footer-widget footer-col-4 mb-30 wow fadeInUp" data-wow-delay="1.2s">
-                            <h4 class="tp-footer-widget-title mb-40">Contact</h4>
+                        <div class="tp-footer-widget  mt-70 wow fadeInUp" data-wow-delay=".9s">
+                            <h3> </h3>
                             <ul>
-                                <li class="text-white"><b>Email Us:</b></li>
-                                <li><a href="mailto: admin@topmasterservice.com.au">admin@topmasterservice.com.au</a>
-                                </li>
-                                <li><a href="tel: 0481 826 682">0481 826 682</a></li>
+                                <li><a href="./Strip-&-Seal.php">Strip & Seal</a></li>
+                                <li><a href="./Window-Cleaning.php">Window Cleaning</a></li>
+                                <li><a href="./High-Level-Window-Cleaning.php">High level window Cleaning</a></li>
+                                <li><a href="./Graffiti-Removal.php">Graffiti Removal</a></li>
+                                <li><a href="./Hard-Floor-Scrubbing.php">Hard floor Scrubbing</a></li>
+                                <li><a href="./House-moves.php"> House Moves</a></li>
+                                <li><a href="./Labour-hire.php">Labor Hire</a></li>
                             </ul>
                         </div>
                     </div>
@@ -144,8 +157,7 @@
     </footer>
 
 
-    <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-        aria-hidden="true">
+    <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
 
@@ -157,35 +169,30 @@
                         <div class="col-12 col-md-8 pop-up-detail pb-20">
                             <div class="modal-header text-center">
                                 <h2 class="modal-title">Request a free quote</h2>
-                                <button type="button" id="Close_popup" class="close text-dark" data-bs-dismiss="modal"
-                                    aria-label="Close">
+                                <button type="button" id="Close_popup" class="close text-dark" data-bs-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true"><i class="fa fa-close"></i></span>
                                 </button>
                             </div>
                             <div class="row form-m-inline">
                                 <div class="form-group col-12 col-sm-6 col-md-6">
                                     <label for="firstName"></label>
-                                    <input type="text" class="form-control" id="firstName" name="name"
-                                        placeholder="First Name" />
+                                    <input type="text" class="form-control" id="firstName" name="name" placeholder="First Name" />
                                 </div>
                                 <div class="form-group col-12 col-sm-6 col-md-6">
                                     <label for="lastName"></label>
-                                    <input type="text" class="form-control" id="lastName" name="name"
-                                        placeholder="Last Name" />
+                                    <input type="text" class="form-control" id="lastName" name="name" placeholder="Last Name" />
                                 </div>
                             </div>
 
                             <div class="row form-m-inline">
                                 <div class="form-group col-12 col-sm-6 col-md-6">
                                     <label for="email"></label>
-                                    <input type="text" class="form-control" id="email" name="email"
-                                        placeholder="Email address" />
+                                    <input type="text" class="form-control" id="email" name="email" placeholder="Email address" />
                                 </div>
 
                                 <div class="form-group col-12 col-sm-6 col-md-6">
                                     <label for="phone"></label>
-                                    <input type="number" class="form-control" id="phone" name="phone"
-                                        placeholder="Phone" />
+                                    <input type="number" class="form-control" id="phone" name="phone" placeholder="Phone" />
                                 </div>
                             </div>
                             <div class="wrapper">
@@ -208,8 +215,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="message"></label>
-                                <textarea class="form-control" id="message" name="message" rows="4"
-                                    placeholder="Message"></textarea>
+                                <textarea class="form-control" id="message" name="message" rows="4" placeholder="Message"></textarea>
                             </div>
 
                             <a type="submit" class="btn contact-form col-12">
@@ -243,7 +249,7 @@
         }
 
         var imagePopUp = document.querySelector();
-        imagePopUp.addEventListener('click', function (e) {
+        imagePopUp.addEventListener('click', function(e) {
             $('#modalContactForm').modal('show');
         });
     </script>
