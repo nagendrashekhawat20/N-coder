@@ -34,7 +34,9 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 
 </head>
 
@@ -151,14 +153,16 @@
                         Choose the Apex of Cleaning Excellence
                     </h2>
                     <div class="bubble-service">
-                        <img src="./assets/img/process/bubble.png" alt="Image not found" height="100" width="100" class="img-fluid">
+                        <img src="./assets/img/process/bubble.png" alt="Image not found" height="100" width="100"
+                            class="img-fluid">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-6 col-lg-4 mb-4">
                         <a href="./Residential _Cleaning.php">
                             <div class="sector-img-block">
-                                <img src="./assets/img/service/Residential Cleaning.png" alt="Image not found" class="img-fluid">
+                                <img src="./assets/img/service/Residential Cleaning.png" alt="Image not found"
+                                    class="img-fluid">
                                 <div class="sector-img-overlay"></div>
                                 <div class="sector-text">
                                     <h3>Residential Cleaning</h3>
@@ -170,7 +174,8 @@
                     <div class="col-md-6 col-lg-4 mb-4">
                         <a href="./Commercial-Cleaning.php">
                             <div class="sector-img-block">
-                                <img src="./assets/img/service/Commercial Cleaning.png" alt="Image not found" class="img-fluid">
+                                <img src="./assets/img/service/Commercial Cleaning.png" alt="Image not found"
+                                    class="img-fluid">
                                 <div class="sector-img-overlay"></div>
                                 <div class="sector-text">
                                     <h3>Commercial Cleaning</h3>
@@ -181,7 +186,8 @@
                     <div class="col-md-6 col-lg-4 mb-4">
                         <a href="./Emergency-Cleaning.php">
                             <div class="sector-img-block">
-                                <img src="./assets/img/service/Emergency Cleaning.png" alt="Image not found" class="img-fluid">
+                                <img src="./assets/img/service/Emergency Cleaning.png" alt="Image not found"
+                                    class="img-fluid">
                                 <div class="sector-img-overlay">
                                 </div>
                                 <div class="sector-text">
@@ -193,7 +199,8 @@
                     <div class="col-md-6 col-lg-4 mb-4">
                         <a href="./Gardening & Landscaping.php">
                             <div class="sector-img-block">
-                                <img src="./assets/img/service/Gardening & Landscaping.png" alt="Image not found" class="img-fluid">
+                                <img src="./assets/img/service/Gardening & Landscaping.png" alt="Image not found"
+                                    class="img-fluid">
                                 <div class="sector-img-overlay">
                                 </div>
                                 <div class="sector-text">
@@ -205,7 +212,8 @@
                     <div class="col-md-6 col-lg-4 mb-4">
                         <a href="./Carpet-Steam-Clean.php">
                             <div class="sector-img-block">
-                                <img src="./assets/img/service/Carpet Steam Clean.png" alt="Image not found" class="img-fluid">
+                                <img src="./assets/img/service/Carpet Steam Clean.png" alt="Image not found"
+                                    class="img-fluid">
                                 <div class="sector-img-overlay">
                                 </div>
                                 <div class="sector-text">
@@ -217,7 +225,8 @@
                     <div class="col-md-6 col-lg-4 mb-4">
                         <a href="./High-Pressure-Cleaning.php">
                             <div class="sector-img-block">
-                                <img src="./assets/img/service/High Pressure Cleaning.png" alt="Image not found" class="img-fluid">
+                                <img src="./assets/img/service/High Pressure Cleaning.png" alt="Image not found"
+                                    class="img-fluid">
                                 <div class="sector-img-overlay">
                                 </div>
                                 <div class="sector-text">
@@ -229,7 +238,8 @@
                     <div class="col-md-6 col-lg-4 mb-4">
                         <a href="./Strip-&-Seal.php">
                             <div class="sector-img-block">
-                                <img src="./assets/img/service/Strip & Seal.png" alt="Image not found" class="img-fluid">
+                                <img src="./assets/img/service/Strip & Seal.png" alt="Image not found"
+                                    class="img-fluid">
                                 <div class="sector-img-overlay">
                                 </div>
                                 <div class="sector-text">
@@ -241,7 +251,8 @@
                     <div class="col-md-6 col-lg-4 mb-4">
                         <a href="./Window-Cleaning.php">
                             <div class="sector-img-block">
-                                <img src="./assets/img/service/Window Cleaning.png" alt="Image not found" class="img-fluid">
+                                <img src="./assets/img/service/Window Cleaning.png" alt="Image not found"
+                                    class="img-fluid">
                                 <div class="sector-img-overlay">
                                 </div>
                                 <div class="sector-text">
@@ -253,7 +264,8 @@
                     <div class="col-md-6 col-lg-4 mb-4">
                         <a href="./High-Level-Window-Cleaning.php">
                             <div class="sector-img-block">
-                                <img src="./assets/img/service/High Level Window Cleaning.png" alt="Image not found" class="img-fluid">
+                                <img src="./assets/img/service/High Level Window Cleaning.png" alt="Image not found"
+                                    class="img-fluid">
                                 <div class="sector-img-overlay">
                                 </div>
                                 <div class="sector-text">
@@ -265,7 +277,8 @@
                     <div class="col-md-6 col-lg-4 mb-4">
                         <a href="./Graffiti-Removal.php">
                             <div class="sector-img-block">
-                                <img src="./assets/img/service/Graffiti Removal.png" alt="Image not found" class="img-fluid">
+                                <img src="./assets/img/service/Graffiti Removal.png" alt="Image not found"
+                                    class="img-fluid">
                                 <div class="sector-img-overlay">
                                 </div>
                                 <div class="sector-text">
@@ -277,7 +290,8 @@
                     <div class="col-md-6 col-lg-4 mb-4">
                         <a href="./Hard-Floor-Scrubbing.php">
                             <div class="sector-img-block">
-                                <img src="./assets/img/service/Hard Floor Scrubbing.png" alt="Image not found" class="img-fluid">
+                                <img src="./assets/img/service/Hard Floor Scrubbing.png" alt="Image not found"
+                                    class="img-fluid">
                                 <div class="sector-img-overlay">
                                 </div>
                                 <div class="sector-text">
@@ -316,9 +330,11 @@
                                 <h2>
                                     Book Your Cleaning Today!
                                 </h2>
-                                <a href="" class="btn btn-banner_light  mt-10" data-bs-target="#modalContactForm" data-bs-toggle="modal">Get an instant
+                                <a href="" class="btn btn-banner_light  mt-10" data-bs-target="#modalContactForm"
+                                    data-bs-toggle="modal">Get an instant
                                     quote</a>
-                                <h3 class="mt-20"> <a href="tel:0481 826 682" class="mt-20"><i class="fa fa-phone-volume"></i>0481 826 682</a></h3>
+                                <h3 class="mt-20"> <a href="tel:0481 826 682" class="mt-20"><i
+                                            class="fa fa-phone-volume"></i>0481 826 682</a></h3>
                             </div>
 
                         </div>
@@ -424,29 +440,34 @@
                             <div class="row form-m-inline">
                                 <div class="form-group col-12 col-md-6">
                                     <label for="firstName"></label>
-                                    <input type="text" class="form-control" id="firstName" name="name" placeholder="First Name" />
+                                    <input type="text" class="form-control" id="firstName" name="name"
+                                        placeholder="First Name" />
                                 </div>
                                 <div class="form-group col-12 col-md-6">
                                     <label for="lastName"></label>
-                                    <input type="text" class="form-control" id="lastName" name="name" placeholder="Last Name" />
+                                    <input type="text" class="form-control" id="lastName" name="name"
+                                        placeholder="Last Name" />
                                 </div>
                             </div>
 
                             <div class="row form-m-inline">
                                 <div class="form-group col-12 col-md-6">
                                     <label for="email"></label>
-                                    <input type="text" class="form-control" id="email" name="email" placeholder="Email address" />
+                                    <input type="text" class="form-control" id="email" name="email"
+                                        placeholder="Email address" />
                                 </div>
 
                                 <div class="form-group col-12 col-md-6">
                                     <label for="phone"></label>
-                                    <input type="number" class="form-control" id="phone" name="phone" placeholder="Phone" />
+                                    <input type="number" class="form-control" id="phone" name="phone"
+                                        placeholder="Phone" />
                                 </div>
                             </div>
 
                             <div class="form-group">
                                 <label for="message"></label>
-                                <textarea class="form-control" id="message" name="message" rows="4" placeholder="Message"></textarea>
+                                <textarea class="form-control" id="message" name="message" rows="4"
+                                    placeholder="Message"></textarea>
                             </div>
 
                             <a type="submit" class="btn contact-form col-12">
