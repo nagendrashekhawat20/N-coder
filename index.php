@@ -477,7 +477,7 @@
                         unmatched expertise</h2>
                 </div>
                 <div class="row mx-auto align-items-center justify-content-center">
-                    <div class="col-sm-4">
+                    <div class="col-md-4">
                         <div class="tp-about-number mb-20">
                             <div class="bg-color-i mb-20 p-3 rounded-circle">
                                 <img src="./assets/img/about/money (1) 1.png" alt="icon not found" height="40" width="50" class="img-fluid">
@@ -490,7 +490,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-md-4">
                         <div class="tp-about-number mb-20">
                             <div class="bg-color-i rounded-circle mb-30 p-3">
                                 <img src="./assets/img/about/checked (1) 1.png" alt="icon not found" height="40" width="50" class="img-fluid">
@@ -503,7 +503,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-md-4">
                         <div class="tp-about-number mb-20">
                             <div class="bg-color-i rounded-circle mb-30 p-3">
                                 <img src="./assets/img/about/vacuum-cleaner (1) 1.png" alt="icon not found" height="40" width="50" class="img-fluid">
@@ -516,7 +516,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-md-4">
                         <div class="tp-about-number mb-20">
                             <div class="bg-color-i rounded-circle mb-30 p-3">
                                 <img src="./assets/img/about/contract 1.png" alt="icon not found" height="40" width="50" class="img-fluid">
@@ -528,7 +528,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-md-4">
                         <div class="tp-about-number mb-20">
                             <div class="bg-color-i rounded-circle mb-30 p-3">
                                 <img src="./assets/img/about/broom 1.png" alt="icon not found" height="40" width="50" class="img-fluid">
