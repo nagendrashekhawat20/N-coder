@@ -34,9 +34,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 </head>
 
@@ -71,49 +69,25 @@
     <?php
     include('header.php');
     ?>
-    
+
     <main>
         <!-- hero area start here -->
-        <section class="tp-slider-area-three fix">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-sm-12 col-md-6 align-items-center d-flex">
-                        <div class="container">
-                            <div class="bubble_img">
-                                <img src="./assets/img/slider/bubble.png" alt="Image not found" class="img-fluid">
-                            </div>
-                            <div class="banner-heading">
 
-                                <!-- <h6>
-                                    Emergency Cleaning
-                                </h6> -->
-                                <h1>
-                                    Contact Us
-                                </h1>
-                                <div class="tp-page-title z-index">
-                                    <div class="breadcrumb-menu">
-                                        <nav class="breadcrumb-trail breadcrumbs">
-                                            <ul class="trail-items">
-                                                <li class="trail-item trail-begin"><a href="index.php">Home</a>
-                                                </li>
-                                                <li class="trail-item trail-end"><span>Contact Us</span></li>
-                                            </ul>
-                                        </nav>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <img src="./assets/img/slider/bubble-1.png" class="bubble_img_top img-fluid"
-                                alt="Image not found">
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-6">
-                        <img src="./assets/img/contact/contact.png" alt="Image not found"
-                            class="img-fluid men-cleaning">
-                        <div>
-                            <img src="./assets/img/slider/dots-img.png" alt="Image not found"
-                                class="banner_img_dots img-fluid">
+        <section class="Contact-hero service-hero">
+            <div class="container">
+                <div class="text-center hero-heading">
+                    <h1>
+                    Contact Us
+                    </h1>
+                    <div class="tp-page-title z-index">
+                        <div class="breadcrumb-menu">
+                            <nav class="breadcrumb-trail breadcrumbs">
+                                <ul class="trail-items">
+                                    <li class="trail-item trail-begin"><a href="index.php">Home</a>
+                                    </li>
+                                    <li class="trail-item trail-end"><span>Contact Us</span></li>
+                                </ul>
+                            </nav>
                         </div>
                     </div>
                 </div>
@@ -160,34 +134,29 @@
                             <div class="row form-m-inline">
                                 <div class="form-group col">
                                     <label for="firstName"></label>
-                                    <input type="text" class="form-control" id="firstName" name="name"
-                                        placeholder="First Name" />
+                                    <input type="text" class="form-control" id="firstName" name="name" placeholder="First Name" />
                                 </div>
                                 <div class="form-group col-12 col-md-6">
                                     <label for="lastName"></label>
-                                    <input type="text" class="form-control" id="lastName" name="name"
-                                        placeholder="Last Name" />
+                                    <input type="text" class="form-control" id="lastName" name="name" placeholder="Last Name" />
                                 </div>
                             </div>
 
                             <div class="row form-m-inline">
                                 <div class="form-group col-12 col-md-6">
                                     <label for="email"></label>
-                                    <input type="text" class="form-control" id="email" name="email"
-                                        placeholder="Email address" />
+                                    <input type="text" class="form-control" id="email" name="email" placeholder="Email address" />
                                 </div>
 
                                 <div class="form-group col-12 col-md-6">
                                     <label for="phone"></label>
-                                    <input type="number" class="form-control" id="phone" name="phone"
-                                        placeholder="Phone" />
+                                    <input type="number" class="form-control" id="phone" name="phone" placeholder="Phone" />
                                 </div>
                             </div>
 
                             <div class="form-group">
                                 <label for="message"></label>
-                                <textarea class="form-control" id="message" name="message" rows="4"
-                                    placeholder="Message"></textarea>
+                                <textarea class="form-control" id="message" name="message" rows="4" placeholder="Message"></textarea>
                             </div>
 
                             <a type="submit" class="btn contact-form col-12">
@@ -219,13 +188,11 @@
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item my-3">
                             <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button bg-white" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <button class="accordion-button bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                     <b>What cleaning services does Top Master offer?</b>
                                 </button>
                             </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                                data-bs-parent="#accordionExample">
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body bg-white py-4">
                                     <p>
                                         Top Master Service offers a comprehensive range of top-notch cleaning services
@@ -238,14 +205,11 @@
                         </div>
                         <div class="accordion-item my-3">
                             <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed bg-white" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                                    aria-controls="collapseTwo">
+                                <button class="accordion-button collapsed bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                     <b>How can I schedule a cleaning service with Top Master Service?</b>
                                 </button>
                             </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                data-bs-parent="#accordionExample">
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div class="accordion-body bg-white py-4">
                                     <p>
                                         Scheduling a cleaning service with us is easy. You can either call our hotline
@@ -257,14 +221,11 @@
                         </div>
                         <div class="accordion-item my-3">
                             <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed bg-white" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
-                                    aria-controls="collapseThree">
+                                <button class="accordion-button collapsed bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                     <b>Is your cleaning staff background-checked and trained?</b>
                                 </button>
                             </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                                data-bs-parent="#accordionExample">
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                 <div class="accordion-body bg-white py-4">
                                     <p>
                                         Absolutely. At Top Master Service, we prioritise your safety and satisfaction.
@@ -277,14 +238,11 @@
                         </div>
                         <div class="accordion-item my-3">
                             <h2 class="accordion-header" id="headingFour">
-                                <button class="accordion-button collapsed bg-white" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
-                                    aria-controls="collapseFour">
+                                <button class="accordion-button collapsed bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                     <b>What cleaning products and equipment do you use?</b>
                                 </button>
                             </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                                data-bs-parent="#accordionExample">
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                 <div class="accordion-body bg-white py-4">
                                     <p>
                                         We only use eco-friendly and safe cleaning products that are effective in
@@ -296,14 +254,11 @@
                         </div>
                         <div class="accordion-item my-3">
                             <h2 class="accordion-header" id="headingFive">
-                                <button class="accordion-button collapsed bg-white border-1" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
-                                    aria-controls="collapseFive">
+                                <button class="accordion-button collapsed bg-white border-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                     <b> Is Top Master Service insured?</b>
                                 </button>
                             </h2>
-                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                                data-bs-parent="#accordionExample">
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                 <div class="accordion-body bg-white py-4">
                                     <p>
                                         Yes, we are fully insured. We have liability insurance to provide coverage for

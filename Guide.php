@@ -34,9 +34,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 </head>
 
@@ -76,44 +74,22 @@
     <main>
 
         <!-- hero area start here -->
-        <section class="tp-slider-area-three fix">
+
+        <section class="service-hero Guides-hero">
             <div class="container">
-                <div class="row">
-                    <div class="col-12 col-sm-12 col-md-6 align-items-center d-flex">
-                        <div class="container">
-
-                            <div class="banner-heading">
-                                <h1>
-                                   Guides
-                                </h1>
-                                <div class="tp-page-title z-index">
-                                    <div class="breadcrumb-menu">
-                                        <nav class="breadcrumb-trail breadcrumbs">
-                                            <ul class="trail-items">
-                                                <li class="trail-item trail-begin"><a href="index.php">Home</a>
-                                                </li>
-                                                <li class="trail-item trail-end"><span>Guide</span></li>
-                                            </ul>
-                                        </nav>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- <div>
-                            <img src="./assets/img/slider/bubble-1.png" class="bubble_img_top img-fluid"
-                                alt="Image not found">
-                        </div> -->
-                    </div>
-                    <div class="bubble_img-about">
-                        <img src="./assets/img/slider/bubble.png" alt="Image not found" class="img-fluid">
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-6 p-0">
-                        <img src="./assets/img/guide/guide-bann.png" alt="Image not found"
-                            class="img-fluid men-cleaning">
-                        <div>
-                            <img src="./assets/img/slider/dots-img.png" alt="Image not found"
-                                class="banner_img_dots img-fluid">
+                <div class="text-center hero-heading">
+                    <h1>
+                        Guides
+                    </h1>
+                    <div class="tp-page-title z-index">
+                        <div class="breadcrumb-menu">
+                            <nav class="breadcrumb-trail breadcrumbs">
+                                <ul class="trail-items">
+                                    <li class="trail-item trail-begin"><a href="index.php">Home</a>
+                                    </li>
+                                    <li class="trail-item trail-end"><span> Guides</span></li>
+                                </ul>
+                            </nav>
                         </div>
                     </div>
                 </div>
@@ -121,296 +97,63 @@
         </section>
         <!-- hero area end here -->
 
-        <!-- project area start here -->
-        <div class="tp-prjects-area pt-120 pb-120">
+
+        <section class="guide-block mt-100 mb-100">
             <div class="container">
-
-                <div class="service-heading text-center">
-                    <!-- <h6>
-                        WHAT WE OFFER
-                    </h6>
-                    <h2>
-                        Choose the Apex of Cleaning Excellence
-                    </h2> -->
-                    <div class="bubble-service">
-                        <img src="./assets/img/process/bubble.png" alt="Image not found" height="100" width="100"
-                            class="img-fluid">
-                    </div>
-                </div>
-                <!-- <div class="row">
-                    <div class="col-12">
-                        <div class="tp-prjects-tab-menu mb-60">
-                            <ul class="nav justify-content-center" id="myTab" role="tablist">
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
-                                        data-bs-target="#home" type="button" role="tab" aria-controls="home"
-                                        aria-selected="true">All</button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab"
-                                        data-bs-target="#profile" type="button" role="tab" aria-controls="profile"
-                                        aria-selected="false">Carpet</button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="contact-tab" data-bs-toggle="tab"
-                                        data-bs-target="#contact" type="button" role="tab" aria-controls="contact"
-                                        aria-selected="false">Glass</button>
-                                </li>
-
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="contact-tab1" data-bs-toggle="tab"
-                                        data-bs-target="#contact1" type="button" role="tab" aria-controls="contact1"
-                                        aria-selected="false">Outdoor</button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="contact-tab2" data-bs-toggle="tab"
-                                        data-bs-target="#contact2" type="button" role="tab" aria-controls="contact2"
-                                        aria-selected="false">Office</button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="contact-tab3" data-bs-toggle="tab"
-                                        data-bs-target="#contact3" type="button" role="tab" aria-controls="contact3"
-                                        aria-selected="false">Kitchen</button>
-                                </li>
-                            </ul>
+                <div class="row">
+                    <div class="col-12 col-md-4 mt-10 mb-10">
+                        <div class="guide-box">
+                            <div class="guide-img">
+                                <img src="./assets/img/guide/guide-1.png" alt="Image not found" class="img-fluid guide-img">
+                            </div>
+                            <div class="guide-detail mx-2">
+                                <p>
+                                    19 March 2023
+                                </p>
+                                <h4>
+                                    Kitchen cleaning checklist for a spotless kitchen
+                                </h4>
+                                <a href="./Guide-internal.php">Read more</a>
+                            </div>
                         </div>
                     </div>
-                </div> -->
-                <div class="row pb-50">
-                    <div class="col-12">
-                        <div class="bubble-testi">
-                            <img src="./assets/img/slider/bubble.png" alt="Image not found" class="img-fluid">
+                    <div class="col-12 col-md-4 mt-10 mb-10">
+                        <div class="guide-box">
+                            <div class="guide-img">
+                                <img src="./assets/img/guide/guide-2.png" alt="Image not found" class="img-fluid guide-img">
+                            </div>
+                            <div class="guide-detail mx-2">
+                                <p>
+                                    19 March 2023
+                                </p>
+                                <h4>
+                                    How much does house cleaning cost?
+                                </h4>
+                                <a href="./Guide-internal.php">Read more</a>
+                            </div>
                         </div>
-                        <div class="tp-prjects-tab-content">
-                            <div class="tab-content" id="myTabContent">
-                                <div class="tab-pane fade show active" id="home" role="tabpanel"
-                                    aria-labelledby="home-tab">
-                                    <div class="row">
-                                        <div class="bubble_img">
-                                            <img src="./assets/img/slider/bubble.png" alt="Image not found"
-                                                class="img-fluid">
-                                        </div>
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="tp-project z-index mb-30">
-                                                <div class="tp-project-img">
-                                                    <a href="./Guide-internal.php"><img
-                                                            src="assets/img/guide/guide-3.png" class="img-fluid"
-                                                            alt="img not found"></a>
-                                                </div>
-                                                <div class="tp-project-text">
-                                                    <div class="tp-project-text-content">
-                                                        <span class="tp-project-subtitle">19 March 2023</span>
-                                                        <h4 class="tp-project-title"><a
-                                                                href="./Guide-internal.php">Kitchen cleaning
-                                                                checklist for a spotless kitchen</a></h4>
-                                                        <a href="./Guide-internal.php" class="button">Read
-                                                            more</a>
-                                                    </div>
-                                                </div>
-
-
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="tp-project z-index mb-30">
-                                                <div class="tp-project-img">
-                                                    <a href="./Guide-internal.php"><img
-                                                            src="assets/img/guide/guide-2.png" class="img-fluid"
-                                                            alt="img not found"></a>
-                                                </div>
-                                                <div class="tp-project-text">
-                                                    <div class="tp-project-text-content">
-                                                        <span class="tp-project-subtitle">19 March 2023</span>
-                                                        <h4 class="tp-project-title"><a href="./Guide-internal.php">How
-                                                                much does house
-                                                                cleaning cost?</a></h4>
-                                                        <a href="./Guide-internal.php" class="button">Read
-                                                            more</a>
-                                                    </div>
-                                                </div>
-
-
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="tp-project z-index mb-30">
-                                                <div class="tp-project-img">
-                                                    <a href="./Guide-internal.php"><img
-                                                            src="assets/img/guide/guide-1.png" class="img-fluid"
-                                                            alt="img not found"></a>
-                                                </div>
-                                                <div class="tp-project-text">
-                                                    <div class="tp-project-text-content">
-                                                        <span class="tp-project-subtitle">19 March 2023</span>
-                                                        <h4 class="tp-project-title"><a href="./Guide-internal.php">How
-                                                                to disinfect your
-                                                                house after COVID-19</a></h4>
-                                                        <a href="./Guide-internal.php" class="button">Read
-                                                            more</a>
-                                                    </div>
-                                                </div>
-
-
-
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <!-- <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                                    <div class="row">
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="tp-project z-index mb-30">
-                                                <div class="tp-project-img">
-                                                    <img src="assets/img/project/project-tab-1.jpg" class="img-fluid"
-                                                        alt="img not found">
-                                                </div>
-                                                <div class="tp-project-text">
-                                                    <div class="tp-project-text-content">
-                                                        <span class="tp-project-subtitle">Residential Service</span>
-                                                        <h4 class="tp-project-title"><a
-                                                                href="project-details.php">Window Cleaning</a></h4>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="tp-project z-index mb-30">
-                                                <div class="tp-project-img">
-                                                    <img src="assets/img/project/project-tab-2.jpg" class="img-fluid"
-                                                        alt="img not found">
-                                                </div>
-                                                <div class="tp-project-text">
-                                                    <div class="tp-project-text-content">
-                                                        <span class="tp-project-subtitle">Residential Service</span>
-                                                        <h4 class="tp-project-title"><a
-                                                                href="project-details.php">Kitchen Cleaning</a></h4>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                      
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                                    <div class="row">
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="tp-project z-index mb-30">
-                                                <div class="tp-project-img">
-                                                    <img src="assets/img/project/project-tab-1.jpg" class="img-fluid"
-                                                        alt="img not found">
-                                                </div>
-                                                <div class="tp-project-text">
-                                                    <div class="tp-project-text-content">
-                                                        <span class="tp-project-subtitle">Residential Service</span>
-                                                        <h4 class="tp-project-title"><a
-                                                                href="project-details.php">Window Cleaning</a></h4>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="tp-project z-index mb-30">
-                                                <div class="tp-project-img">
-                                                    <img src="assets/img/project/project-tab-2.jpg" class="img-fluid"
-                                                        alt="img not found">
-                                                </div>
-                                                <div class="tp-project-text">
-                                                    <div class="tp-project-text-content">
-                                                        <span class="tp-project-subtitle">Residential Service</span>
-                                                        <h4 class="tp-project-title"><a
-                                                                href="project-details.php">Kitchen Cleaning</a></h4>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                       
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="contact1" role="tabpanel" aria-labelledby="contact-tab1">
-                                    <div class="row">
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="tp-project z-index mb-30">
-                                                <div class="tp-project-img">
-                                                    <img src="assets/img/project/project-tab-1.jpg" class="img-fluid"
-                                                        alt="img not found">
-                                                </div>
-                                                <div class="tp-project-text">
-                                                    <div class="tp-project-text-content">
-                                                        <span class="tp-project-subtitle">Residential Service</span>
-                                                        <h4 class="tp-project-title"><a
-                                                                href="project-details.php">Window Cleaning</a></h4>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="tp-project z-index mb-30">
-                                                <div class="tp-project-img">
-                                                    <img src="assets/img/project/project-tab-2.jpg" class="img-fluid"
-                                                        alt="img not found">
-                                                </div>
-                                                <div class="tp-project-text">
-                                                    <div class="tp-project-text-content">
-                                                        <span class="tp-project-subtitle">Residential Service</span>
-                                                        <h4 class="tp-project-title"><a
-                                                                href="project-details.php">Kitchen Cleaning</a></h4>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                      
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="contact2" role="tabpanel" aria-labelledby="contact-tab2">
-                                    <div class="row">
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="tp-project z-index mb-30">
-                                                <div class="tp-project-img">
-                                                    <img src="assets/img/project/project-tab-1.jpg" class="img-fluid"
-                                                        alt="img not found">
-                                                </div>
-                                                <div class="tp-project-text">
-                                                    <div class="tp-project-text-content">
-                                                        <span class="tp-project-subtitle">Residential Service</span>
-                                                        <h4 class="tp-project-title"><a
-                                                                href="project-details.php">Window Cleaning</a></h4>
-                                                    </div>
-                                                    <div class="tp-project-text-icon">
-                                                        <a href="project-details.php"><i class="fal fa-plus"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="tp-project z-index mb-30">
-                                                <div class="tp-project-img">
-                                                    <img src="assets/img/project/project-tab-2.jpg" class="img-fluid"
-                                                        alt="img not found">
-                                                </div>
-                                                <div class="tp-project-text">
-                                                    <div class="tp-project-text-content">
-                                                        <span class="tp-project-subtitle">Residential Service</span>
-                                                        <h4 class="tp-project-title"><a
-                                                                href="project-details.php">Kitchen Cleaning</a></h4>
-                                                    </div>
-                                                    <div class="tp-project-text-icon">
-                                                        <a href="project-details.php"><i class="fal fa-plus"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                     
-                                    </div>
-                                </div> -->
+                    </div>
+                    <div class="col-12 col-md-4 mt-10 mb-10">
+                        <div class="guide-box">
+                            <div class="guide-img">
+                                <img src="./assets/img/guide/guide-3.png" alt="Image not found" class="img-fluid guide-img">
+                            </div>
+                            <div class="guide-detail mx-2">
+                                <p>
+                                    19 March 2023
+                                </p>
+                                <h4>
+                                    How to disinfect your house after COVID-19
+                                </h4>
+                                <a href="./Guide-internal.php">Read more</a>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
-        </div>
-        <!-- project area end here -->
+        </section>
+
+
 
 
         <!--contact form starts here-->
@@ -452,34 +195,29 @@
                             <div class="row form-m-inline">
                                 <div class="form-group col-12 col-md-6">
                                     <label for="firstName"></label>
-                                    <input type="text" class="form-control" id="firstName" name="name"
-                                        placeholder="First Name" />
+                                    <input type="text" class="form-control" id="firstName" name="name" placeholder="First Name" />
                                 </div>
                                 <div class="form-group col-12 col-md-6">
                                     <label for="lastName"></label>
-                                    <input type="text" class="form-control" id="lastName" name="name"
-                                        placeholder="Last Name" />
+                                    <input type="text" class="form-control" id="lastName" name="name" placeholder="Last Name" />
                                 </div>
                             </div>
 
                             <div class="row form-m-inline">
                                 <div class="form-group col-12 col-md-6">
                                     <label for="email"></label>
-                                    <input type="text" class="form-control" id="email" name="email"
-                                        placeholder="Email address" />
+                                    <input type="text" class="form-control" id="email" name="email" placeholder="Email address" />
                                 </div>
 
                                 <div class="form-group col-12 col-md-6">
                                     <label for="phone"></label>
-                                    <input type="number" class="form-control" id="phone" name="phone"
-                                        placeholder="Phone" />
+                                    <input type="number" class="form-control" id="phone" name="phone" placeholder="Phone" />
                                 </div>
                             </div>
 
                             <div class="form-group">
                                 <label for="message"></label>
-                                <textarea class="form-control" id="message" name="message" rows="4"
-                                    placeholder="Message"></textarea>
+                                <textarea class="form-control" id="message" name="message" rows="4" placeholder="Message"></textarea>
                             </div>
 
                             <a type="submit" class="btn contact-form col-12">
@@ -495,7 +233,7 @@
 
 
     </main>
-    
+
     <?php
     include('footer.php');
     ?>

@@ -67,106 +67,36 @@
         </div>
     </section>
 
-    <header>
-        <div class="tp-header-area-three header-sticky">
-            <div class="tp-custom-container">
-                <div class="row justify-content-xl-center align-items-center">
-                    <div class="col-xxl-3 col-xl-4 col-8">
-                        <div class="tp-header-logo-three">
-                            <a href="index.php"><img src="assets/img/logo/logo.png" class="img-fluid" alt="logo not found"></a>
-                        </div>
-                    </div>
-                    <div class="col-xxl-6 col-xl-6 col-4 d-flex justify-content-center">
-                        <div class="tp-main-menu tp-main-menu-three">
-                            <nav id="tp-mobile-menu">
-                                <ul>
-                                    <li class="menu-item-has-children"><a href="index.php">HOME</a>
-
-                                    </li>
-                                    <li class="menu-item-has-children"><a href="about.php">ABOUT</a>
-
-                                    </li>
-                                    <li class="menu-item-has-children"><a href="service.php" class="active">SERVICES</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="./Office-cleaning.php">Office Cleaning</a></li>
-                                            <li><a href="./Residential _Cleaning.php">Residential Cleaning</a></li>
-                                            <li><a href="./Gardening & Landscaping.php">Gardening & Landscaping</a>
-                                            </li>
-                                            <li><a href="./Emergemcy-Cleaning">Emergemcy Cleaning</a></li>
-                                            <li><a href="./Carpet-Steam-Clean.php">Carpet Steam Clean</a></li>
-                                            <li><a href="./High-Pressure-Cleaning.php">High Pressure Cleaning</a></li>
-                                            <li><a href="./Strip-&-Seal.php">Strip & Seal</a></li>
-                                            <li><a href="./Window-Cleaning.php">Window Cleaning</a></li>
-                                            <li><a href="./High-Level-Window-Cleaning.php">High Level Window
-                                                    Cleaning</a></li>
-                                            <li><a href="./Graffiti-Removal.php">Graffiti Removal</a></li>
-                                            <li><a href="./Hard-Floor-Scrubbing.php">Hard Floor Scrubbing</a></li>
-                                            <li><a href="./House-moves.php">House Moves</a></li>
-                                            <li><a href="./Labour-hire.php">Labor Hire</a></li>
-
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children"><a href="guide.php">GUIDES</a>
-
-                                    </li>
-                                    <li class="menu-item-has-children"><a href="contact.php">CONTACT</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <!-- mobile menu activation -->
-                        <div class="side-menu-icon d-xl-none text-end">
-                            <button class="side-toggle text-dark"><i class="far fa-bars"></i></button>
-                        </div>
-                    </div>
-                    <div class="col-xxl-3 col-xl-2 d-none d-xl-block">
-                        <div class="tp-header-right-three">
-                            <!-- <div class="tp-header-number-three">
-                                <span>Call Us : <a href="tel:33888200-55">33 888 200 - 55</a></span>
-                            </div> -->
-                            <div class="tp-header-btn-three">
-                                <a href="tel:33888200-55" class="header-btn"><b>Call Us:</b> 04123 81 557</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-
-    <!-- mobile menu info -->
-    <div class="fix">
-        <div class="side-info">
-            <button class="side-info-close"><i class="fal fa-times"></i></button>
-            <div class="side-info-content">
-                <div class="tp-mobile-menu"></div>
-                <div class="contact-infos mb-30">
-                    <div class="contact-list mb-30">
-                        <h4>Contact Info</h4>
-                        <ul>
-                            <li><i class="flaticon-pin"></i>54B, Tailstoi Town 5238 ST,La city, IA 522364</li>
-                            <li><i class="flaticon-email"></i><a href="mailto:info@klenar.com">admin@topmasterservice.com.au</a></li>
-                            <li><i class="flaticon-phone-call"></i><a href="tel:33388820055">04123 81 557</a></li>
-                        </ul>
-                        <div class="sidebar__menu--social">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-google"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="offcanvas-overlay"></div>
-    <!-- mobile menu info -->
+    <?php
+    include('header.php');
+    ?>
 
     <main>
 
         <!-- hero area start here -->
-        <section class="tp-slider-area-three fix">
+
+        <section class="service-hero">
+            <div class="container">
+                <div class="text-center hero-heading">
+                    <h1>
+                        Our Services
+                    </h1>
+                    <div class="tp-page-title z-index">
+                        <div class="breadcrumb-menu">
+                            <nav class="breadcrumb-trail breadcrumbs">
+                                <ul class="trail-items">
+                                    <li class="trail-item trail-begin"><a href="index.php">Home</a>
+                                    </li>
+                                    <li class="trail-item trail-end"><span>Services</span></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section class="tp-slider-area-three fix">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-6 align-items-center d-flex">
@@ -190,10 +120,10 @@
                             </div>
                         </div>
 
-                        <!-- <div>
+                        <div>
                             <img src="./assets/img/slider/bubble-1.png" class="bubble_img_top img-fluid"
                                 alt="Image not found">
-                        </div> -->
+                        </div>
                     </div>
                     <div class="bubble_img-about">
                         <img src="./assets/img/slider/bubble.png" alt="Image not found" class="img-fluid">
@@ -206,7 +136,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- hero area end here -->
 
         <!-- project area start here -->
@@ -224,398 +154,178 @@
                         <img src="./assets/img/process/bubble.png" alt="Image not found" height="100" width="100" class="img-fluid">
                     </div>
                 </div>
-                <!-- <div class="row">
-                    <div class="col-12">
-                        <div class="tp-prjects-tab-menu mb-60">
-                            <ul class="nav justify-content-center" id="myTab" role="tablist">
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
-                                        data-bs-target="#home" type="button" role="tab" aria-controls="home"
-                                        aria-selected="true">All</button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab"
-                                        data-bs-target="#profile" type="button" role="tab" aria-controls="profile"
-                                        aria-selected="false">Carpet</button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="contact-tab" data-bs-toggle="tab"
-                                        data-bs-target="#contact" type="button" role="tab" aria-controls="contact"
-                                        aria-selected="false">Glass</button>
-                                </li>
-
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="contact-tab1" data-bs-toggle="tab"
-                                        data-bs-target="#contact1" type="button" role="tab" aria-controls="contact1"
-                                        aria-selected="false">Outdoor</button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="contact-tab2" data-bs-toggle="tab"
-                                        data-bs-target="#contact2" type="button" role="tab" aria-controls="contact2"
-                                        aria-selected="false">Office</button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="contact-tab3" data-bs-toggle="tab"
-                                        data-bs-target="#contact3" type="button" role="tab" aria-controls="contact3"
-                                        aria-selected="false">Kitchen</button>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div> -->
-                <div class="row pb-50">
-                    <div class="col-12">
-                        <div class="tp-prjects-tab-content">
-                            <div class="tab-content" id="myTabContent">
-                                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                    <div class="row">
-                                        <div class="bubble_img">
-                                            <img src="./assets/img/slider/bubble.png" alt="Image not found" class="img-fluid">
-                                        </div>
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="tp-project z-index mb-30">
-                                                <div class="tp-project-img">
-                                                    <a href="./Residential _Cleaning.php"><img src="assets/img/service/Residential.png" class="img-fluid" alt="img not found"></a>
-                                                </div>
-                                                <div class="tp-project-text">
-                                                    <div class="tp-project-text-content">
-
-                                                        <h4 class="tp-project-title"><a href="./Residential _Cleaning.php">Residential
-                                                                Cleaning</a></h4>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="tp-project z-index mb-30">
-                                                <div class="tp-project-img">
-                                                    <a href="./Office-cleaning.php"><img src="assets/img/service/commercial.png" class="img-fluid" alt="img not found"></a>
-                                                </div>
-                                                <div class="tp-project-text">
-                                                    <div class="tp-project-text-content">
-
-                                                        <h4 class="tp-project-title"><a href="./Emergency-Cleaning.php">Commercial
-                                                                Cleaning</a>
-                                                        </h4>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="tp-project z-index mb-30">
-                                                <div class="tp-project-img">
-                                                    <a href="./Emergency-Cleaning.php"><img src="assets/img/service/Emergency.png" class="img-fluid" alt="img not found"></a>
-                                                </div>
-                                                <div class="tp-project-text">
-                                                    <div class="tp-project-text-content">
-
-                                                        <h4 class="tp-project-title"><a href="./Emergency-Cleaning.php">Emergency Cleaning</a>
-                                                        </h4>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="tp-project z-index mb-30">
-                                                <div class="tp-project-img">
-                                                    <a href="./Gardening & Landscaping.php"><img src="assets/img/service/gardening.png" class="img-fluid" alt="img not found"></a>
-                                                </div>
-                                                <div class="tp-project-text">
-                                                    <div class="tp-project-text-content">
-
-                                                        <h4 class="tp-project-title"><a href="./Gardening & Landscaping.php">Gardening &
-                                                                Landscaping</a></h4>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="tp-project z-index mb-30">
-                                                <div class="tp-project-img">
-                                                    <a href="./Carpet-Steam-Clean.php"><img src="assets/img/service/carpet.png" class="img-fluid" alt="img not found"></a>
-                                                </div>
-                                                <div class="tp-project-text">
-                                                    <div class="tp-project-text-content">
-
-                                                        <h4 class="tp-project-title"><a href="./Carpet-Steam-Clean.php">Carpet Steam Clean</a>
-                                                        </h4>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="tp-project z-index mb-30">
-                                                <div class="tp-project-img">
-                                                    <a href="./High-Pressure-Cleaning.php"><img src="assets/img/service/high-pressure.png" class="img-fluid" alt="img not found"></a>
-                                                </div>
-                                                <div class="tp-project-text">
-                                                    <div class="tp-project-text-content">
-
-                                                        <h4 class="tp-project-title"><a href="./High-Pressure-Cleaning.php">High Pressure
-                                                                Cleaning</a></h4>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="tp-project z-index mb-30">
-                                                <div class="tp-project-img">
-                                                    <a href="./Strip-&-Seal.php"><img src="assets/img/service/strip.png" class="img-fluid" alt="img not found"></a>
-                                                </div>
-                                                <div class="tp-project-text">
-                                                    <div class="tp-project-text-content">
-
-                                                        <h4 class="tp-project-title"><a href="./Strip-&-Seal.php">Strip
-                                                                & Seal</a></h4>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="tp-project z-index mb-30">
-                                                <div class="tp-project-img">
-                                                    <a href="./Window-Cleaning.php"><img src="assets/img/service/window.png" class="img-fluid" alt="img not found"></a>
-                                                </div>
-                                                <div class="tp-project-text">
-                                                    <div class="tp-project-text-content">
-
-                                                        <h4 class="tp-project-title"><a href="./Window-Cleaning.php">Window Cleaning</a></h4>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="tp-project z-index mb-30">
-                                                <div class="tp-project-img">
-                                                    <a href="./High-Level-Window-Cleaning.php"><img src="assets/img/service/high-level.png" class="img-fluid" alt="img not found"></a>
-                                                </div>
-                                                <div class="tp-project-text">
-                                                    <div class="tp-project-text-content">
-
-                                                        <h4 class="tp-project-title"><a href="./High-Level-Window-Cleaning.php">High Level
-                                                                Window Cleaning</a></h4>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="tp-project z-index mb-30">
-                                                <div class="tp-project-img">
-                                                    <a href="./Graffiti-Removal.php"><img src="assets/img/service/graffiti.png" class="img-fluid" alt="img not found"></a>
-                                                </div>
-                                                <div class="tp-project-text">
-                                                    <div class="tp-project-text-content">
-
-                                                        <h4 class="tp-project-title"><a href="./Graffiti-Removal.php">Graffiti Removal</a></h4>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="tp-project z-index mb-30">
-                                                <div class="tp-project-img">
-                                                    <a href="./Hard-Floor-Scrubbing.php"><img src="assets/img/service/har-floor.png" class="img-fluid" alt="img not found"></a>
-                                                </div>
-                                                <div class="tp-project-text">
-                                                    <div class="tp-project-text-content">
-
-                                                        <h4 class="tp-project-title"><a href="./Hard-Floor-Scrubbing.php">Hard Floor
-                                                                Scrubbing</a></h4>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="tp-project z-index mb-30">
-                                                <div class="tp-project-img">
-                                                    <a href="./House-moves.php"><img src="assets/img/service/house-moves.png" class="img-fluid" alt="img not found"></a>
-                                                </div>
-                                                <div class="tp-project-text">
-                                                    <div class="tp-project-text-content">
-                                                        <h4 class="tp-project-title"><a href="./House-moves.php">House
-                                                                Moves</a></h4>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="tp-project z-index mb-30">
-                                                <div class="tp-project-img">
-                                                    <a href="./Labour-hire.php"><img src="assets/img/service/labour-hire.png" class="img-fluid" alt="img not found"></a>
-                                                </div>
-                                                <div class="tp-project-text">
-                                                    <div class="tp-project-text-content">
-
-                                                        <h4 class="tp-project-title"><a href="./Labour-hire.php">Labor
-                                                                Hire</a></h4>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-8 col-md-12">
-                                            <div class="service-call">
-                                                <div class="text-center pt-50 pb-50">
-                                                    <h2>
-                                                        Book Your Cleaning Today!
-                                                    </h2>
-                                                    <a href="" class="btn btn-banner_light  mt-10" data-bs-target="#modalContactForm" data-bs-toggle="modal">Get an instant
-                                                        quote</a>
-                                                    <h3 class="mt-20"> <a href="tel:0481 826 682" class="mt-20"><i class="fa fa-phone-volume"></i>0481 826 682</a></h3>
-                                                </div>
-
-                                            </div>
-                                        </div>
-
-
-
-                                    </div>
+                <div class="row">
+                    <div class="col-lg-4 mb-4">
+                        <a href="./Residential _Cleaning.php">
+                            <div class="sector-img-block">
+                                <img src="./assets/img/service/Residential Cleaning.png" alt="Image not found" class="img-fluid">
+                                <div class="sector-img-overlay"></div>
+                                <div class="sector-text">
+                                    <h3>Residential Cleaning</h3>
                                 </div>
-                                <!-- <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                                    <div class="row">
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="tp-project z-index mb-30">
-                                                <div class="tp-project-img">
-                                                    <img src="assets/img/project/project-tab-1.jpg" class="img-fluid"
-                                                        alt="img not found">
-                                                </div>
-                                                <div class="tp-project-text">
-                                                    <div class="tp-project-text-content">
-                                                        <span class="tp-project-subtitle">Residential Service</span>
-                                                        <h4 class="tp-project-title"><a
-                                                                href="project-details.php">Window Cleaning</a></h4>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                       
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="tp-project z-index mb-30">
-                                                <div class="tp-project-img">
-                                                    <img src="assets/img/project/project-tab-8.jpg" class="img-fluid"
-                                                        alt="img not found">
-                                                </div>
-                                                <div class="tp-project-text">
-                                                    <div class="tp-project-text-content">
-                                                        <span class="tp-project-subtitle">Residential Service</span>
-                                                        <h4 class="tp-project-title"><a
-                                                                href="project-details.php">Plumbing Service</a></h4>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                                    <div class="row">
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="tp-project z-index mb-30">
-                                                <div class="tp-project-img">
-                                                    <img src="assets/img/project/project-tab-1.jpg" class="img-fluid"
-                                                        alt="img not found">
-                                                </div>
-                                                <div class="tp-project-text">
-                                                    <div class="tp-project-text-content">
-                                                        <span class="tp-project-subtitle">Residential Service</span>
-                                                        <h4 class="tp-project-title"><a
-                                                                href="project-details.php">Window Cleaning</a></h4>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                      
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="contact1" role="tabpanel" aria-labelledby="contact-tab1">
-                                    <div class="row">
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="tp-project z-index mb-30">
-                                                <div class="tp-project-img">
-                                                    <img src="assets/img/project/project-tab-1.jpg" class="img-fluid"
-                                                        alt="img not found">
-                                                </div>
-                                                <div class="tp-project-text">
-                                                    <div class="tp-project-text-content">
-                                                        <span class="tp-project-subtitle">Residential Service</span>
-                                                        <h4 class="tp-project-title"><a
-                                                                href="project-details.php">Window Cleaning</a></h4>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                       
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="tp-project z-index mb-30">
-                                                <div class="tp-project-img">
-                                                    <img src="assets/img/project/project-tab-8.jpg" class="img-fluid"
-                                                        alt="img not found">
-                                                </div>
-                                                <div class="tp-project-text">
-                                                    <div class="tp-project-text-content">
-                                                        <span class="tp-project-subtitle">Residential Service</span>
-                                                        <h4 class="tp-project-title"><a
-                                                                href="project-details.php">Plumbing Service</a></h4>
-                                                    </div>
-                                                    <div class="tp-project-text-icon">
-                                                        <a href="project-details.php"><i class="fal fa-plus"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="contact2" role="tabpanel" aria-labelledby="contact-tab2">
-                                    <div class="row">
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="tp-project z-index mb-30">
-                                                <div class="tp-project-img">
-                                                    <img src="assets/img/project/project-tab-1.jpg" class="img-fluid"
-                                                        alt="img not found">
-                                                </div>
-                                                <div class="tp-project-text">
-                                                    <div class="tp-project-text-content">
-                                                        <span class="tp-project-subtitle">Residential Service</span>
-                                                        <h4 class="tp-project-title"><a
-                                                                href="project-details.php">Window Cleaning</a></h4>
-                                                    </div>
-                                                    <div class="tp-project-text-icon">
-                                                        <a href="project-details.php"><i class="fal fa-plus"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        
-                                        
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="contact3" role="tabpanel" aria-labelledby="contact-tab3">
-                                    <div class="row">
-                                        <div class="col-lg-4 col-md-6">
-                                            <div class="tp-project z-index mb-30">
-                                                <div class="tp-project-img">
-                                                    <img src="assets/img/project/project-tab-1.jpg" class="img-fluid"
-                                                        alt="img not found">
-                                                </div>
-                                                <div class="tp-project-text">
-                                                    <div class="tp-project-text-content">
-                                                        <span class="tp-project-subtitle">Residential Service</span>
-                                                        <h4 class="tp-project-title"><a
-                                                                href="project-details.php">Window Cleaning</a></h4>
-                                                    </div>
-                                                    <div class="tp-project-text-icon">
-                                                        <a href="project-details.php"><i class="fal fa-plus"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                       
-                                    </div>
-                                </div> -->
                             </div>
+                        </a>
+
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <a href="./Commercial-Cleaning.php">
+                            <div class="sector-img-block">
+                                <img src="./assets/img/service/Commercial Cleaning.png" alt="Image not found" class="img-fluid">
+                                <div class="sector-img-overlay"></div>
+                                <div class="sector-text">
+                                    <h3>Commercial Cleaning</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <a href="./Emergency-Cleaning.php">
+                            <div class="sector-img-block">
+                                <img src="./assets/img/service/Emergency Cleaning.png" alt="Image not found" class="img-fluid">
+                                <div class="sector-img-overlay">
+                                </div>
+                                <div class="sector-text">
+                                    <h3>Emergency Cleaning</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <a href="./Gardening & Landscaping.php">
+                            <div class="sector-img-block">
+                                <img src="./assets/img/service/Gardening & Landscaping.png" alt="Image not found" class="img-fluid">
+                                <div class="sector-img-overlay">
+                                </div>
+                                <div class="sector-text">
+                                    <h3>Gardening & Landscaping</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <a href="./Carpet-Steam-Clean.php">
+                            <div class="sector-img-block">
+                                <img src="./assets/img/service/Carpet Steam Clean.png" alt="Image not found" class="img-fluid">
+                                <div class="sector-img-overlay">
+                                </div>
+                                <div class="sector-text">
+                                    <h3>Carpet Steam Clean</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <a href="./High-Pressure-Cleaning.php">
+                            <div class="sector-img-block">
+                                <img src="./assets/img/service/High Pressure Cleaning.png" alt="Image not found" class="img-fluid">
+                                <div class="sector-img-overlay">
+                                </div>
+                                <div class="sector-text">
+                                    <h3>High Pressure Cleaning</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <a href="./Strip-&-Seal.php">
+                            <div class="sector-img-block">
+                                <img src="./assets/img/service/Strip & Seal.png" alt="Image not found" class="img-fluid">
+                                <div class="sector-img-overlay">
+                                </div>
+                                <div class="sector-text">
+                                    <h3>Strip & Seal</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <a href="./Window-Cleaning.php">
+                            <div class="sector-img-block">
+                                <img src="./assets/img/service/Window Cleaning.png" alt="Image not found" class="img-fluid">
+                                <div class="sector-img-overlay">
+                                </div>
+                                <div class="sector-text">
+                                    <h3>Window Cleaning</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <a href="./High-Level-Window-Cleaning.php">
+                            <div class="sector-img-block">
+                                <img src="./assets/img/service/High Level Window Cleaning.png" alt="Image not found" class="img-fluid">
+                                <div class="sector-img-overlay">
+                                </div>
+                                <div class="sector-text">
+                                    <h3>High Level Window Cleaning</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <a href="./Graffiti-Removal.php">
+                            <div class="sector-img-block">
+                                <img src="./assets/img/service/Graffiti Removal.png" alt="Image not found" class="img-fluid">
+                                <div class="sector-img-overlay">
+                                </div>
+                                <div class="sector-text">
+                                    <h3>Graffiti Removal</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <a href="./Hard-Floor-Scrubbing.php">
+                            <div class="sector-img-block">
+                                <img src="./assets/img/service/Hard Floor Scrubbing.png" alt="Image not found" class="img-fluid">
+                                <div class="sector-img-overlay">
+                                </div>
+                                <div class="sector-text">
+                                    <h3>Hard Floor Scrubbing</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <a href="./House-moves.php">
+                            <div class="sector-img-block">
+                                <img src="./assets/img/service/House Moves.png" alt="Image not found" class="img-fluid">
+                                <div class="sector-img-overlay">
+                                </div>
+                                <div class="sector-text">
+                                    <h3>House Moves</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 mb-4">
+                        <a href="./Labour-hire.php">
+                            <div class="sector-img-block">
+                                <img src="./assets/img/service/Labor Hire.png" alt="Image not found" class="img-fluid">
+                                <div class="sector-img-overlay">
+                                </div>
+                                <div class="sector-text">
+                                    <h3>Labor Hire</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-8 col-md-12">
+                        <div class="service-call">
+                            <div class="text-center pt-50 pb-50">
+                                <h2>
+                                    Book Your Cleaning Today!
+                                </h2>
+                                <a href="" class="btn btn-banner_light  mt-10" data-bs-target="#modalContactForm" data-bs-toggle="modal">Get an instant
+                                    quote</a>
+                                <h3 class="mt-20"> <a href="tel:0481 826 682" class="mt-20"><i class="fa fa-phone-volume"></i>0481 826 682</a></h3>
+                            </div>
+
                         </div>
                     </div>
-                </div>
 
+
+                </div>
             </div>
         </div>
         <!-- project area end here -->
@@ -674,173 +384,9 @@
         </section>
         <!--work ends here-->
 
-        <!-- testimonial area start here -->
-        <section class="tp-testimonial-area-three pt-115 pb-190 bg-white mb-50">
-            <div class="container">
-                <div class="bubble-testi">
-                    <img src="./assets/img/about/bubble.png" alt="Image not found" class="img-fluid">
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <div class="section-title-wrapper text-center mb-55">
-                            <h5 class="testimonial_h mb-20"> TESTIMONIALS</h5>
-                            <h2 class="tp-section-title-two color-theme-blue">Get swept away by our pristine reputation
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="tp-testimonial-three-shadow common-dots">
-                    <div class="tp-testimonial-three-active swiper-container">
-                        <div class="swiper-wrapper">
-                            <div class="tp-testimonial-two position-relative swiper-slide">
-                                <i class="fa fa-star checked" aria-hidden="true"></i>
-                                <i class="fa fa-star checked"></i>
-                                <i class="fa fa-star checked"></i>
-                                <i class="fa fa-star checked"></i>
-                                <i class="fa fa-star"></i>
-                                <p>Hymenaeos rhoncus proin aliquam justo sum mauris rutrum nulam semper purus rutru non
-                                    sociis libero varius cumer to duine felis enisa porta ridiculus nisl acequis. </p>
-                                <div class="tp-testimonial-two-author mb-20">
-                                    <!-- <div class="tp-testimonial-two-author-img">
-                                        <img src="assets/img/testimonial/author-2.png" class="img-fluid"
-                                            alt="img not found">
-                                    </div> -->
-                                    <div class="tp-testimonial-two-author-text">
-                                        <span>Senior Designer</span>
-                                        <h4 class="tp-testimonial-two-name">Petar Mansion</h4>
-                                    </div>
-                                </div>
-
-                                <div class="tp-testimonial-two-qoute">
-                                    <i class="fal fa-quote-left"></i>
-                                </div>
-                            </div>
-                            <div class="tp-testimonial-two position-relative swiper-slide">
-                                <i class="fa fa-star checked" aria-hidden="true"></i>
-                                <i class="fa fa-star checked"></i>
-                                <i class="fa fa-star checked"></i>
-                                <i class="fa fa-star checked"></i>
-                                <i class="fa fa-star"></i>
-                                <p>Hymenaeos rhoncus proin aliquam justo sum mauris rutrum nulam semper purus rutru non
-                                    sociis libero varius cumer to duine felis enisa porta ridiculus nisl acequis. </p>
-                                <div class="tp-testimonial-two-author mb-20">
-                                    <!-- <div class="tp-testimonial-two-author-img">
-                                        <img src="assets/img/testimonial/author-2.png" class="img-fluid"
-                                            alt="img not found">
-                                    </div> -->
-                                    <div class="tp-testimonial-two-author-text">
-                                        <span>Senior Designer</span>
-                                        <h4 class="tp-testimonial-two-name">Petar Mansion</h4>
-                                    </div>
-                                </div>
-
-                                <div class="tp-testimonial-two-qoute">
-                                    <i class="fal fa-quote-left"></i>
-                                </div>
-                            </div>
-                            <div class="tp-testimonial-two position-relative swiper-slide">
-                                <i class="fa fa-star checked" aria-hidden="true"></i>
-                                <i class="fa fa-star checked"></i>
-                                <i class="fa fa-star checked"></i>
-                                <i class="fa fa-star checked"></i>
-                                <i class="fa fa-star"></i>
-                                <p>Hymenaeos rhoncus proin aliquam justo sum mauris rutrum nulam semper purus rutru non
-                                    sociis libero varius cumer to duine felis enisa porta ridiculus nisl acequis. </p>
-                                <div class="tp-testimonial-two-author mb-20">
-                                    <!-- <div class="tp-testimonial-two-author-img">
-                                        <img src="assets/img/testimonial/author-2.png" class="img-fluid"
-                                            alt="img not found">
-                                    </div> -->
-                                    <div class="tp-testimonial-two-author-text">
-                                        <span>Senior Designer</span>
-                                        <h4 class="tp-testimonial-two-name">Petar Mansion</h4>
-                                    </div>
-                                </div>
-
-                                <div class="tp-testimonial-two-qoute">
-                                    <i class="fal fa-quote-left"></i>
-                                </div>
-                            </div>
-                            <div class="tp-testimonial-two position-relative swiper-slide">
-                                <i class="fa fa-star checked" aria-hidden="true"></i>
-                                <i class="fa fa-star checked"></i>
-                                <i class="fa fa-star checked"></i>
-                                <i class="fa fa-star checked"></i>
-                                <i class="fa fa-star"></i>
-                                <p>Hymenaeos rhoncus proin aliquam justo sum mauris rutrum nulam semper purus rutru non
-                                    sociis libero varius cumer to duine felis enisa porta ridiculus nisl acequis. </p>
-                                <div class="tp-testimonial-two-author mb-20">
-                                    <!-- <div class="tp-testimonial-two-author-img">
-                                        <img src="assets/img/testimonial/author-2.png" class="img-fluid"
-                                            alt="img not found">
-                                    </div> -->
-                                    <div class="tp-testimonial-two-author-text">
-                                        <span>Senior Designer</span>
-                                        <h4 class="tp-testimonial-two-name">Petar Mansion</h4>
-                                    </div>
-                                </div>
-
-                                <div class="tp-testimonial-two-qoute">
-                                    <i class="fal fa-quote-left"></i>
-                                </div>
-                            </div>
-                            <div class="tp-testimonial-two position-relative swiper-slide">
-                                <i class="fa fa-star checked" aria-hidden="true"></i>
-                                <i class="fa fa-star checked"></i>
-                                <i class="fa fa-star checked"></i>
-                                <i class="fa fa-star checked"></i>
-                                <i class="fa fa-star"></i>
-                                <p>Hymenaeos rhoncus proin aliquam justo sum mauris rutrum nulam semper purus rutru non
-                                    sociis libero varius cumer to duine felis enisa porta ridiculus nisl acequis. </p>
-                                <div class="tp-testimonial-two-author mb-20">
-                                    <!-- <div class="tp-testimonial-two-author-img">
-                                        <img src="assets/img/testimonial/author-2.png" class="img-fluid"
-                                            alt="img not found">
-                                    </div> -->
-                                    <div class="tp-testimonial-two-author-text">
-                                        <span>Senior Designer</span>
-                                        <h4 class="tp-testimonial-two-name">Petar Mansion</h4>
-                                    </div>
-                                </div>
-
-                                <div class="tp-testimonial-two-qoute">
-                                    <i class="fal fa-quote-left"></i>
-                                </div>
-                            </div>
-                            <div class="tp-testimonial-two position-relative swiper-slide">
-                                <i class="fa fa-star checked" aria-hidden="true"></i>
-                                <i class="fa fa-star checked"></i>
-                                <i class="fa fa-star checked"></i>
-                                <i class="fa fa-star checked"></i>
-                                <i class="fa fa-star"></i>
-                                <p>Hymenaeos rhoncus proin aliquam justo sum mauris rutrum nulam semper purus rutru non
-                                    sociis libero varius cumer to duine felis enisa porta ridiculus nisl acequis. </p>
-                                <div class="tp-testimonial-two-author mb-20">
-                                    <!-- <div class="tp-testimonial-two-author-img">
-                                        <img src="assets/img/testimonial/author-2.png" class="img-fluid"
-                                            alt="img not found">
-                                    </div> -->
-                                    <div class="tp-testimonial-two-author-text">
-                                        <span>Senior Designer</span>
-                                        <h4 class="tp-testimonial-two-name">Petar Mansion</h4>
-                                    </div>
-                                </div>
-
-                                <div class="tp-testimonial-two-qoute">
-                                    <i class="fal fa-quote-left"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- If we need pagination -->
-                    <div class="swiper-pagination-testimonial slide-dots "></div>
-                </div>
-            </div>
-        </section>
-        <!-- testimonial area end here -->
 
         <!--contact form starts here-->
-        <section class="mb-60">
+        <section class="mb-100 mt-100">
             <div class="container">
                 <div class="bubble-testi">
                     <img src="./assets/img/about/bubble.png" alt="Image not found" class="img-fluid">

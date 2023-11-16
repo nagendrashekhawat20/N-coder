@@ -93,8 +93,7 @@ $(".popup-video").magnificPopup({
 			scrollTop: 0,
 		}, 1500);
 	});
-    
-    
+
 	// WOW active
 	var wow = new WOW(
 		{

@@ -35,7 +35,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -72,11 +74,22 @@
     ?>
 
     <main>
-        
+
         <!-- hero area start here -->
         <section class="tp-slider-area-three fix">
             <div class="container">
-                <div class="row">
+                <div class="text-center hero-heading">
+                    <h1>
+                        Make your world<br> spotless
+                    </h1>
+                    <p>
+                        Professional cleaning wizards at your service
+                    </p>
+                    <a href="" class=" btn-banner_light" data-bs-target="#modalContactForm" data-bs-toggle="modal">Get an instant
+                        quote</a>
+                </div>
+
+                <!-- <div class="row">
                     <div class="col-12 col-sm-12 col-md-6 align-items-center d-flex banner-services-mobile">
                         <div class="bubble_img">
                             <img src="./assets/img/slider/bubble.png" alt="Image not found" class="img-fluid">
@@ -105,125 +118,155 @@
                             <img src="./assets/img/slider/dots-img.png" alt="Image not found" class="img-fluid">
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </section>
         <!-- hero area end here -->
 
-        <!-- our cleaning services start here -->
-        <section>
+        <!--Sector starts here-->
+        <section class="sector">
             <div class="container">
-                <div class="tp-prjects-area pt-60 pb-60">
-                    <div class="service-heading">
-                        <h6>
-                            our cleaning services
-                        </h6>
-                        <h2>
-                            Cleaning your worries away
-                        </h2>
-                        <div class="bubble-service">
-                            <img src="./assets/img/process/bubble.png" alt="Image not found" height="100" width="100" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="tp-prjects-tab-content">
-                                <div class="tab-content" id="myTabContent">
-                                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                        <div class="row">
-                                            <div class="bubble_img">
-                                                <img src="./assets/img/slider/bubble.png" alt="Image not found" class="img-fluid">
-                                            </div>
-                                            <div class="col-lg-3 col-md-6">
-                                                <div class="tp-project z-index mb-30">
-                                                    <div class="tp-project-img">
-                                                        <a href="./Residential _Cleaning.php"><img src="assets/img/service/Residential.png" class="img-fluid" alt="img not found"></a>
-                                                    </div>
-                                                    <div class="tp-project-text">
-                                                        <div class="tp-project-text-content">
-
-                                                            <h4 class="tp-project-title"><a href="./Residential _Cleaning.php">Residential
-                                                                    Cleaning</a></h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-6">
-                                                <div class="tp-project z-index mb-30">
-                                                    <div class="tp-project-img">
-                                                        <a href="./Office-cleaning.php"><img src="assets/img/service/commercial.png" class="img-fluid" alt="img not found"></a>
-                                                    </div>
-                                                    <div class="tp-project-text">
-                                                        <div class="tp-project-text-content">
-
-                                                            <h4 class="tp-project-title"><a href="./Emergency-Cleaning.php">Commercial
-                                                                    Cleaning</a>
-                                                            </h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-6">
-                                                <div class="tp-project z-index mb-30">
-                                                    <div class="tp-project-img">
-                                                        <a href="./Emergency-Cleaning.php"><img src="assets/img/service/Emergency.png" class="img-fluid" alt="img not found"></a>
-                                                    </div>
-                                                    <div class="tp-project-text">
-                                                        <div class="tp-project-text-content">
-
-                                                            <h4 class="tp-project-title"><a href="./Emergency-Cleaning.php">Emergency
-                                                                    Cleaning</a>
-                                                            </h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-6">
-                                                <div class="tp-project z-index mb-30">
-                                                    <div class="tp-project-img">
-                                                        <a href="./Gardening & Landscaping.php"><img src="assets/img/service/gardening.png" class="img-fluid garden-img" alt="img not found"></a>
-                                                    </div>
-                                                    <div class="tp-project-text pt-2">
-                                                        <div class="tp-project-text-content">
-
-                                                            <h4 class="tp-project-title"><a href="./Gardening & Landscaping.php">Gardening &
-                                                                    Landscaping</a>
-                                                            </h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="d-flex justify-content-center mt-20">
-                                                <a href="./service.php" class="btn btn-banner_quote">See All
-                                                    Services</a>
-                                            </div>
-                                        </div>
-                                    </div>
+                <div class="bubble-work">
+                    <img src="./assets/img/process/bubble.png" alt="Image not found" class="img-fluid">
+                </div>
+                <div class="text-center sector-heading">
+                    <h6>
+                        Sectors
+                    </h6>
+                    <h2>
+                        Our Cleaning Prowess in<br> Various Sectors
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <a href="./Domestic-Sector.php">
+                            <div class="sector-img-block">
+                                <img src="./assets/img/sector/domestic.png" alt="Image not found" class="img-fluid">
+                                <div class="sector-img-overlay"></div>
+                                <div class="sector-text">
+                                    <h3>Domestic</h3>
                                 </div>
                             </div>
-                        </div>
+                        </a>
+
                     </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <a href="./Commercial-Sector.php">
+                            <div class="sector-img-block">
+                                <img src="./assets/img/sector/Commercial.png" alt="Image not found" class="img-fluid">
+                                <div class="sector-img-overlay"></div>
+                                <div class="sector-text">
+                                    <h3>Commercial</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <a href="./Hospitality-Sector.php">
+                            <div class="sector-img-block">
+                                <img src="./assets/img/sector/Hospitality.png" alt="Image not found" class="img-fluid">
+                                <div class="sector-img-overlay">
+                                </div>
+                                <div class="sector-text">
+                                    <h3>Hospitality</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <a href="./Transportation-Sector.php">
+                            <div class="sector-img-block">
+                                <img src="./assets/img/sector/Transportation.png" alt="Image not found" class="img-fluid">
+                                <div class="sector-img-overlay">
+                                </div>
+                                <div class="sector-text">
+                                    <h3>Transportation</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <a href="./Education-Sector.php">
+                            <div class="sector-img-block">
+                                <img src="./assets/img/sector/Education.png" alt="Image not found" class="img-fluid">
+                                <div class="sector-img-overlay">
+                                </div>
+                                <div class="sector-text">
+                                    <h3>Education</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <a href="./Retail-Sector.php">
+                            <div class="sector-img-block">
+                                <img src="./assets/img/sector/Retail.png" alt="Image not found" class="img-fluid">
+                                <div class="sector-img-overlay">
+                                </div>
+                                <div class="sector-text">
+                                    <h3>Retail</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <a href="./Industrial-Sector.php">
+                            <div class="sector-img-block">
+                                <img src="./assets/img/sector/Industrial.png" alt="Image not found" class="img-fluid">
+                                <div class="sector-img-overlay">
+                                </div>
+                                <div class="sector-text">
+                                    <h3>Industrial</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <a href="./Child-Care-Sector.php">
+                            <div class="sector-img-block">
+                                <img src="./assets/img/sector/Child Care.png" alt="Image not found" class="img-fluid">
+                                <div class="sector-img-overlay">
+                                </div>
+                                <div class="sector-text">
+                                    <h3>Child Care</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <a href="./Health-Care-Sector.php">
+                            <div class="sector-img-block">
+                                <img src="./assets/img/sector/Health Care.png" alt="Image not found" class="img-fluid">
+                                <div class="sector-img-overlay">
+                                </div>
+                                <div class="sector-text">
+                                    <h3>Health Care</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
 
                 </div>
             </div>
         </section>
-        <!-- our cleaning services end here -->
+        <!--Sector ends here-->
 
 
         <!--About starts here-->
         <section class="mb-100 mt-100">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-md-6">
+                    <!-- <div class="col-12 col-md-6">
                         <img src="./assets/img/about/about-img.png" alt="Image not found" class="img-fluid">
-                    </div>
-                    <div class="col-12 col-md-6 d-flex align-items-center">
-                        <div class="about-detail">
+                    </div> -->
+                    <div class="col-12 d-flex align-items-center">
+                        <div class="about-detail text-center">
                             <h6 class="mb-30">
                                 About
                             </h6>
                             <h2 class="mb-30">
-                                Sprucing up Perth<br> since 2009
+                                Sprucing up Perth since 2009
                             </h2>
                             <p class="mb-30">
                                 Since our inception, we've been steadily building our pristine reputation and flourished
@@ -293,98 +336,216 @@
         </section>
         <!--work ends here-->
 
+        <!--services starts here-->
+        <section class="container pt-100 pb-50">
+
+            <div class="service-heading">
+                <h6>
+                    our cleaning services
+                </h6>
+                <h2>
+                    Cleaning your worries away
+                </h2>
+                <div class="bubble-service">
+                    <img src="./assets/img/process/bubble.png" alt="Image not found" height="100" width="100" class="img-fluid">
+                </div>
+            </div>
+
+            <div class="owl-carousel">
+                <div class="service-box">
+                    <a href="./Residential _Cleaning.php" class="service-box">
+                        <img src="assets/img/service/Residential Cleaning.png" class="img-fluid" alt="img not found">
+                        <div class="overlay-service">
+                            <h3>Residential Cleaning</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="service-box">
+                    <a href="./Commercial-Cleaning.php" class="service-box">
+                        <img src="assets/img/service/Office Cleaning.png" class="img-fluid" alt="img not found">
+                        <div class="overlay-service">
+                            <h3>Commercial Cleaning</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="service-box">
+                    <a href="./Emergency-Cleaning.php" class="service-box">
+                        <img src="assets/img/service/Emergency Cleaning.png" class="img-fluid" alt="img not found">
+                        <div class="overlay-service">
+                            <h3>Emergency Cleaning</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="service-box">
+                    <a href="./Gardening & Landscaping.php" class="service-box">
+                        <img src="assets/img/service/Gardening & Landscaping.png" class="img-fluid" alt="img not found">
+                        <div class="overlay-service">
+                            <h3>Gardening & Landscaping</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="service-box">
+                    <a href="./Carpet-Steam-Clean.php" class="service-box">
+                        <img src="assets/img/service/Carpet Steam Clean.png" class="img-fluid" alt="img not found">
+                        <div class="overlay-service">
+                            <h3>Carpet Steam Clean</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="service-box">
+                    <a href="./High-Pressure-Cleaning.php" class="service-box">
+                        <img src="assets/img/service/High Pressure Cleaning.png" class="img-fluid" alt="img not found">
+                        <div class="overlay-service">
+                            <h3>High Pressure Cleaning</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="service-box">
+                    <a href="./Strip-&-Seal.php" class="service-box">
+                        <img src="assets/img/service/Strip & Seal.png" class="img-fluid" alt="img not found">
+                        <div class="overlay-service">
+                            <h3>Strip & Seal</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="service-box">
+                    <a href="./Window-Cleaning.php" class="service-box">
+                        <img src="assets/img/service/Window Cleaning.png" class="img-fluid" alt="img not found">
+                        <div class="overlay-service">
+                            <h3>Window Cleaning</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="service-box">
+                    <a href="./High-Level-Window-Cleaning.php" class="service-box">
+                        <img src="assets/img/service/High Level Window Cleaning.png" class="img-fluid" alt="img not found">
+                        <div class="overlay-service">
+                            <h3>High Level Window Cleaning</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="service-box">
+                    <a href="./Graffiti-Removal.php" class="service-box">
+                        <img src="assets/img/service/Graffiti Removal.png" class="img-fluid" alt="img not found">
+                        <div class="overlay-service">
+                            <h3>Graffiti Removal</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="service-box">
+                    <a href="./Hard-Floor-Scrubbing.php" class="service-box">
+                        <img src="assets/img/service/Hard Floor Scrubbing.png" class="img-fluid" alt="img not found">
+                        <div class="overlay-service">
+                            <h3>Hard Floor Scrubbing</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="service-box">
+                    <a href="./House-moves.php" class="service-box">
+                        <img src="assets/img/service/House Moves.png" class="img-fluid" alt="img not found">
+                        <div class="overlay-service">
+                            <h3>House Moves</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="service-box">
+                    <a href="./Labour-hire.php" class="service-box">
+                        <img src="assets/img/service/Labor Hire.png" class="img-fluid" alt="img not found">
+                        <div class="overlay-service">
+                            <h3>Labor Hire</h3>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+            <div class="d-flex justify-content-center mt-20">
+                <a href="./service.php" class="btn btn-banner_quote">See All
+                    Services</a>
+            </div>
+
+        </section>
+
+        <!--services ends here-->
+
         <!-- choose area start here -->
-        <section class="tp-choose-area-three mt-120 pt-50">
+
+        <section class="choose-block pt-100 pb-100">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 pe-0 ps-0">
-                        <div class="row justify-content-around">
-                            <div class="row align-items-end justify-content-center col-lg-12">
-                                <div class="col-xl-12 col-lg-12">
-                                    <div class="tp-choose-three">
-                                        <div class="mb-25">
-                                            <h5 class="tp-section-subtitle-three mb-30">WHY CHOOSE US</h5>
-                                            <h2 class="tp-section-title-two mb-40">Achieve impeccability through<br>
-                                                unmatched expertise</h2>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-sm-6">
-                                                <div class="tp-about-number mb-20">
-                                                    <div class="bg-color-i mb-20 p-3 rounded-circle">
-                                                        <img src="./assets/img/about/money (1) 1.png" alt="icon not found" height="40" width="50" class="img-fluid">
-                                                    </div>
-                                                    <div class="tp-about-service-text mx-3">
-                                                        <h4 class="tp-about-service-text-title mb-15">
-                                                            Budget-friendly</h4>
-                                                        <p>Explore cost-effective options that maintain phenomenal
-                                                            quality.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <div class="tp-about-number mb-20">
-                                                    <div class="bg-color-i rounded-circle mb-30 p-3">
-                                                        <img src="./assets/img/about/checked (1) 1.png" alt="icon not found" height="40" width="50" class="img-fluid">
-                                                    </div>
-                                                    <div class="tp-about-service-text mx-3">
-                                                        <h4 class="tp-about-service-text-title mb-15">Effortless
-                                                        </h4>
-                                                        <p>Experience a gleaming transformation of your space with
-                                                            ease.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <div class="tp-about-number mb-20">
-                                                    <div class="bg-color-i rounded-circle mb-30 p-3">
-                                                        <img src="./assets/img/about/vacuum-cleaner (1) 1.png" alt="icon not found" height="40" width="50" class="img-fluid">
-                                                    </div>
-                                                    <div class="tp-about-service-text mx-3">
-                                                        <h4 class="tp-about-service-text-title mb-15">Proficient
-                                                        </h4>
-                                                        <p>Maximise precision with a proficient and reliable team.
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <div class="tp-about-number mb-20">
-                                                    <div class="bg-color-i rounded-circle mb-30 p-3">
-                                                        <img src="./assets/img/about/contract 1.png" alt="icon not found" height="40" width="50" class="img-fluid">
-                                                    </div>
-                                                    <div class="tp-about-service-text mx-3">
-                                                        <h4 class="tp-about-service-text-title mb-15">Contract-free
-                                                        </h4>
-                                                        <p>Enjoy our services without any binding agreements.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <div class="tp-about-number mb-20">
-                                                    <div class="bg-color-i rounded-circle mb-30 p-3">
-                                                        <img src="./assets/img/about/broom 1.png" alt="icon not found" height="40" width="50" class="img-fluid">
-                                                    </div>
-                                                    <div class="tp-about-service-text mx-3">
-                                                        <h4 class="tp-about-service-text-title mb-15">Customisable
-                                                        </h4>
-                                                        <p>Personalise cleaning to fit your needs and preferences.
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                <div class="mb-25 text-center choose-heading">
+                    <h6 class="tp-section-subtitle-three mb-30">WHY CHOOSE US</h6>
+                    <h2 class="tp-section-title-two mb-40">Achieve impeccability through<br>
+                        unmatched expertise</h2>
+                </div>
+                <div class="row mx-auto align-items-center justify-content-center">
+                    <div class="col-sm-4">
+                        <div class="tp-about-number mb-20">
+                            <div class="bg-color-i mb-20 p-3 rounded-circle">
+                                <img src="./assets/img/about/money (1) 1.png" alt="icon not found" height="40" width="50" class="img-fluid">
+                            </div>
+                            <div class="tp-about-service-text mx-3">
+                                <h4 class="tp-about-service-text-title">
+                                    Budget-friendly</h4>
+                                <p>Explore cost-effective options that maintain phenomenal
+                                    quality.</p>
                             </div>
                         </div>
-
                     </div>
-                    <div class="col-lg-4 ps-0 tab-choose">
-                        <img src="assets/img/about/Rectangle 53.png" alt="img-not-found" class="img-fluid">
+                    <div class="col-sm-4">
+                        <div class="tp-about-number mb-20">
+                            <div class="bg-color-i rounded-circle mb-30 p-3">
+                                <img src="./assets/img/about/checked (1) 1.png" alt="icon not found" height="40" width="50" class="img-fluid">
+                            </div>
+                            <div class="tp-about-service-text mx-3">
+                                <h4 class="tp-about-service-text-title">Effortless
+                                </h4>
+                                <p>Experience a gleaming transformation of your space with
+                                    ease.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="tp-about-number mb-20">
+                            <div class="bg-color-i rounded-circle mb-30 p-3">
+                                <img src="./assets/img/about/vacuum-cleaner (1) 1.png" alt="icon not found" height="40" width="50" class="img-fluid">
+                            </div>
+                            <div class="tp-about-service-text mx-3">
+                                <h4 class="tp-about-service-text-title">Proficient
+                                </h4>
+                                <p>Maximise precision with a proficient and reliable team.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="tp-about-number mb-20">
+                            <div class="bg-color-i rounded-circle mb-30 p-3">
+                                <img src="./assets/img/about/contract 1.png" alt="icon not found" height="40" width="50" class="img-fluid">
+                            </div>
+                            <div class="tp-about-service-text mx-3">
+                                <h4 class="tp-about-service-text-title">Contract-free
+                                </h4>
+                                <p>Enjoy our services without any binding agreements.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="tp-about-number mb-20">
+                            <div class="bg-color-i rounded-circle mb-30 p-3">
+                                <img src="./assets/img/about/broom 1.png" alt="icon not found" height="40" width="50" class="img-fluid">
+                            </div>
+                            <div class="tp-about-service-text mx-3">
+                                <h4 class="tp-about-service-text-title ">Customisable
+                                </h4>
+                                <p>Personalise cleaning to fit your needs and preferences.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+
         </section>
+
         <!-- choose area end here -->
 
         <!--Guide starts here-->
@@ -407,7 +568,9 @@
                 <div class="row">
                     <div class="col-12 col-md-4 mt-10 mb-10">
                         <div class="guide-box">
-                            <img src="./assets/img/guide/guide-1.png" alt="Image not found" class="img-fluid guide-img">
+                            <div class="guide-img">
+                                <img src="./assets/img/guide/guide-1.png" alt="Image not found" class="img-fluid guide-img">
+                            </div>
                             <div class="guide-detail mx-2">
                                 <p>
                                     19 March 2023
@@ -421,7 +584,9 @@
                     </div>
                     <div class="col-12 col-md-4 mt-10 mb-10">
                         <div class="guide-box">
-                            <img src="./assets/img/guide/guide-2.png" alt="Image not found" class="img-fluid guide-img">
+                            <div class="guide-img">
+                                <img src="./assets/img/guide/guide-2.png" alt="Image not found" class="img-fluid guide-img">
+                            </div>
                             <div class="guide-detail mx-2">
                                 <p>
                                     19 March 2023
@@ -435,7 +600,9 @@
                     </div>
                     <div class="col-12 col-md-4 mt-10 mb-10">
                         <div class="guide-box">
-                            <img src="./assets/img/guide/guide-3.png" alt="Image not found" class="img-fluid guide-img">
+                            <div class="guide-img">
+                                <img src="./assets/img/guide/guide-3.png" alt="Image not found" class="img-fluid guide-img">
+                            </div>
                             <div class="guide-detail mx-2">
                                 <p>
                                     19 March 2023
@@ -567,7 +734,7 @@
         <!--FAQs ends here-->
 
         <!-- testimonial area start here -->
-        <section class="tp-testimonial-area-three pt-115 pb-190 bg-white mb-50">
+        <!-- <section class="tp-testimonial-area-three pt-115 pb-190 bg-white mb-50">
             <div class="container">
                 <div class="bubble-testi">
                     <img src="./assets/img/about/bubble.png" alt="Image not found" class="img-fluid">
@@ -593,10 +760,9 @@
                                 <p>Hymenaeos rhoncus proin aliquam justo sum mauris rutrum nulam semper purus rutru non
                                     sociis libero varius cumer to duine felis enisa porta ridiculus nisl acequis. </p>
                                 <div class="tp-testimonial-two-author mb-20">
-                                    <!-- <div class="tp-testimonial-two-author-img">
-                                        <img src="assets/img/testimonial/author-2.png" class="img-fluid"
-                                            alt="img not found">
-                                    </div> -->
+                                    <div class="tp-testimonial-two-author-img">
+                                        <img src="assets/img/testimonial/author-2.png" class="img-fluid" alt="img not found">
+                                    </div>
                                     <div class="tp-testimonial-two-author-text">
                                         <span>Senior Designer</span>
                                         <h4 class="tp-testimonial-two-name">Petar Mansion</h4>
@@ -616,10 +782,9 @@
                                 <p>Hymenaeos rhoncus proin aliquam justo sum mauris rutrum nulam semper purus rutru non
                                     sociis libero varius cumer to duine felis enisa porta ridiculus nisl acequis. </p>
                                 <div class="tp-testimonial-two-author mb-20">
-                                    <!-- <div class="tp-testimonial-two-author-img">
-                                        <img src="assets/img/testimonial/author-2.png" class="img-fluid"
-                                            alt="img not found">
-                                    </div> -->
+                                    <div class="tp-testimonial-two-author-img">
+                                        <img src="assets/img/testimonial/author-2.png" class="img-fluid" alt="img not found">
+                                    </div>
                                     <div class="tp-testimonial-two-author-text">
                                         <span>Senior Designer</span>
                                         <h4 class="tp-testimonial-two-name">Petar Mansion</h4>
@@ -639,10 +804,9 @@
                                 <p>Hymenaeos rhoncus proin aliquam justo sum mauris rutrum nulam semper purus rutru non
                                     sociis libero varius cumer to duine felis enisa porta ridiculus nisl acequis. </p>
                                 <div class="tp-testimonial-two-author mb-20">
-                                    <!-- <div class="tp-testimonial-two-author-img">
-                                        <img src="assets/img/testimonial/author-2.png" class="img-fluid"
-                                            alt="img not found">
-                                    </div> -->
+                                    <div class="tp-testimonial-two-author-img">
+                                        <img src="assets/img/testimonial/author-2.png" class="img-fluid" alt="img not found">
+                                    </div>
                                     <div class="tp-testimonial-two-author-text">
                                         <span>Senior Designer</span>
                                         <h4 class="tp-testimonial-two-name">Petar Mansion</h4>
@@ -662,10 +826,9 @@
                                 <p>Hymenaeos rhoncus proin aliquam justo sum mauris rutrum nulam semper purus rutru non
                                     sociis libero varius cumer to duine felis enisa porta ridiculus nisl acequis. </p>
                                 <div class="tp-testimonial-two-author mb-20">
-                                    <!-- <div class="tp-testimonial-two-author-img">
-                                        <img src="assets/img/testimonial/author-2.png" class="img-fluid"
-                                            alt="img not found">
-                                    </div> -->
+                                    <div class="tp-testimonial-two-author-img">
+                                        <img src="assets/img/testimonial/author-2.png" class="img-fluid" alt="img not found">
+                                    </div>
                                     <div class="tp-testimonial-two-author-text">
                                         <span>Senior Designer</span>
                                         <h4 class="tp-testimonial-two-name">Petar Mansion</h4>
@@ -685,10 +848,9 @@
                                 <p>Hymenaeos rhoncus proin aliquam justo sum mauris rutrum nulam semper purus rutru non
                                     sociis libero varius cumer to duine felis enisa porta ridiculus nisl acequis. </p>
                                 <div class="tp-testimonial-two-author mb-20">
-                                    <!-- <div class="tp-testimonial-two-author-img">
-                                        <img src="assets/img/testimonial/author-2.png" class="img-fluid"
-                                            alt="img not found">
-                                    </div> -->
+                                    <div class="tp-testimonial-two-author-img">
+                                        <img src="assets/img/testimonial/author-2.png" class="img-fluid" alt="img not found">
+                                    </div>
                                     <div class="tp-testimonial-two-author-text">
                                         <span>Senior Designer</span>
                                         <h4 class="tp-testimonial-two-name">Petar Mansion</h4>
@@ -708,10 +870,9 @@
                                 <p>Hymenaeos rhoncus proin aliquam justo sum mauris rutrum nulam semper purus rutru non
                                     sociis libero varius cumer to duine felis enisa porta ridiculus nisl acequis. </p>
                                 <div class="tp-testimonial-two-author mb-20">
-                                    <!-- <div class="tp-testimonial-two-author-img">
-                                        <img src="assets/img/testimonial/author-2.png" class="img-fluid"
-                                            alt="img not found">
-                                    </div> -->
+                                    <div class="tp-testimonial-two-author-img">
+                                        <img src="assets/img/testimonial/author-2.png" class="img-fluid" alt="img not found">
+                                    </div>
                                     <div class="tp-testimonial-two-author-text">
                                         <span>Senior Designer</span>
                                         <h4 class="tp-testimonial-two-name">Petar Mansion</h4>
@@ -724,15 +885,15 @@
                             </div>
                         </div>
                     </div>
-                    <!-- If we need pagination -->
+
                     <div class="swiper-pagination-testimonial slide-dots "></div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- testimonial area end here -->
 
         <!--contact form starts here-->
-        <section class="mb-60">
+        <section class="mb-60 mt-60">
             <div class="container">
                 <div class="bubble-testi">
                     <img src="./assets/img/about/bubble.png" alt="Image not found" class="img-fluid">
@@ -826,8 +987,37 @@
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".owl-carousel").owlCarousel({
+                items: 3,
+                loop: true,
+                margin: 20,
+                autoplay: true,
+                autoplayTimeout: 2000,
+                autoplayHoverPause: true,
+                nav: true,
+                navText: ["<i class='fas fa-chevron-left'></i>", "<i class='fas fa-chevron-right'></i>"],
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    }
+                },
+                nav: false,
+                dots: true
+            });
+        });
+    </script>
 
-   
+
 </body>
 
 </html>

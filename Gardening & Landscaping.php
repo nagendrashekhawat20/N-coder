@@ -34,11 +34,10 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 </head>
 
 <body>
@@ -72,40 +71,17 @@
     <?php
     include('header.php');
     ?>
-    
+
     <main>
+
         <!-- hero area start here -->
-        <section class="tp-slider-area-three fix">
+        <section class="Gardening-hero service-hero">
             <div class="container">
-                <div class="row">
-                    <div class="col-12 col-sm-12 col-md-6 align-items-center d-flex banner-services-mobile">
-                        <div class="bubble_img">
-                            <img src="./assets/img/slider/bubble.png" alt="Image not found" class="img-fluid">
-                        </div>
-                        <div class="banner-heading">
-                            <h6>
-                                Gardening & Landscaping
-                            </h6>
-                            <h1>
-                                Nature's craftsmanship <br> at your doorstep!
-                            </h1>
-                            <p>
-                                Crafting green masterpieces
-                            </p>
-                        </div>
-                        <div>
-                            <img src="./assets/img/slider/bubble-1.png" class="bubble_img_top img-fluid"
-                                alt="Image not found">
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-6">
-                        <img src="./assets/img/service/garden-banner.png" alt="Image not found"
-                            class="img-fluid men-cleaning">
-                        <div>
-                            <img src="./assets/img/slider/dots-img.png" alt="Image not found"
-                                class="banner_img_dots img-fluid">
-                        </div>
-                    </div>
+                <div class="text-center hero-heading">
+                    <h1>
+                    Gardening & Landscaping
+                    </h1>
+                    <p>Nature's craftsmanship at your doorstep!</p>
                 </div>
             </div>
         </section>
@@ -116,8 +92,7 @@
                 <img src="./assets/img/process/bubble.png" alt="Image not found">
             </div>
             <div class="container">
-                <img src="./assets/img/service/garden-sec.png" alt="Image not found"
-                    class="img-fluid position-relative">
+                <img src="./assets/img/service/garden-sec.png" alt="Image not found" class="img-fluid position-relative">
             </div>
         </section>
 
@@ -143,12 +118,10 @@
                                 to offer you a garden or landscape that's not only beautiful but also a testament to
                                 quality workmanship.
                             </p>
-                            <a href="" data-bs-target="#modalContactForm" data-bs-toggle="modal"
-                                class="btn btn-about">Get Quote</a>
+                            <a href="" data-bs-target="#modalContactForm" data-bs-toggle="modal" class="btn btn-about">Get Quote</a>
 
                             <div class="container mt-50 mb-50">
-                                <img src="./assets/img/service/garden-sec.png" alt="Image not found"
-                                    class="img-fluid bath-img-mobile">
+                                <img src="./assets/img/service/garden-sec.png" alt="Image not found" class="img-fluid bath-img-mobile">
                             </div>
                         </div>
                     </div>
@@ -205,8 +178,7 @@
                         </div>
                     </div>
                     <div>
-                        <a href="" data-bs-target="#modalContactForm" data-bs-toggle="modal"
-                            class="btn btn-about btn-quote-mobile mt-5 mx-5">Get Quote</a>
+                        <a href="" data-bs-target="#modalContactForm" data-bs-toggle="modal" class="btn btn-about btn-quote-mobile mt-5 mx-5">Get Quote</a>
                     </div>
                 </div>
             </div>
@@ -270,7 +242,7 @@
         <section>
             <div class="container">
                 <div class="tp-prjects-area pt-80 pb-60">
-                    <div class="service-heading text-center">
+                    <div class="service-heading">
                         <h6>
                             More Services
                         </h6>
@@ -278,248 +250,120 @@
                             Try our versatile, professional<br> cleaning services
                         </h2>
                         <div class="bubble-service">
-                            <img src="./assets/img/process/bubble.png" alt="Image not found" height="100" width="100"
-                                class="img-fluid">
+                            <img src="./assets/img/process/bubble.png" alt="Image not found" height="100" width="100" class="img-fluid">
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="tp-prjects-tab-content">
-                                <div class="tab-content" id="myTabContent">
-                                    <div class="tab-pane fade show active" id="home" role="tabpanel"
-                                        aria-labelledby="home-tab">
-                                        <div class="row">
-                                            <div class="bubble_img">
-                                                <img src="./assets/img/slider/bubble.png" alt="Image not found"
-                                                    class="img-fluid">
-                                            </div>
-                                            <div class="col-lg-4 col-md-6">
-                                                <div class="tp-project z-index mb-30">
-                                                    <div class="tp-project-img">
-                                                        <a href="./Residential _Cleaning.php"><img
-                                                                src="assets/img/service/Residential.png"
-                                                                class="img-fluid" alt="img not found"></a>
-                                                    </div>
-                                                    <div class="tp-project-text">
-                                                        <div class="tp-project-text-content">
-
-                                                            <h4 class="tp-project-title"><a
-                                                                    href="./Residential _Cleaning.php">Residential
-                                                                    Cleaning</a></h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6">
-                                                <div class="tp-project z-index mb-30">
-                                                    <div class="tp-project-img">
-                                                        <a href="./Office-cleaning.php"><img
-                                                                src="assets/img/service/commercial.png"
-                                                                class="img-fluid" alt="img not found"></a>
-                                                    </div>
-                                                    <div class="tp-project-text">
-                                                        <div class="tp-project-text-content">
-
-                                                            <h4 class="tp-project-title"><a
-                                                                    href="./Residential _Cleaning.php">Commercial
-                                                                    Cleaning</a></h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6">
-                                                <div class="tp-project z-index mb-30">
-                                                    <div class="tp-project-img">
-                                                        <a href="./Emergency-Cleaning.php"><img
-                                                                src="assets/img/service/Emergency.png" class="img-fluid"
-                                                                alt="img not found"></a>
-                                                    </div>
-                                                    <div class="tp-project-text">
-                                                        <div class="tp-project-text-content">
-
-                                                            <h4 class="tp-project-title"><a
-                                                                    href="./Emergency-Cleaning.php">Emergency
-                                                                    Cleaning</a>
-                                                            </h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                    <div class="owl-carousel">
+                        <div class="service-box">
+                            <a href="./Residential _Cleaning.php" class="service-box">
+                                <img src="assets/img/service/Residential Cleaning.png" class="img-fluid" alt="img not found">
+                                <div class="overlay-service">
+                                    <h3>Residential Cleaning</h3>
                                 </div>
-                            </div>
+                            </a>
                         </div>
+                        <div class="service-box">
+                            <a href="./Commercial-Cleaning.php" class="service-box">
+                                <img src="assets/img/service/Office Cleaning.png" class="img-fluid" alt="img not found">
+                                <div class="overlay-service">
+                                    <h3>Commercial Cleaning</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="service-box">
+                            <a href="./Emergency-Cleaning.php" class="service-box">
+                                <img src="assets/img/service/Emergency Cleaning.png" class="img-fluid" alt="img not found">
+                                <div class="overlay-service">
+                                    <h3>Emergency Cleaning</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="service-box">
+                            <a href="./Gardening & Landscaping.php" class="service-box">
+                                <img src="assets/img/service/Gardening & Landscaping.png" class="img-fluid" alt="img not found">
+                                <div class="overlay-service">
+                                    <h3>Gardening & Landscaping</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="service-box">
+                            <a href="./Carpet-Steam-Clean.php" class="service-box">
+                                <img src="assets/img/service/Carpet Steam Clean.png" class="img-fluid" alt="img not found">
+                                <div class="overlay-service">
+                                    <h3>Carpet Steam Clean</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="service-box">
+                            <a href="./High-Pressure-Cleaning.php" class="service-box">
+                                <img src="assets/img/service/High Pressure Cleaning.png" class="img-fluid" alt="img not found">
+                                <div class="overlay-service">
+                                    <h3>High Pressure Cleaning</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="service-box">
+                            <a href="./Strip-&-Seal.php" class="service-box">
+                                <img src="assets/img/service/Strip & Seal.png" class="img-fluid" alt="img not found">
+                                <div class="overlay-service">
+                                    <h3>Strip & Seal</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="service-box">
+                            <a href="./Window-Cleaning.php" class="service-box">
+                                <img src="assets/img/service/Window Cleaning.png" class="img-fluid" alt="img not found">
+                                <div class="overlay-service">
+                                    <h3>Window Cleaning</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="service-box">
+                            <a href="./High-Level-Window-Cleaning.php" class="service-box">
+                                <img src="assets/img/service/High Level Window Cleaning.png" class="img-fluid" alt="img not found">
+                                <div class="overlay-service">
+                                    <h3>High Level Window Cleaning</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="service-box">
+                            <a href="./Graffiti-Removal.php" class="service-box">
+                                <img src="assets/img/service/Graffiti Removal.png" class="img-fluid" alt="img not found">
+                                <div class="overlay-service">
+                                    <h3>Graffiti Removal</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="service-box">
+                            <a href="./Hard-Floor-Scrubbing.php" class="service-box">
+                                <img src="assets/img/service/Hard Floor Scrubbing.png" class="img-fluid" alt="img not found">
+                                <div class="overlay-service">
+                                    <h3>Hard Floor Scrubbing</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="service-box">
+                            <a href="./House-moves.php" class="service-box">
+                                <img src="assets/img/service/House Moves.png" class="img-fluid" alt="img not found">
+                                <div class="overlay-service">
+                                    <h3>House Moves</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="service-box">
+                            <a href="./Labour-hire.php" class="service-box">
+                                <img src="assets/img/service/Labor Hire.png" class="img-fluid" alt="img not found">
+                                <div class="overlay-service">
+                                    <h3>Labor Hire</h3>
+                                </div>
+                            </a>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </section>
         <!-- our cleaning services end here -->
-
-        <!-- testimonial area start here -->
-        <section class="tp-testimonial-area-three pt-50 pb-120 bg-white mb-50">
-            <div class="container">
-                <div class="bubble-testi">
-                    <img src="./assets/img/about/bubble.png" alt="Image not found" class="img-fluid">
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <div class="section-title-wrapper mb-55">
-                            <h5 class="testimonial_h mb-20"> TESTIMONIALS</h5>
-                            <h2 class="tp-section-title-two color-theme-blue">Get swept away by our pristine reputation
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="tp-testimonial-three-shadow common-dots">
-                    <div class="tp-testimonial-three-active swiper-container">
-                        <div class="swiper-wrapper">
-                            <div class="tp-testimonial-two position-relative swiper-slide">
-                                <i class="fa fa-star checked" aria-hidden="true"></i>
-                                <i class="fa fa-star checked"></i>
-                                <i class="fa fa-star checked"></i>
-                                <i class="fa fa-star checked"></i>
-                                <i class="fa fa-star"></i>
-                                <p>Hymenaeos rhoncus proin aliquam justo sum mauris rutrum nulam semper purus rutru non
-                                    sociis libero varius cumer to duine felis enisa porta ridiculus nisl acequis. </p>
-                                <div class="tp-testimonial-two-author mb-20">
-                                    <!-- <div class="tp-testimonial-two-author-img">
-                            <img src="assets/img/testimonial/author-2.png" class="img-fluid"
-                                alt="img not found">
-                        </div> -->
-                                    <div class="tp-testimonial-two-author-text">
-                                        <span>Senior Designer</span>
-                                        <h4 class="tp-testimonial-two-name">Petar Mansion</h4>
-                                    </div>
-                                </div>
-
-                                <div class="tp-testimonial-two-qoute">
-                                    <i class="fal fa-quote-left"></i>
-                                </div>
-                            </div>
-                            <div class="tp-testimonial-two position-relative swiper-slide">
-                                <i class="fa fa-star checked" aria-hidden="true"></i>
-                                <i class="fa fa-star checked"></i>
-                                <i class="fa fa-star checked"></i>
-                                <i class="fa fa-star checked"></i>
-                                <i class="fa fa-star"></i>
-                                <p>Hymenaeos rhoncus proin aliquam justo sum mauris rutrum nulam semper purus rutru non
-                                    sociis libero varius cumer to duine felis enisa porta ridiculus nisl acequis. </p>
-                                <div class="tp-testimonial-two-author mb-20">
-                                    <!-- <div class="tp-testimonial-two-author-img">
-                            <img src="assets/img/testimonial/author-2.png" class="img-fluid"
-                                alt="img not found">
-                        </div> -->
-                                    <div class="tp-testimonial-two-author-text">
-                                        <span>Senior Designer</span>
-                                        <h4 class="tp-testimonial-two-name">Petar Mansion</h4>
-                                    </div>
-                                </div>
-
-                                <div class="tp-testimonial-two-qoute">
-                                    <i class="fal fa-quote-left"></i>
-                                </div>
-                            </div>
-                            <div class="tp-testimonial-two position-relative swiper-slide">
-                                <i class="fa fa-star checked" aria-hidden="true"></i>
-                                <i class="fa fa-star checked"></i>
-                                <i class="fa fa-star checked"></i>
-                                <i class="fa fa-star checked"></i>
-                                <i class="fa fa-star"></i>
-                                <p>Hymenaeos rhoncus proin aliquam justo sum mauris rutrum nulam semper purus rutru non
-                                    sociis libero varius cumer to duine felis enisa porta ridiculus nisl acequis. </p>
-                                <div class="tp-testimonial-two-author mb-20">
-                                    <!-- <div class="tp-testimonial-two-author-img">
-                            <img src="assets/img/testimonial/author-2.png" class="img-fluid"
-                                alt="img not found">
-                        </div> -->
-                                    <div class="tp-testimonial-two-author-text">
-                                        <span>Senior Designer</span>
-                                        <h4 class="tp-testimonial-two-name">Petar Mansion</h4>
-                                    </div>
-                                </div>
-
-                                <div class="tp-testimonial-two-qoute">
-                                    <i class="fal fa-quote-left"></i>
-                                </div>
-                            </div>
-                            <div class="tp-testimonial-two position-relative swiper-slide">
-                                <i class="fa fa-star checked" aria-hidden="true"></i>
-                                <i class="fa fa-star checked"></i>
-                                <i class="fa fa-star checked"></i>
-                                <i class="fa fa-star checked"></i>
-                                <i class="fa fa-star"></i>
-                                <p>Hymenaeos rhoncus proin aliquam justo sum mauris rutrum nulam semper purus rutru non
-                                    sociis libero varius cumer to duine felis enisa porta ridiculus nisl acequis. </p>
-                                <div class="tp-testimonial-two-author mb-20">
-                                    <!-- <div class="tp-testimonial-two-author-img">
-                            <img src="assets/img/testimonial/author-2.png" class="img-fluid"
-                                alt="img not found">
-                        </div> -->
-                                    <div class="tp-testimonial-two-author-text">
-                                        <span>Senior Designer</span>
-                                        <h4 class="tp-testimonial-two-name">Petar Mansion</h4>
-                                    </div>
-                                </div>
-
-                                <div class="tp-testimonial-two-qoute">
-                                    <i class="fal fa-quote-left"></i>
-                                </div>
-                            </div>
-                            <div class="tp-testimonial-two position-relative swiper-slide">
-                                <i class="fa fa-star checked" aria-hidden="true"></i>
-                                <i class="fa fa-star checked"></i>
-                                <i class="fa fa-star checked"></i>
-                                <i class="fa fa-star checked"></i>
-                                <i class="fa fa-star"></i>
-                                <p>Hymenaeos rhoncus proin aliquam justo sum mauris rutrum nulam semper purus rutru non
-                                    sociis libero varius cumer to duine felis enisa porta ridiculus nisl acequis. </p>
-                                <div class="tp-testimonial-two-author mb-20">
-                                    <!-- <div class="tp-testimonial-two-author-img">
-                            <img src="assets/img/testimonial/author-2.png" class="img-fluid"
-                                alt="img not found">
-                        </div> -->
-                                    <div class="tp-testimonial-two-author-text">
-                                        <span>Senior Designer</span>
-                                        <h4 class="tp-testimonial-two-name">Petar Mansion</h4>
-                                    </div>
-                                </div>
-
-                                <div class="tp-testimonial-two-qoute">
-                                    <i class="fal fa-quote-left"></i>
-                                </div>
-                            </div>
-                            <div class="tp-testimonial-two position-relative swiper-slide">
-                                <i class="fa fa-star checked" aria-hidden="true"></i>
-                                <i class="fa fa-star checked"></i>
-                                <i class="fa fa-star checked"></i>
-                                <i class="fa fa-star checked"></i>
-                                <i class="fa fa-star"></i>
-                                <p>Hymenaeos rhoncus proin aliquam justo sum mauris rutrum nulam semper purus rutru non
-                                    sociis libero varius cumer to duine felis enisa porta ridiculus nisl acequis. </p>
-                                <div class="tp-testimonial-two-author mb-20">
-                                    <!-- <div class="tp-testimonial-two-author-img">
-                            <img src="assets/img/testimonial/author-2.png" class="img-fluid"
-                                alt="img not found">
-                        </div> -->
-                                    <div class="tp-testimonial-two-author-text">
-                                        <span>Senior Designer</span>
-                                        <h4 class="tp-testimonial-two-name">Petar Mansion</h4>
-                                    </div>
-                                </div>
-
-                                <div class="tp-testimonial-two-qoute">
-                                    <i class="fal fa-quote-left"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- If we need pagination -->
-                    <div class="swiper-pagination-testimonial slide-dots "></div>
-                </div>
-            </div>
-        </section>
-        <!-- testimonial area end here -->
 
         <!--contact form starts here-->
         <section class="mb-60">
@@ -537,8 +381,8 @@
 
                             </div>
                             <!-- <p class="text-white">
-                        54B, Tailstoi Town 5238 ST,La city, IA 522364
-                    </p> -->
+                                54B, Tailstoi Town 5238 ST,La city, IA 522364
+                            </p> -->
                             <p class="text-white">
                                 Monday - Friday<br>
                                 8.00 am - 7.00 pm / Sunday<br>
@@ -560,34 +404,29 @@
                             <div class="row form-m-inline">
                                 <div class="form-group col-12 col-md-6">
                                     <label for="firstName"></label>
-                                    <input type="text" class="form-control" id="firstName" name="name"
-                                        placeholder="First Name" />
+                                    <input type="text" class="form-control" id="firstName" name="name" placeholder="First Name" />
                                 </div>
                                 <div class="form-group col-12 col-md-6">
                                     <label for="lastName"></label>
-                                    <input type="text" class="form-control" id="lastName" name="name"
-                                        placeholder="Last Name" />
+                                    <input type="text" class="form-control" id="lastName" name="name" placeholder="Last Name" />
                                 </div>
                             </div>
 
                             <div class="row form-m-inline">
                                 <div class="form-group col-12 col-md-6">
                                     <label for="email"></label>
-                                    <input type="text" class="form-control" id="email" name="email"
-                                        placeholder="Email address" />
+                                    <input type="text" class="form-control" id="email" name="email" placeholder="Email address" />
                                 </div>
 
                                 <div class="form-group col-12 col-md-6">
                                     <label for="phone"></label>
-                                    <input type="number" class="form-control" id="phone" name="phone"
-                                        placeholder="Phone" />
+                                    <input type="number" class="form-control" id="phone" name="phone" placeholder="Phone" />
                                 </div>
                             </div>
 
                             <div class="form-group">
                                 <label for="message"></label>
-                                <textarea class="form-control" id="message" name="message" rows="4"
-                                    placeholder="Message"></textarea>
+                                <textarea class="form-control" id="message" name="message" rows="4" placeholder="Message"></textarea>
                             </div>
 
                             <a type="submit" class="btn contact-form col-12">
@@ -602,8 +441,9 @@
         <!--contact form ends here-->
 
 
+
     </main>
-   
+
     <?php
     include('footer.php');
     ?>
@@ -623,6 +463,35 @@
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".owl-carousel").owlCarousel({
+                items: 3,
+                loop: true,
+                margin: 20,
+                autoplay: true,
+                autoplayTimeout: 2000,
+                autoplayHoverPause: true,
+                nav: true,
+                navText: ["<i class='fas fa-chevron-left'></i>", "<i class='fas fa-chevron-right'></i>"],
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    }
+                },
+                nav: false,
+                dots: true
+            });
+        });
+    </script>
 </body>
 
 </html>
